@@ -1,0 +1,10 @@
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.7.1.min.js"></script>
+<!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/functions.js"></script> -->
+<script>
+    $('.toggled-nav-wrapper').on('click', function (e) {
+        e.stopPropagation();
+    });
+    $('.nav-toggle-open-wrapper, .nav-toggle-close-wrapper, header .nav-toggle-body-overlay').on('click', function () {
+        $('html').toggleClass('nav-open');
+    });
+</script>
