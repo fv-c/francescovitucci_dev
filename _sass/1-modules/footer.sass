@@ -1,0 +1,53 @@
+footer.footer-wrapper
+    width: 100%
+    padding: 100px 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    .contact-slug
+        margin: auto
+        max-width: 285px
+        text-align: center
+        h2
+            padding-bottom: 5px
+        p
+            line-height: 1.375em
+    .footer-social-links
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 50px
+        width: 100%
+        max-width: 300px
+        margin: 25px 0 25px 0
+        .social-icon-wrap
+            transition: all 0.15s ease-in
+            display: inline-block
+            height: 40px
+            width: 40px
+            //border-radius: 100%
+            overflow: hidden
+            background: //$primary
+                size: 85%
+                position: center center
+                repeat: no-repeat
+            &:hover
+                transform: scale(1.1)
+        .footer-github-wrapper
+            background-image: url('../img/icons/github.svg')
+        .footer-youtube-wrapper
+            background-image: url('../img/icons/youtube.svg')
+        .footer-instagram-wrapper
+            background-image: url('../img/icons/instagram.svg')
+        .footer-facebook-wrapper
+            background-image: url('../img/icons/facebook.svg')
+        .footer-linkedin-wrapper
+            background-image: url('../img/icons/linkedin.svg')
+            background-size: 115%
+    .footer-email
+        transition: all 0.2s ease-in
+        font-family: $font-stack
+        font-size: 1em
+        color: $secondary
+        &:hover
+            color: $primary
