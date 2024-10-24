@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<header class="blog-index-header-main" style="background-image:url('{{ site.url }}/assets/img/blog/home-hero.jpg');">
+<header class="blog-index-header-main" style="background-image:url('{{ site.url }}{{ site.blogImgBin_pat }}{{ page.featImg }}');">
     <div class="overlay-dark">
     </div>
     {% include nav.html %}
@@ -13,5 +13,11 @@ layout: default
         <small><em>by <a href="">{{ site.data.authors[page.author].name }}</a><br>on {{ page.date | date: "%B %e, %Y" }}</em></small>
     </div>
 </header>
+<div class="blogPostContentWrapper">
+    {{ content }}
+</div>
+<hr>
+<h5 class="readMoreCTA">You might want to Read...</h5>
+<div class="blogReadMoreWrapper">
 
-<!-- riprendi da blog post 17:42 -->
+</div>

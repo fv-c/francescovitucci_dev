@@ -30,6 +30,8 @@ youtube_path: https://www.youtube.com/@FrancescoVitucciComposer
 github_path: https://github.com/fv-c
 linkedin_path: https://www.linkedin.com/in/francesco-vitucci/
 
+blogImgBin_pat: /assets/img/blog/
+
 # Build settings
 permalink: pretty
 markdown: kramdown
