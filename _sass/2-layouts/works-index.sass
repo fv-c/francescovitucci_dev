@@ -58,18 +58,15 @@ header.works-index-header-main
         display: flex
         flex-direction: column
         margin: 20px 5px 50px 5px
-        &:hover
-            transform: scale(1.01)
-            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px
         .workCardWrapper
             width: 100%
             height: 100%
             border: 1.5px solid $primary
             border-radius: 10px
             background: $white
-            &:hover
-                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px
             .workCard
+                hr
+                    width: 75%
                 .workTitle
                     display: block
                     text-align: center
@@ -82,7 +79,7 @@ header.works-index-header-main
                     min-height: 60px
                     display: block
                     text-align: center
-                    margin: 0 auto 5px auto
+                    margin: 0 5px 0 5px
                     font-family: $font-stack-two
                     font-size: 1em
                     font-weight: 400
@@ -98,11 +95,13 @@ header.works-index-header-main
                     color: $secondary
                 .workImage
                     display: block
+                    object-fit: cover
                     width: 100%
                     height: 200px
                     border-top: 1px solid $black
                     border-bottom: 1px solid $black
                     margin: 0 0 10px 0
+                        
                 .workDuration
                     font-size: 1em
                     line-height: 1.25em
@@ -114,12 +113,21 @@ header.works-index-header-main
                     font-family: $font-stack
                     font-weight: 400
                 .workDescription
-                    height: 200px
+                    height: 175px
+                    min-height: 175px
                     overflow: scroll
+                    overflow-y: scroll
                     font-size: 1em
                     line-height: 1.25em
                     font-family: $font-stack-two
                     color: $secondary
+                    padding-right: 17px
+                    box-sizing: content-box
+                .workDescription::-webkit-scrollbar
+                    width: 4px
+                .workDescription::-webkit-scrollbar-thumb
+                    background-color: rgba(0, 0, 0, 0.3)
+                    border-radius: 2px
                 .workDescription::before
                     content: "Description"
                     display: block
@@ -130,16 +138,55 @@ header.works-index-header-main
                     display: block
                     margin: 0 10px
                     text-align: left
-                .workLink
+                .linksWrapper
+                    min-height: 100px
                     display: flex
-                    flex-direction: row
+                    flex-direction: column
                     align-items: center
-                    justify-content: center
-                    .workSoundcloudLink
-                        color: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,74,0,1) 35%, rgba(255,113,0,1) 100%)
+                    justify-content: space-around
+                    .workLink
+                        display: flex
+                        flex-direction: row
+                        align-items: center
+                        justify-content: center
+                        margin: 5px 0 5px 0
                     .workLinkIcon
                         width: 20px
                         margin: 0 10px 0 0
+                        overflow: hidden
+                    .workSoundcloudLink
+                        background-color: #CA4246
+                        background-image: linear-gradient(90deg, #fc7f18 0%, #ff2f00 50%, #fe7c11 100%)
+                        background-size: 100%
+                        background-repeat: repeat
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent
+                    .workYoutubeLink
+                        background-color: #c60007
+                        background-image: linear-gradient(90deg, #e32424 0%, #a60000 50%, #e32424 100%)
+                        background-size: 100%
+                        background-repeat: repeat
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent
+                    .workSpotifyLink
+                        background-color: #01d119
+                        background-image: linear-gradient(90deg, #00c700 0%, #009a08 50%, #00c700 100%)
+                        background-size: 100%
+                        background-repeat: repeat
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent
+                .workReadMore
+                    display: block
+                    width: 100%
+                    text-align: center
+                    text-transform: uppercase
+                    color: $highlight
+                    margin: 25px auto auto auto
+            &:hover
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px
+        &:hover
+            transform: scale(1.01)
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px
 
 .filtersTitle
     display: block
@@ -149,17 +196,18 @@ header.works-index-header-main
     font-size: 1.85em
     font-family: $font-stack-two
 #filters
-    width: 1000px
-    min-width: 500px
+    max-width: 1000px
+    min-width: 300px
     margin: 0 auto 50px auto
     padding: 20px 20px
     display: flex
     flex-direction: row
-    justify-content: left
+    justify-content: center
     align-items: baseline
     flex-wrap: wrap
-    @media screen and ( max-width: 700px )
+    @media screen and ( max-width: 400px )
         flex-direction: column
+        justify-content: center
         
     button
         align-items: center
@@ -187,5 +235,13 @@ header.works-index-header-main
         transition: background-color 0.3s ease, color 0.3s ease
         margin: 10px
     button.active 
-        background-color: #4CAF50
+        background-color: $highlight
         color: #fff
+#workCount
+    display: block
+    width: 100%
+    text-align: center
+    font-family: $font-stack-two
+    font-size: 1.5em
+    font-weight: 400
+    margin: 0 auto 25px auto

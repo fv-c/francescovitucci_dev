@@ -1,43 +1,26 @@
 [
     {
-      "title": "Concerto per Orchestra",
-      "subtitle": "Opera 22",
-      "year": 2023,
-      "duration": "12 min",
-      "instruments": ["orchestra"],
-      "description": "Un brano orchestrale esplorativo...",
-      "soundcloud_url": "https://example.com/concerto",
-      "image": "concerto.jpg"
-    },
-    {
-      "title": "Sonata per Piano",
-      "subtitle": "Opera 15",
-      "year": 2021,
-      "duration": "8 min",
-      "instruments": ["piano"],
-      "description": "Un'opera minimalista per pianoforte...",
-      "url": "https://example.com/sonata",
-      "image": "sonata.jpg"
-    },
-    {
-      "title": "Sonata per Piano e Chitarra",
-      "subtitle": "Opera 10",
-      "year": 2022,
-      "duration": "9 min",
-      "instruments": ["piano","guitar"],
-      "description": "Un'opera per pianoforte e chitarra",
-      "url": "https://example.com/sonata",
-      "image": "sonata2.jpg"
-    },
-    {
       "title": "In Human Memories",
-      "subtitle": "per quattro violoncelli ed un interprete elettroacustico",
+      "subtitle": "for four cellos and<br>one electroacoustic player",
       "year": 2024,
       "duration": "20 min",
-      "instruments": ["cello","ensemble","liveElectronics"],
+      "instruments": ["cello","ensemble28","liveElectronics"],
       "description": "In Human Memories is a piece for pre-recorded and AI-generated voices, four cellos and live electronics. It explores the archetype of abandonment, inspired by the tragic stories of three different Didoes, taken from the operas by Niccolò Piccinni, Domenico Sarro, Henry Purcell. Each of them represents a unique aspect of love, loss and desolation, while retracing, dozens of times in the history of music, a well-known pattern: falling in love, Aeneas' abandonment, Dido's death. As in Greek tragedy, the audience is called to question the authenticity of emotions and memories in an era in which artificial intelligence can replicate and generate human-like expressions. As the piece unfolds, subtle features in the AI-generated lyrics and cloned voices can reveal the artificial nature of the fake memories employed, ultimately suggesting an underlying theme: the intrusion of AI into the deeply human experience of emotion.",
       "soundcloud_url": "https://example.com/concerto",
-      "image": "concerto.jpg"
+      "youtube_url": "https://example.com/concerto",
+      "spotify_url": "https://example.com/concerto",
+      "image": "concerto.jpg",
+      "read": " "
+    },
+    {
+      "title": "A deep breath",
+      "subtitle": "for fixed media and S.T.ON3L,<br>one electroacoustic player",
+      "year": 2023,
+      "duration": "9 min",
+      "instruments": ["liveElectronics"],
+      "description": "The electroacoustic interpreter and the S.T.ON3L instrument are positioned in the center of the room. The piece presents a formal arc segmented into sections, in which the performer explores very different listening areas, with their own peculiarities and identities. This song breakdown is reflected in the processes of Live Electronics. Starting from a miking of the listening space and subsequent extraction of audio descriptors, various control signals are determined. Thus, a process of information \"feedback\" is created, emphasized, hidden, suppressed, kept alive by the interpreter's gestures. The interpreter interacts with the electroacoustic instrument at the auditory level only, stimulating the computer system using adaptive control signals. Using the footswitch can force a sudden opening of time windows in which live electronics processes can emerge. It's recommended using it discreetly, three or four times during the first section, characterizing each intervention. A single obligatory pedal intervention is foreseen, as marked in the score.",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/a-deep-breath",
+      "image": "a-deep-breath.webp"
     }
   ]
   

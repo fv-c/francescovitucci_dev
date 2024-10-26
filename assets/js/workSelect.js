@@ -1,6 +1,8 @@
 $(document).ready(function () {
     var worksData;
 
+    var count = 0;
+
     // Carica il JSON e salva i dati nella variabile worksData
     var timestamp = new Date().getTime();
     $.getJSON('../assets/works.json?t=' + timestamp, function (works) {
@@ -25,22 +27,29 @@ $(document).ready(function () {
                     <p class="workDuration">${work.duration}</p>
                     <hr>
                     <p class="workDescription">${work.description}</p>
-                    <hr>`;
+                    <hr>
+                    <div class="linksWrapper">`;
 
             // Aggiungiamo solo i link presenti
             if (work.soundcloud_url) {
                 workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/soundcloud.svg"><a href="${work.soundcloud_url}" target="_blank" class="workSoundcloudLink">Listen on SoundCloud</a></div>`;
             }
             if (work.youtube_url) {
-                workElement += `<a href="${work.youtube_url}" class="workYoutubeLink">Watch on YouTube</a>`;
+                workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/youtube.svg"><a href="${work.youtube_url}" target="_blank" class="workYoutubeLink">Watch on YouTube</a></div>`;
             }
             if (work.spotify_url) {
-                workElement += `<a href="${work.spotify_url}" class="workSpotifyLink">Listen on Spotify</a>`;
+                workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/spotify.svg"><a href="${work.spotify_url}" target="_blank" class="workSpotifyLink">Listen on Spotify</a></div>`;
             }
 
             // Chiudiamo i div aperti
             workElement += `
-                    </div>
+                        </div>
+                        <hr>`
+                        
+                        if (work.read) {
+                            workElement += `<a href="${work.read}" target="_blank" class="workReadMore">Read more</a>`;
+                        }
+                     workElement += `</div>
                 </div>
             </div>`;
 
@@ -95,10 +104,12 @@ $(document).ready(function () {
         // Filtra i brani in base al filtro selezionato
         filterWorks(filter);
 
+        $('#workCount').remove();
+
         // Contiamo i brani filtrati e aggiorniamo il testo del pulsante
-        var count = worksData ? worksData.filter(work => filter === 'all' || (filter !== 'none' && work.instruments.includes(filter))).length : 0;
-        $(this).attr('data-original-text', $(this).attr('data-original-text') || $(this).text());
-        $(this).text(`${$(this).attr('data-original-text')} (${count})`);
+        count = worksData ? worksData.filter(work => filter === 'all' || (filter !== 'none' && work.instruments.includes(filter))).length : 0;
+
+        $('#filters').after($('<div id="workCount"></div>').text('Works found: ' + count));
 
         //$("#works").get(0).scrollIntoView({ behavior: 'smooth' });
 
