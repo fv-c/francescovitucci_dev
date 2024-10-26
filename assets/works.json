@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Concerto per Orchestra",
+      "subtitle": "Opera 22",
+      "year": 2023,
+      "duration": "12 min",
+      "instruments": ["orchestra"],
+      "description": "Un brano orchestrale esplorativo...",
+      "soundcloud_url": "https://example.com/concerto",
+      "image": "concerto.jpg"
+    },
+    {
+      "title": "Sonata per Piano",
+      "subtitle": "Opera 15",
+      "year": 2021,
+      "duration": "8 min",
+      "instruments": ["piano"],
+      "description": "Un'opera minimalista per pianoforte...",
+      "url": "https://example.com/sonata",
+      "image": "sonata.jpg"
+    },
+    {
+      "title": "Sonata per Piano e Chitarra",
+      "subtitle": "Opera 10",
+      "year": 2022,
+      "duration": "9 min",
+      "instruments": ["piano","guitar"],
+      "description": "Un'opera per pianoforte e chitarra",
+      "url": "https://example.com/sonata",
+      "image": "sonata2.jpg"
+    },
+    {
+      "title": "In Human Memories",
+      "subtitle": "per quattro violoncelli ed un interprete elettroacustico",
+      "year": 2024,
+      "duration": "20 min",
+      "instruments": ["cello","ensemble","liveElectronics"],
+      "description": "In Human Memories is a piece for pre-recorded and AI-generated voices, four cellos and live electronics. It explores the archetype of abandonment, inspired by the tragic stories of three different Didoes, taken from the operas by Niccolò Piccinni, Domenico Sarro, Henry Purcell. Each of them represents a unique aspect of love, loss and desolation, while retracing, dozens of times in the history of music, a well-known pattern: falling in love, Aeneas' abandonment, Dido's death. As in Greek tragedy, the audience is called to question the authenticity of emotions and memories in an era in which artificial intelligence can replicate and generate human-like expressions. As the piece unfolds, subtle features in the AI-generated lyrics and cloned voices can reveal the artificial nature of the fake memories employed, ultimately suggesting an underlying theme: the intrusion of AI into the deeply human experience of emotion.",
+      "soundcloud_url": "https://example.com/concerto",
+      "image": "concerto.jpg"
+    }
+  ]
+  

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: worksL
 ---
 <header class="works-index-header-main" style="background-image:url('{{ site.baseurl}}/assets/img/home-hero.jpg')">
     <div class="overlay-dark"></div>
@@ -7,149 +7,21 @@ layout: default
     <div class="works-index-title">
         <h1 class="works-title">Works</h1>
     </div>
-    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.7.1.min.js"></script>
+    <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.7.1.min.js"></script> -->
 </header>
 
 <!-- Sezione per i pulsanti di filtro -->
- <h1 class="filtersTitle">Select instruments</h1>
+<h1 class="filtersTitle">Select instruments</h1>
 <div id="filters">
-    <button data-filter="none" style="display: none;">No</button>
+    <button data-filter="none">None</button>
     <button data-filter="all">All instruments</button>
     <button data-filter="orchestra">Orchestra</button>
+    <button data-filter="ensemble">Ensemble (2-8 pl.)</button>
     <button data-filter="piano">Piano</button>
-    <button data-filter="chitarra">Chitarra</button>
+    <button data-filter="chitarra">Guitar</button>
+    <button data-filter="liveElectronics">Live Electronics</button>
+    <button data-filter="cello">Cello</button>
     <!-- Aggiungi altri pulsanti di filtro secondo necessità -->
 </div>
 
 <div id="works"></div>
-
-<script>
-
-    // $(document).ready(function () {
-    //     var worksData;
-
-    //     displayWorks([]);
-
-    //     // Carichiamo il JSON e salviamo i dati nella variabile worksData
-    //     var timestamp = new Date().getTime();
-    //     $.getJSON('../works.json?t=' + timestamp, function (works) {
-    //         worksData = works;
-    //         displayWorks(worksData);
-    //     }).fail(function () {
-    //         console.error('Errore nel caricamento del file JSON.');
-    //     });
-
-    //     // Funzione per mostrare i brani filtrati
-    //     function displayWorks(works) {
-    //         var worksContainer = $('#works');
-    //         worksContainer.empty(); // Svuotiamo il contenitore
-    //         works.forEach(function (work) {
-    //             var workElement = `
-    //         <div class="work">
-    //             <div class="workCardWrapper">
-    //                 <div class="workCard">
-    //                     <h2 class="workTitle">${work.title}</h2>
-    //                     <p class="workSubtitle">${work.subtitle}</p>
-    //                     <p class="workYear">${work.year}</p>
-    //                     <img class="workImage" src="/assets/img/works/${work.image}">
-    //                     <p><strong>Durata:</strong> ${work.duration}</p>
-    //                     <p><strong>Strumenti:</strong> ${work.instruments.join(', ')}</p>
-    //                     <p>${work.description}</p>
-    //                     <a href="${work.url}">Ascolta il brano</a>
-    //                 </div>
-    //             </div>
-    //         </div>`;
-    //             worksContainer.append(workElement);
-    //         });
-    //     }
-
-    //     // Funzione per filtrare i brani per strumentazione
-    //     function filterWorks(instrument) {
-    //         if (instrument === 'all') {
-    //             displayWorks(worksData);  // Mostra tutti i brani
-    //         } else if (instrument === 'none') {
-    //             displayWorks([]);
-    //         } else {
-    //             var filteredWorks = worksData.filter(function (work) {
-    //                 return work.instruments.includes(instrument);
-    //             });
-    //             displayWorks(filteredWorks);  // Mostra solo i brani filtrati
-    //         }
-    //     }
-
-    //     // Gestiamo il clic sui pulsanti di filtro
-    //     $('#filters button').click(function () {
-    //         var filter = $(this).attr('data-filter');
-    //         filterWorks(filter);
-    //     });
-
-    // });
-
-    $(document).ready(function () {
-    var worksData;
-
-    // Carichiamo il JSON e salviamo i dati nella variabile worksData
-    var timestamp = new Date().getTime();
-    $.getJSON('../works.json?t=' + timestamp, function (works) {
-        worksData = works;
-    }).fail(function () {
-        console.error('Errore nel caricamento del file JSON.');
-    });
-
-    // Funzione per mostrare i brani filtrati
-    function displayWorks(works) {
-        var worksContainer = $('#works');
-        worksContainer.empty(); // Svuotiamo il contenitore
-        works.forEach(function (work) {
-            var workElement = `
-            <div class="work">
-                <div class="workCardWrapper">
-                    <div class="workCard">
-                        <h2 class="workTitle">${work.title}</h2>
-                        <p class="workSubtitle">${work.subtitle}</p>
-                        <p class="workYear">${work.year}</p>
-                        <img class="workImage" src="/assets/img/works/${work.image}">
-                        <p><strong>Durata:</strong> ${work.duration}</p>
-                        <p><strong>Strumenti:</strong> ${work.instruments.join(', ')}</p>
-                        <p>${work.description}</p>
-                        <a href="${work.url}">Ascolta il brano</a>
-                    </div>
-                </div>
-            </div>`;
-            worksContainer.append(workElement);
-        });
-
-        // Cambia la visibilità del contenitore se ci sono brani da visualizzare
-        if (works.length > 0) {
-            worksContainer.css('visibility', 'visible');
-        } else {
-            worksContainer.css('visibility', 'hidden');
-        }
-    }
-
-    // Funzione per filtrare i brani per strumentazione
-    function filterWorks(instrument) {
-        if (instrument === 'all') {
-            displayWorks(worksData);  // Mostra tutti i brani
-        } else if (instrument === 'none') {
-            displayWorks([]);  // Non mostra nessun brano
-        } else {
-            var filteredWorks = worksData.filter(function (work) {
-                return work.instruments.includes(instrument);
-            });
-            displayWorks(filteredWorks);  // Mostra solo i brani filtrati
-        }
-    }
-
-    // Gestiamo il clic sui pulsanti di filtro
-    $('#filters button').click(function () {
-        var filter = $(this).attr('data-filter');
-        filterWorks(filter);
-        $("#works").get(0).scrollIntoView({behavior: 'smooth'});
-    });
-});
-
-</script>
-</body>
-
-</html>

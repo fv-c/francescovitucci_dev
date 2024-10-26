@@ -41,8 +41,8 @@ header.works-index-header-main
                 font-size: 1.875em
 
 #works
-    width: 100%
-    max-width: 1500px
+    width: 90%
+    max-width: 1400px
     margin: 0 auto 0 auto
     padding: 0 20px
     display: flex
@@ -50,30 +50,36 @@ header.works-index-header-main
     justify-content: space-around
     align-items: baseline
     flex-wrap: wrap
-    visibility: hidden
+    //visibility: hidden
     .work
-        width: 400px
-        height: auto
+        width: 375px
+        height: 800px
+        overflow: auto
         display: flex
         flex-direction: column
-        margin: 20px 5px 20px 5px
+        margin: 20px 5px 50px 5px
+        &:hover
+            transform: scale(1.01)
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px
         .workCardWrapper
-            width: 98%
-            height: auto
-            border: 3px solid $black
+            width: 100%
+            height: 100%
+            border: 1.5px solid $primary
+            border-radius: 10px
             background: $white
             &:hover
-                background: #f3f3f3
+                box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px
             .workCard
                 .workTitle
                     display: block
                     text-align: center
-                    margin: 20px auto 5px auto
+                    margin: 20px 10px 10px 10px
                     font-family: $font-stack
                     font-size: 1.5em
                     font-weight: 500
                     color: $black
                 .workSubtitle
+                    min-height: 60px
                     display: block
                     text-align: center
                     margin: 0 auto 5px auto
@@ -81,14 +87,15 @@ header.works-index-header-main
                     font-size: 1em
                     font-weight: 400
                     color: $primary
+                    line-height: 1.5em
                 .workYear
                     display: block
                     text-align: center
                     margin: 0 auto 10px auto
                     font-family: $font-stack-two
-                    font-size: 0.5em
+                    font-size: 0.8em
                     font-weight: 400
-                    color: $primary
+                    color: $secondary
                 .workImage
                     display: block
                     width: 100%
@@ -96,6 +103,43 @@ header.works-index-header-main
                     border-top: 1px solid $black
                     border-bottom: 1px solid $black
                     margin: 0 0 10px 0
+                .workDuration
+                    font-size: 1em
+                    line-height: 1.25em
+                    font-family: $font-stack-two
+                    color: $secondary
+                .workDuration::before
+                    content: "Duration: "
+                    color: $primary
+                    font-family: $font-stack
+                    font-weight: 400
+                .workDescription
+                    height: 200px
+                    overflow: scroll
+                    font-size: 1em
+                    line-height: 1.25em
+                    font-family: $font-stack-two
+                    color: $secondary
+                .workDescription::before
+                    content: "Description"
+                    display: block
+                    color: $primary
+                    font-family: $font-stack
+                    font-weight: 400
+                .workDuration, .workInstruments, .workDescription
+                    display: block
+                    margin: 0 10px
+                    text-align: left
+                .workLink
+                    display: flex
+                    flex-direction: row
+                    align-items: center
+                    justify-content: center
+                    .workSoundcloudLink
+                        color: linear-gradient(90deg, rgba(255,113,0,1) 0%, rgba(255,74,0,1) 35%, rgba(255,113,0,1) 100%)
+                    .workLinkIcon
+                        width: 20px
+                        margin: 0 10px 0 0
 
 .filtersTitle
     display: block
@@ -106,11 +150,42 @@ header.works-index-header-main
     font-family: $font-stack-two
 #filters
     width: 1000px
-    max-width: 500px
+    min-width: 500px
     margin: 0 auto 50px auto
-    padding: 0 20px
+    padding: 20px 20px
     display: flex
     flex-direction: row
-    justify-content: space-around
+    justify-content: left
     align-items: baseline
     flex-wrap: wrap
+    @media screen and ( max-width: 700px )
+        flex-direction: column
+        
+    button
+        align-items: center
+        background: $white
+        border: 0 solid #E2E8F0
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+        box-sizing: border-box
+        color: $black
+        display: inline-flex
+        font-family: $font-stack-two
+        font-size: 1rem
+        font-weight: 700
+        height: 56px
+        justify-content: center
+        line-height: 24px
+        overflow-wrap: break-word
+        padding: 24px
+        text-decoration: none
+        width: auto
+        border-radius: 8px
+        cursor: pointer
+        user-select: none
+        -webkit-user-select: none
+        touch-action: manipulation
+        transition: background-color 0.3s ease, color 0.3s ease
+        margin: 10px
+    button.active 
+        background-color: #4CAF50
+        color: #fff

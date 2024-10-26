@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        {{ content }}
+        {% include footer.html %}
+        <script>
+            $('.toggled-nav-wrapper').on('click', function (e) {
+                e.stopPropagation();
+            });
+            $('.nav-toggle-open-wrapper, .nav-toggle-close-wrapper, header .nav-toggle-body-overlay').on('click', function () {
+                $('html').toggleClass('nav-open');
+            });
+        </script>
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/workSelect.js"></script>
+    </body>
+</html>
