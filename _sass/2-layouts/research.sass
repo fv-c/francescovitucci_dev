@@ -42,26 +42,145 @@ header.research-index-header-main
 
 .researchContentWrapper
     width: 100%
-    .orcidWrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    a
+        color: $highlight
+        font-family: $font-stack-two
+        font-weight: 400
+        font-size: 0.75em
+    .linksWrapper
+        width: 100%
+        min-height: 70px
+        margin: 80px auto 40px auto
         display: flex
-        width: 29%
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        gap: 20px
+        .orcidWrapper
+            display: flex
+            max-width: 29%
+            min-width: 300px
+            //margin: 50px auto 20px auto
+            flex-direction: row
+            align-items: center
+            justify-content: space-evenly 
+            gap: 10px
+            .orcidIcon
+                width: 25px
+                height: 25px
+            .orcidTitle
+                font-family: $font-stack
+                font-weight: 500
+                font-size: 1em
+            .orcidLink
+                font-family: $font-stack-two
+                font-weight: 500
+                font-size: 1em
+                color: $highlight
+        .githubWrapper
+            display: flex
+            max-width: 29%
+            min-width: 300px
+            //margin: 50px auto 20px auto
+            flex-direction: row
+            align-items: center
+            justify-content: space-evenly 
+            gap: 10px
+            .githubIcon
+                width: 25px
+                height: 25px
+            .githubTitle
+                font-family: $font-stack
+                font-weight: 500
+                font-size: 1em
+            .githubLink
+                font-family: $font-stack-two
+                font-weight: 500
+                font-size: 1em
+                color: $highlight
+    .repoWrapper
+        display: flex
+        max-width: 29%
         min-width: 300px
-        margin: 50px auto 20px auto
-        flex-direction: row
+        min-height: 200px
+        margin: 20px auto 20px auto
+        flex-direction: column
         align-items: center
         justify-content: space-evenly 
         gap: 10px
-        .orcidIcon
-            width: 30px
-            height: 30px
-        .orcidTitle
-            font-family: $font-stack
-            font-weight: 500
-        .orcidLink
-            font-family: $font-stack-two
-            font-weight: 500
-            font-size: 1.1em
-            color: $highlight
+        .repoTitleWrapper
+            width: 65%
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-around
+            .repoStarIcon
+                width: 25px
+                height: 25px
+            .repoTitle
+                width: 70%
+                font-family: $font-stack
+                font-weight: 500
+                font-size: 1em
+        .repo-container
+            display: flex
+            flex-direction: column
+            align-items: left
+            justify-content: space-between
+            .repo
+                min-height: 70px
+                margin: 20px 10px
+                display: flex
+                flex-direction: column
+                align-items: left
+                justify-content: space-evenly
+                border: 1px solid $secondary
+                border-radius: 6px
+                padding: 10px
+                h3
+                    font-family: $font-stack
+                    font-weight: 600
+                    font-size: 1.1em
+                p
+                    font-family: $font-stack-two
+                    font-weight: 300
+                    font-size: 0.9em
+                    line-height: 1em
+                a
+                    font-family: $font-stack-two
+                    font-weight: 400
+                    font-size: 1em
+                    color: $highlight
+                    margin-top: 5px
     hr
-        width: 40%
+        width: 33%
         color: $primary
+    .bibWrapper
+        max-width: 700px
+        min-width: 300px
+        display: flex
+        flex-direction: column
+        margin: 0 10px 0 10px
+        h2
+            max-width: 100%
+            min-width: 200px
+            margin: 30px 0 0 0
+            text-align: center
+        .bibItem
+            max-width: 100%
+            min-width: 200px
+            margin: 40px auto 40px auto
+            .url
+                color: $highlight
+            .author
+                font-family: $font-stack-two
+                font-weight: 700
+            .title
+                font-weight: 500
+                font-style: italic
+            .journal
+                font-weight: 400
