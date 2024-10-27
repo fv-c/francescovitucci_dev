@@ -1,0 +1,51 @@
+---
+layout: researchL
+---
+<header class="research-index-header-main" style="background-image:url('{{ site.baseurl}}/assets/img/home-hero.jpg')">
+    <div class="overlay-dark"></div>
+    {% include nav.html %}
+    <div class="research-index-title">
+        <h1 class="research-title">Research</h1>
+    </div>
+</header>
+
+<div class="researchContentWrapper">
+    <div class="orcidWrapper">
+        <img class="orcidIcon" src="../assets/img/icons/orcid.svg" alt="">
+        <h2 class="orcidTitle">My ORCID:</h2>
+        <a class="orcidLink" href="https://orcid.org/0009-0008-4109-2526"
+            target="_blank">https://orcid.org/0009-0008-4109-2526</a>
+    </div>
+    <hr>
+    <h2>Bibliografia</h2>
+    <div class="bibtex_structure">
+        <div class="sections bibtextypekey">
+            <div class="section article">
+                <h1>Refereed Articles</h1>
+                <div class="sort year" extra="ASC number">
+                    <div class="templates"></div>
+                </div>
+            </div>
+            <div class="section book">
+                <h1>Books</h1>
+                <div class="sort year" extra="ASC number">
+                    <div class="templates"></div>
+                </div>
+            </div>
+            <div class="section inproceedings">
+                <h1>Conference and Workshop Papers</h1>
+                <div class="sort year" extra="ASC number">
+                    <div class="templates"></div>
+                </div>
+            </div>
+            <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+                <h1>Other Publications</h1>
+                <div class="sort year" extra="ASC number">
+                    <div class="templates"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bibtex_display"></div>
+</div>
+<hr>

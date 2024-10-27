@@ -1,44 +1,28 @@
 ---
-layout: default
+layout: bioL
 ---
-<header class="works-index-header-main" style="background-image:url('{{ site.baseurl}}/assets/img/home-hero.jpg')">
+<header class="bio-index-header-main" style="background-image:url('{{ site.baseurl}}/assets/img/home-hero.jpg')">
     <div class="overlay-dark"></div>
     {% include nav.html %}
-    <div class="works-index-title">
-        <h1 class="works-title">Bio</h1>
+    <div class="bio-index-title">
+        <h1 class="bio-title">Bio</h1>
+        <div class="bio-language-buttons">
+            <button class="toggle-btn" onclick="toggleBio('en')">ENG</button>
+            <button class="toggle-btn selected" onclick="toggleBio('it')">ITA</button>
+        </div>
     </div>
     <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.7.1.min.js"></script> -->
 </header>
-<div class="cv-container">
-    {% include _cv/_it/personal-info.html%}
-    {% include _cv/_it/resume.html%}
-    {% include _cv/_it/work-experience.html%}
 
-    <section class="section education">
-        <h2>Istruzione e Formazione</h2>
-        <div class="education-item">
-            <h3>Titolo di studio</h3>
-            <p>Istituto - Città</p>
-            <span>09/2015 - 07/2018</span>
-            <p>Descrizione del corso di studi o certificazione.</p>
-        </div>
-    </section>
+<button onclick="exportToMarkdown()" class="mdDownload">
+    <p>Download</p>
+    <img src="{{ site.baseurl}}/assets/img/icons/markdown.svg" alt="">
+</button>
 
-    <section class="section skills">
-        <h2>Competenze</h2>
-        <ul>
-            <li>Competenza 1</li>
-            <li>Competenza 2</li>
-            <li>Competenza 3</li>
-        </ul>
-    </section>
-
-    <section class="section languages">
-        <h2>Lingue</h2>
-        <ul>
-            <li>Italiano: Madrelingua</li>
-            <li>Inglese: Intermedio (B2)</li>
-            <li>Francese: Intermedio (B2)</li>
-        </ul>
-    </section>
+<div id="bio-en" class="bio-content">
+    {% include _cv/bio-eng.html %}
 </div>
+<div id="bio-it" class="bio-content visible">
+    {% include _cv/bio-it.html %}
+</div>
+<hr>

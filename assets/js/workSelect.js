@@ -23,8 +23,10 @@ $(document).ready(function () {
                     <h2 class="workTitle">${work.title}</h2>
                     <p class="workSubtitle">${work.subtitle}</p>
                     <p class="workYear">${work.year}</p>
-                    <img class="workImage" src="/assets/img/works/${work.image}">
+                    <img class="workImage" src="../assets/img/works/${work.image}">
                     <p class="workDuration">${work.duration}</p>
+                    <hr>
+                    <div class="premiereWrapper"><p class="workPremiere">${work.premiere}</p></div>
                     <hr>
                     <p class="workDescription">${work.description}</p>
                     <hr>
@@ -39,6 +41,14 @@ $(document).ready(function () {
             }
             if (work.spotify_url) {
                 workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/spotify.svg"><a href="${work.spotify_url}" target="_blank" class="workSpotifyLink">Listen on Spotify</a></div>`;
+            }
+
+            if (work.info1_url) {
+                workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/info.svg"><a href="${work.info1_url}" target="_blank" class="workInfoLink">What they say about...</a></div>`;
+            }
+
+            if (work.info2_url) {
+                workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/info.svg"><a href="${work.info2_url}" target="_blank" class="workInfoLink">what they say about...</a></div>`;
             }
 
             // Chiudiamo i div aperti

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% include head.html %}
+  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.7.1.min.js"></script>
+  <script src="https://unpkg.com/turndown/dist/turndown.js"></script>
+</head>
+
+<body>
+  {{ content }}
+  <script>
+    $('.bioSection h2').after('<hr class="bioSectionSeparator">')
+
+    // Funzione per gestire la selezione del bottone e mostrare la bio
+    function toggleBio(lang) {
+      // Nascondi tutti i contenuti di biografia e deseleziona tutti i bottoni
+      document.querySelectorAll('.bio-content').forEach(content => content.classList.remove('visible'));
+      document.querySelectorAll('.toggle-btn').forEach(btn => btn.classList.remove('selected'));
+
+      // Mostra il contenuto della lingua selezionata e evidenzia il bottone
+      document.getElementById('bio-' + lang).classList.add('visible');
+      document.querySelector(`.toggle-btn[onclick="toggleBio('${lang}')"]`).classList.add('selected');
+    }
+
+    // Funzione per esportare in Markdown
+    function exportToMarkdown() {
+      // Trova il contenuto di biografia visibile
+      const visibleBio = document.querySelector('.bio-content.visible');
+
+      // Inizializza Turndown e converti l'HTML in Markdown
+      const turndownService = new TurndownService();
+      const markdownText = turndownService.turndown(visibleBio.innerHTML);
+
+      // Aggiungi la riga di attribuzione e la licenza
+      const attribution = "\n\n---\n\n" +
+        "Exported from {{ page.url }}\n" +
+        "This work is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)";
+
+      // Crea un blob con il contenuto in Markdown
+      const blob = new Blob([markdownText + attribution], { type: 'text/markdown' });
+
+      // Crea un link per il download
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'biography.md';
+      link.click();
+
+      // Rilascia l'oggetto URL per liberare memoria
+      URL.revokeObjectURL(link.href);
+    }
+  </script>
+  {% include footer.html %}
+</body>
+
+</html>

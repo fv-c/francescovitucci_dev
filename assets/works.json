@@ -10,7 +10,8 @@
       "youtube_url": "https://example.com/concerto",
       "spotify_url": "https://example.com/concerto",
       "image": "concerto.jpg",
-      "read": " "
+      "read": " ",
+      "premiere": "Auditorium Nino Rota, 24 luglio 2024"
     },
     {
       "title": "A deep breath",
@@ -20,7 +21,21 @@
       "instruments": ["liveElectronics"],
       "description": "The electroacoustic interpreter and the S.T.ON3L instrument are positioned in the center of the room. The piece presents a formal arc segmented into sections, in which the performer explores very different listening areas, with their own peculiarities and identities. This song breakdown is reflected in the processes of Live Electronics. Starting from a miking of the listening space and subsequent extraction of audio descriptors, various control signals are determined. Thus, a process of information \"feedback\" is created, emphasized, hidden, suppressed, kept alive by the interpreter's gestures. The interpreter interacts with the electroacoustic instrument at the auditory level only, stimulating the computer system using adaptive control signals. Using the footswitch can force a sudden opening of time windows in which live electronics processes can emerge. It's recommended using it discreetly, three or four times during the first section, characterizing each intervention. A single obligatory pedal intervention is foreseen, as marked in the score.",
       "soundcloud_url": "https://soundcloud.com/francesco_vitucci/a-deep-breath",
-      "image": "a-deep-breath.webp"
+      "image": "a-deep-breath.webp",
+      "premiere": "College of Music, Hanyang University, Seoul, 11 luglio 2024"
+    },
+    {
+      "title": "Preludio ai riti del fuoco",
+      "subtitle": "per orchestra",
+      "year": 2024,
+      "duration": "6 min",
+      "instruments": ["orchestra"],
+      "description": "The flame, the fire: common elements of local popular traditions, as demonstrated by the \"Register of festive rituals related to fire\" of the Puglia Region, but also of conceptually and geographically distant traditions. Symbol of heat and light, fire plays a particular role in the rite, becoming its climax: think of the rites of Christian Easter, as well as of the Orthodox one, a connection of traditions that the city of Bari has long learned to value. This compositional work, Prelude to the rites of fire, therefore seeks its own ritual dimension, in which the sound becomes an anabatic vehicle of tension towards the top not in strictly musical terms, but in imaginative ones. There is no rite without the reiteration of a gesture and one could say that there is no understanding of the musical meaning without the reiteration of a musical gesture. The piece therefore presents iterations of the same gesture which, in its most complex or most basic form, sculpts time, accompanying and preluding, perhaps, to something to come.",
+      "info1_url": "https://www.cittametropolitana.ba.it/vivere_il_comune/eventi/evento_26.html",
+      "info2_url": "https://www.consba.it/it/1054/eventi/8269/in-planctu-desidero",
+      "image": "concerto.jpg",
+      "read": " ",
+      "premiere": "Auditorium Nino Rota, 08 marzo 2024"
     }
   ]
   

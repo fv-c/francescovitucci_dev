@@ -53,7 +53,7 @@ header.works-index-header-main
     //visibility: hidden
     .work
         width: 375px
-        height: 800px
+        height: 870px
         overflow: auto
         display: flex
         flex-direction: column
@@ -100,8 +100,7 @@ header.works-index-header-main
                     height: 200px
                     border-top: 1px solid $black
                     border-bottom: 1px solid $black
-                    margin: 0 0 10px 0
-                        
+                    margin: 0 0 10px 0       
                 .workDuration
                     font-size: 1em
                     line-height: 1.25em
@@ -112,6 +111,33 @@ header.works-index-header-main
                     color: $primary
                     font-family: $font-stack
                     font-weight: 400
+                .premiereWrapper
+                    width: 100%
+                    min-height: 60px
+                    display: flex
+                    flex-direction: column
+                    flex-wrap: wrap
+                    align-items: right
+                    justify-content: space-around
+                    .workPremiere
+                        align-self: auto
+                        flex-basis: auto
+                        flex-shrink: 1
+                        flex-grow: 0
+                        min-height: 50px
+                        font-size: 1em
+                        line-height: 1.25em
+                        margin: 0 10px
+                        text-align: left
+                        font-family: $font-stack-two
+                        color: $secondary
+                        padding-right: 17px
+                    .workPremiere::before
+                        display: block
+                        content: "Première: "
+                        color: $primary
+                        font-family: $font-stack
+                        font-weight: 400
                 .workDescription
                     height: 175px
                     min-height: 175px
@@ -134,7 +160,7 @@ header.works-index-header-main
                     color: $primary
                     font-family: $font-stack
                     font-weight: 400
-                .workDuration, .workInstruments, .workDescription
+                .workDuration, .workDescription
                     display: block
                     margin: 0 10px
                     text-align: left
@@ -171,6 +197,13 @@ header.works-index-header-main
                     .workSpotifyLink
                         background-color: #01d119
                         background-image: linear-gradient(90deg, #00c700 0%, #009a08 50%, #00c700 100%)
+                        background-size: 100%
+                        background-repeat: repeat
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent
+                    .workInfoLink
+                        background-color: #000000
+                        background-image: linear-gradient(90deg, #000000 0%, #636b86 80%)
                         background-size: 100%
                         background-repeat: repeat
                         -webkit-background-clip: text

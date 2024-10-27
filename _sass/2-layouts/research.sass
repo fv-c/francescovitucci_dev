@@ -1,0 +1,67 @@
+header.research-index-header-main
+    position: relative
+    z-index: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 650px
+    background: $primary
+        size: cover
+        position: center center
+        repeat: no-repeat
+    .overlay-dark
+        position: absolute
+        z-index: 2
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        background: $primary
+        opacity: .35
+    .research-index-title
+        position: relative
+        z-index: 5
+        text-align: center
+        padding-top: 50px
+        h1.research-title
+            max-width: 600px
+            font-size: 3.125em
+            font-weight: 500
+            line-height: 1.2em
+            padding: 0 20px 5px 20px
+            color: $white
+            margin: 30px 0
+            @media screen and ( max-width: 500px )
+                font-size: 2.5em
+            @media screen and ( max-width: 400px )
+                font-size: 2.1875em
+            @media screen and ( max-width: 360px )
+                font-size: 1.875em
+
+.researchContentWrapper
+    width: 100%
+    .orcidWrapper
+        display: flex
+        width: 29%
+        min-width: 300px
+        margin: 50px auto 20px auto
+        flex-direction: row
+        align-items: center
+        justify-content: space-evenly 
+        gap: 10px
+        .orcidIcon
+            width: 30px
+            height: 30px
+        .orcidTitle
+            font-family: $font-stack
+            font-weight: 500
+        .orcidLink
+            font-family: $font-stack-two
+            font-weight: 500
+            font-size: 1.1em
+            color: $highlight
+    hr
+        width: 40%
+        color: $primary
