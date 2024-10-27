@@ -7,8 +7,8 @@ layout: bioL
     <div class="bio-index-title">
         <h1 class="bio-title">Bio</h1>
         <div class="bio-language-buttons">
-            <button class="toggle-btn" onclick="toggleBio('en')">ENG</button>
-            <button class="toggle-btn selected" onclick="toggleBio('it')">ITA</button>
+            <button class="toggle-btn selected" onclick="toggleBio('en')">ENG</button>
+            <button class="toggle-btn" onclick="toggleBio('it')">ITA</button>
         </div>
     </div>
     <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.7.1.min.js"></script> -->
@@ -19,10 +19,10 @@ layout: bioL
     <img src="{{ site.baseurl}}/assets/img/icons/markdown.svg" alt="">
 </button>
 
-<div id="bio-en" class="bio-content">
+<div id="bio-en" class="bio-content visible">
     {% include _cv/bio-eng.html %}
 </div>
-<div id="bio-it" class="bio-content visible">
+<div id="bio-it" class="bio-content">
     {% include _cv/bio-it.html %}
 </div>
 <hr>
