@@ -1,7 +1,8 @@
 ---
 layout: bioL
 ---
-<header class="bio-index-header-main" style="background-image:url('{{ site.baseurl}}/assets/img/home-hero.jpg'); background-attachment: fixed;">
+<header class="bio-index-header-main"
+    style="background-image:url('{{ site.baseurl}}/assets/img/home-hero.jpg'); background-attachment: fixed;">
     <div class="overlay-dark"></div>
     {% include nav.html %}
     <div class="bio-index-title">
@@ -18,11 +19,12 @@ layout: bioL
     <p>Download</p>
     <img src="{{ site.baseurl}}/assets/img/icons/markdown.svg" alt="">
 </button>
-
-<div id="bio-en" class="bio-content visible">
-    {% include _cv/bio-eng.html %}
-</div>
-<div id="bio-it" class="bio-content">
-    {% include _cv/bio-it.html %}
+<div class="bio-wrapper">
+    <div id="bio-en" class="bio-content visible">
+        {% include _cv/bio-eng.html %}
+    </div>
+    <div id="bio-it" class="bio-content">
+        {% include _cv/bio-it.html %}
+    </div>
 </div>
 <hr>

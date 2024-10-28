@@ -60,7 +60,7 @@ header.bio-index-header-main
                     background: $white
                     color: $highlight
                 &.selected
-                    background-color: #0056b3
+                    background-color: $highlight
                     cursor: default
                     &:hover
                         color: $white
@@ -71,15 +71,15 @@ header.bio-index-header-main
     align-items: center
     justify-content: space-around
     width: 120px
-    margin: 50px 30% 0 auto
+    margin: 50px 25% 0 auto
     background-color: rgba(0, 0, 0, 0)
-    border: 2px solid $black
+    border: 1px solid $black
     border-radius: 4px
     cursor: pointer
     p
         color: $black
         font-size: 0.75em
-        font-weight: 700
+        font-weight: 500
         font-family: $font-stack-two
         text-transform: uppercase
     img
@@ -87,32 +87,39 @@ header.bio-index-header-main
         height: 20px
     &:hover
         box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px
-.bio-content
-    display: none
-    max-width: 800px
-    float: center
-    margin: 1% 25%
-    &.visible
-        display: block
-    .bioSectionSeparator
-        width: 45%
-        min-width: 250px
-        margin-left: 0
-        color: $primary
-    .bioSection
-        margin: 5px 0 35px 0
-    h2
-        color: $primary
-        font-family: $font-stack
-        font-weight: 500
-        font-size: 1.75em
-    p
-        color: $primary
-        font-family: $font-stack-two
-        font-weight: 300
-        font-size: 1em
-        line-height: 1.5em
-        margin-bottom: 20px
-        page-break-inside: avoid
-    .bioSection.first
-        margin: 50px 0 25px 0
+
+.bio-wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    .bio-content
+        display: none
+        width: 50%
+        min-width: 300px
+        margin: 10px 15px
+        &.visible
+            display: block
+        .bioSectionSeparator
+            width: 45%
+            min-width: 175px
+            margin-left: 0
+            color: $primary
+        .bioSection
+            margin: 5px 0 35px 0
+        h2
+            color: $primary
+            font-family: $font-stack
+            font-weight: 500
+            font-size: 1.75em
+        p
+            color: $primary
+            font-family: $font-stack-two
+            font-weight: 300
+            font-size: 1em
+            line-height: 1.5em
+            margin-bottom: 20px
+            page-break-inside: avoid
+        .bioSection.first
+            margin: 50px 0 25px 0
+            

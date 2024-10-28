@@ -13,11 +13,15 @@ layout: default
 <!-- About -->
 <div class="who-is-he" id="blurb">
     <h2>Who is he?</h2>
-    <p>Francesco Vitucci is an electroacoustic composer and performer based in Bari (IT). Ordinary member of S.I.M.C. (Italian Society of Contemporary Music), his works are performed in concerts and contemporary music festivals, in Italy and abroad, and have been positively evaluated in various national and international composition competitions.<br>His field of research is the algorithmic composition of acoustic and electroacoustic music. <a href="{{ site.baseurl }}/bio" target="_blank">(Read more)</a></p>
+    <p>Francesco Vitucci is a composer and electroacoustic performer based in Bari (IT). Ordinary member of S.I.M.C.
+        (Italian Society of Contemporary Music), his works are performed in concerts and contemporary music festivals,
+        in Italy and abroad, and have been positively evaluated in various national and international composition
+        competitions.<br>His field of research is the algorithmic composition of acoustic and electroacoustic music. <a
+            href="{{ site.baseurl }}/bio" target="_blank">(Read more)</a></p>
 </div>
-<hr/>
+<hr />
 <!-- Recent projects -->
-<h2 class="recent-projects">Recent Projects</h2>
+<!-- <h2 class="recent-projects">Recent Projects</h2>
 <div class="recent-projects-content-wrapper">
 
     <div class="project-wrap">
@@ -40,4 +44,41 @@ layout: default
         </div>
     </div>
 </div>
-<hr/>
+<hr/> -->
+<div class="events">
+    <h2 class="upcoming-events-title">Upcoming events</h2>
+    <ul class="upcoming-events">
+        {% assign today = "now" | date: "%Y-%m-%d" %}
+        {% assign events = site.data.events | sort: "date" %}
+        {% for event in events limit: 3 %}
+        {% if event.date >= today %}
+        <li class="upcoming-event">
+            <div class="event-info">
+                <p><strong>📅 Date:</strong> {{ event.date }}</p>
+                {% if event.time %}<p><strong>🕒 Time:</strong> {{ event.time }}</p>{% endif %}
+                {% if event.location %}<p><strong>📍 Where:</strong> {{ event.location }}</p>{% endif %}
+            </div>
+            <h2>{{ event.title }}</h2>
+            {% if event.description %}<p>{{ event.description }}</p>{% endif %}
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+    <hr>
+    <h2 class="concluded-events-title">Concluded events</h2>
+    <ul class="concluded-events">
+        {% assign today = "now" | date: "%Y-%m-%d" %}
+        {% assign events = site.data.events | sort: "date" | reverse %}
+        {% for event in events limit: 3 %}
+        {% if event.date < today %} <li class="concluded-event">
+            <h2>{{ event.title }}</h2>
+            <p><strong>Data:</strong> {{ event.date }}</p>
+            {% if event.time %}<p><strong>Ora:</strong> {{ event.time }}</p>{% endif %}
+            {% if event.location %}<p><strong>Luogo:</strong> {{ event.location }}</p>{% endif %}
+            {% if event.description %}<p>{{ event.description }}</p>{% endif %}
+            </li>
+            {% endif %}
+            {% endfor %}
+    </ul>
+</div>
+<hr>
