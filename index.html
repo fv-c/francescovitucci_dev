@@ -19,66 +19,68 @@ layout: default
         competitions.<br>His field of research is the algorithmic composition of acoustic and electroacoustic music. <a
             href="{{ site.baseurl }}/bio" target="_blank">(Read more)</a></p>
 </div>
-<hr />
-<!-- Recent projects -->
-<!-- <h2 class="recent-projects">Recent Projects</h2>
-<div class="recent-projects-content-wrapper">
-
-    <div class="project-wrap">
-        <div class="project">
-            <div class="project-img"></div>
-            <a href="" target="_blank" class="project-text">
-                <h4>Project Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget lectus ut felis consequat cursus a id lacus. In erat ligula, elementum in felis bibendum, sollicitudin viverra quam.</p>
-            </a>
-        </div>
-    </div>
-
-    <div class="project-wrap project-wrap-reverse">
-        <div class="project">
-            <div class="project-img"></div>
-            <a href="" target="_blank" class="project-text">
-                <h4>Project Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget lectus ut felis consequat cursus a id lacus. In erat ligula, elementum in felis bibendum, sollicitudin viverra quam.</p>
-            </a>
-        </div>
-    </div>
-</div>
-<hr/> -->
+<hr>
 <div class="events">
     <h2 class="upcoming-events-title">Upcoming events</h2>
-    <ul class="upcoming-events">
+    <div class="upcoming-events">
         {% assign today = "now" | date: "%Y-%m-%d" %}
         {% assign events = site.data.events | sort: "date" %}
-        {% for event in events limit: 3 %}
+        {% assign count = 0 %}
+        {% assign countLimit = 4 %}
+        {% for event in events%}
         {% if event.date >= today %}
-        <li class="upcoming-event">
+        <a class='upcoming-event {%if event.status == "cancelled" %} cancelled {% endif %}' {% if event.url %}href="https://www.mdw.ac.at/icsc2024/" target="_blank" style="cursor: pointer;" {% endif %}>
+            <img src="{{ site.baseurl }}/assets/img/icons/exclamation.svg" alt="">
             <div class="event-info">
-                <p><strong>📅 Date:</strong> {{ event.date }}</p>
-                {% if event.time %}<p><strong>🕒 Time:</strong> {{ event.time }}</p>{% endif %}
-                {% if event.location %}<p><strong>📍 Where:</strong> {{ event.location }}</p>{% endif %}
+                <p class="date-event">{{ event.date | date: "%d-%m-%Y"  }}</p>
+                {% if event.time %}<p class="time-event">{{ event.time }}</p>{% endif %}
+                {% if event.location %}<p class="place-event">{{ event.location }}</p>{% endif %}
+                {% if event.type %}<p class="type-event">{{ event.type }}</p>{% endif %}
             </div>
+            <hr>
             <h2>{{ event.title }}</h2>
             {% if event.description %}<p>{{ event.description }}</p>{% endif %}
-        </li>
+            {% if event.status == 'cancelled' %}
+                <div class="overlay">Cancelled</div>
+            {% endif %}
+        </a>
+        {% assign count = count | plus: 1 %}
+        {% if count == countLimit %}
+            {% break %}
+        {% endif %}
         {% endif %}
         {% endfor %}
-    </ul>
+    </div>
     <hr>
-    <h2 class="concluded-events-title">Concluded events</h2>
-    <ul class="concluded-events">
+    <h2 class="concluded-events-title">Recent events</h2>
+    <div class="concluded-events">
         {% assign today = "now" | date: "%Y-%m-%d" %}
-        {% assign events = site.data.events | sort: "date" | reverse %}
-        {% for event in events limit: 3 %}
-        {% if event.date < today %} <li class="concluded-event">
+        {% assign events = site.data.events | sort: "date"  %}
+        {% assign count = 0 %}
+        {% assign countLimit = 2 %}
+        {% for event in events%}
+        {% if event.date < today %}
+        <a class='concluded-event {%if event.status == "cancelled" %} cancelled {% endif %}' {% if event.url %}href="https://www.mdw.ac.at/icsc2024/" target="_blank" {% endif %}>
+            <img src="{{ site.baseurl }}/assets/img/icons/concluded.svg" alt="">
+            <div class="event-info">
+                <p class="date-event">{{ event.date | date: "%d-%m-%Y" }}</p>
+                {% if event.time %}<p class="time-event">{{ event.time }}</p>{% endif %}
+                {% if event.location %}<p class="place-event">{{ event.location }}</p>{% endif %}
+                {% if event.type %}<p class="type-event">{{ event.type }}</p>{% endif %}
+            </div>
+            <hr>
             <h2>{{ event.title }}</h2>
-            <p><strong>Data:</strong> {{ event.date }}</p>
-            {% if event.time %}<p><strong>Ora:</strong> {{ event.time }}</p>{% endif %}
-            {% if event.location %}<p><strong>Luogo:</strong> {{ event.location }}</p>{% endif %}
             {% if event.description %}<p>{{ event.description }}</p>{% endif %}
-            </li>
+            {% if event.status == 'cancelled' %}
+                <div class="overlay">Cancelled</div>
             {% endif %}
-            {% endfor %}
-    </ul>
+        </a>
+        {% assign count = count | plus: 1 %}
+        {% if count == countLimit %}
+            {% break %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>
 <hr>
