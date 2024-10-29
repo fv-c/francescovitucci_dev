@@ -22,6 +22,7 @@ layout: default
 <hr>
 <div class="events">
     <h2 class="upcoming-events-title">Upcoming events</h2>
+    <a href="{{ site.baseurl }}/events" target="_blank" class="upcoming-events-link">(More)</a>
     <div class="upcoming-events">
         {% assign today = "now" | date: "%Y-%m-%d" %}
         {% assign events = site.data.events | sort: "date" %}

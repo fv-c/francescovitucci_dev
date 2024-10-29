@@ -145,7 +145,13 @@ header.header-main
     .upcoming-events-title
         margin: 0 0 20px 0
     .concluded-events-title
-        margin: 50px 0 20px 0
+        margin: 50px 0 50px 0
+    .upcoming-events-link
+        color: $highlight
+        margin: 0px 0 50px 0
+        font-family: $font-stack-two
+        font-weight: 400
+        font-size: 1em
     .upcoming-events
         display: flex
         flex-direction: row
@@ -311,6 +317,7 @@ header.header-main
         //padding: 0
         //margin: 0
         .concluded-event
+            position: relative
             display: flex
             flex-direction: column
             justify-content: flex-start
@@ -440,7 +447,7 @@ header.header-main
                     transform: scale(1.01)
         @media screen and ( max-width: 1200px )
             flex-direction: column
-            max-width: 95%    
+            max-width: 95%   
         .concluded-event.cancelled
             .overlay
                 opacity: 1
@@ -451,4 +458,4 @@ header.header-main
                 font-family: $font-stack
                 font-weight: 700
                 letter-spacing: .25rem
-                -webkit-transform: scale(1,1.1)
+                -webkit-transform: scale(1,1.1) 

@@ -40,7 +40,14 @@ header.works-index-header-main
             @media screen and ( max-width: 360px )
                 font-size: 1.875em
 
+#loading-message
+    font-size: 1.5em
+    text-align: center
+    margin-top: 20px
+    display: block
+
 #works
+    display: none
     width: 90%
     max-width: 1400px
     margin: 0 auto 0 auto
@@ -203,6 +210,13 @@ header.works-index-header-main
                         background-repeat: repeat
                         -webkit-background-clip: text
                         -webkit-text-fill-color: transparent
+                    .workBuyLink
+                        background-color: #000000
+                        background-image: linear-gradient(90deg, #30c260 0%, #009e5f 50%, #30c260 100%)
+                        background-size: 100%
+                        background-repeat: repeat
+                        -webkit-background-clip: text
+                        -webkit-text-fill-color: transparent
                     .workInfoLink
                         background-color: #000000
                         background-image: linear-gradient(90deg, #000000 0%, #636b86 80%)
@@ -231,6 +245,7 @@ header.works-index-header-main
     font-size: 1.85em
     font-family: $font-stack-two
 #filters
+    display: none
     max-width: 1000px
     min-width: 300px
     margin: 0 auto 50px auto
