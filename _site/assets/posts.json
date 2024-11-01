@@ -1,0 +1,19 @@
+[
+  
+  {
+    "title": "Post Test 2",
+    "url": "/testcat0/2024/10/30/post-test2/",
+    "categories": "testCat0",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel odio pharetra, sodales orci eu, aliquet tellus. Nunc dignissim lorem quis enim iaculis tempus dictum in mauris.",
+    "featImg": "2024-10-30-post-test.jpg"
+  },
+  
+  {
+    "title": "Post Test",
+    "url": "/testcat/testcat0/2024/10/24/post-test/",
+    "categories": "testCat, testCat0",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel odio pharetra, sodales orci eu, aliquet tellus. Nunc dignissim lorem quis enim iaculis tempus dictum in mauris.",
+    "featImg": "2024-10-24-post-test.jpg"
+  }
+  
+]

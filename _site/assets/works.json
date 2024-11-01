@@ -1,0 +1,89 @@
+[
+    {
+      "title": "In Human Memories",
+      "subtitle": "for four cellos and<br>one electroacoustic player",
+      "year": 2024,
+      "duration": "20 min",
+      "instruments": ["cello","ensemble","liveElectronics"],
+      "description": "In Human Memories is a piece for pre-recorded and AI-generated voices, four cellos and live electronics. It explores the archetype of abandonment, inspired by the tragic stories of three different Didoes, taken from the operas by Niccolò Piccinni, Domenico Sarro, Henry Purcell. Each of them represents a unique aspect of love, loss and desolation, while retracing, dozens of times in the history of music, a well-known pattern: falling in love, Aeneas' abandonment, Dido's death. As in Greek tragedy, the audience is called to question the authenticity of emotions and memories in an era in which artificial intelligence can replicate and generate human-like expressions. As the piece unfolds, subtle features in the AI-generated lyrics and cloned voices can reveal the artificial nature of the fake memories employed, ultimately suggesting an underlying theme: the intrusion of AI into the deeply human experience of emotion.",
+      "soundcloud_url": "https://example.com/concerto",
+      "youtube_url": "https://example.com/concerto",
+      "spotify_url": "https://example.com/concerto",
+      "image": "in-human-memories.jpg",
+      "read": " ",
+      "premiere": "Auditorium Nino Rota, 24 luglio 2024"
+    },
+    {
+      "title": "A deep breath",
+      "subtitle": "for fixed media and S.T.ON3L,<br>one electroacoustic player",
+      "year": 2023,
+      "duration": "9 min",
+      "instruments": ["fixedMedia","liveElectronics"],
+      "description": "The electroacoustic interpreter and the S.T.ON3L instrument are positioned in the center of the room. The piece presents a formal arc segmented into sections, in which the performer explores very different listening areas, with their own peculiarities and identities. This piece breakdown is reflected in the processes of Live Electronics. Starting from a miking of the listening space and subsequent extraction of audio descriptors, various control signals are determined. Thus, a process of information \"feedback\" is created, emphasized, hidden, suppressed, kept alive by the interpreter's gestures. The interpreter interacts with the electroacoustic instrument at the auditory level only, stimulating the computer system using adaptive control signals. Using the footswitch can force a sudden opening of time windows in which live electronics processes can emerge. It's recommended using it discreetly, three or four times during the first section, characterizing each intervention. A single obligatory pedal intervention is foreseen, as marked in the score.",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/a-deep-breath",
+      "image": "a-deep-breath.png",
+      "premiere": "College of Music, Hanyang University, Seoul, 11-07-2024"
+    },
+    {
+      "title": "Preludio ai riti del fuoco",
+      "subtitle": "for orchestra",
+      "year": 2024,
+      "duration": "6 min",
+      "instruments": ["orchestra"],
+      "description": "The flame, the fire: common elements of local popular traditions, as demonstrated by the \"Register of festive rituals related to fire\" of the Puglia Region, but also of conceptually and geographically distant traditions. Symbol of heat and light, fire plays a particular role in the rite, becoming its climax: think of the rites of Christian Easter, as well as of the Orthodox one, a connection of traditions that the city of Bari has long learned to value. This compositional work, Prelude to the rites of fire, therefore seeks its own ritual dimension, in which the sound becomes an anabatic vehicle of tension towards the top not in strictly musical terms, but in imaginative ones. There is no rite without the reiteration of a gesture and one could say that there is no understanding of the musical meaning without the reiteration of a musical gesture. The piece therefore presents iterations of the same gesture which, in its most complex or most basic form, sculpts time, accompanying and preluding, perhaps, to something to come.",
+      "info1_url": "https://www.cittametropolitana.ba.it/vivere_il_comune/eventi/evento_26.html",
+      "info2_url": "https://www.consba.it/it/1054/eventi/8269/in-planctu-desidero",
+      "image": "preludio-riti-fuoco.jpg",
+      "read": " ",
+      "premiere": "Auditorium Nino Rota, 08-03-2024"
+    },
+    {
+      "title": "Variazioni",
+      "subtitle": "for orchestra",
+      "year": 216,
+      "duration": "15 min",
+      "instruments": ["orchestra"],
+      "description": "The concept of variation is one of the cornerstones on which traditional tonal music has been based, from its very beginnings to its most complex evolutions. A very effective classification of variation typologies was provided by Vincent D’Indy in his <em>Cours de Composition musicale</em> (Durand, 1948). The composer-treatise writer, in this work, distinguishes three typologies of variation: <em>ornamental</em>, obtainable through the application of melodic ornaments; <em>decorative</em>, the result of various modifications, including harmonic ones; finally <em>amplifying</em>, taking up the idea of ​​thematic amplification, typical of traditional classical music.<br>The <em>Variations</em> for Orchestra were modeled according to these principles. An exposition presents the chorale “Jesu, meine freude” in its entirety, in one of Johann Sebastian Bach’s harmonizations (BWV 227, in E minor), entrusted to the different sections of the ensemble, first the strings, then the woodwinds and brass. Five variations follow, each of a different character, in a progressive departure from the original theme. Although these variations are self-contained, they are not conceived as juxtaposed entities, but rather contextualized in a continuous flow of gradual transformation.<br>The piece ends with a double fugue. The exposition is followed by a series of modulations, modeled according to an imitative writing typical of the fugal entertainment: through a sudden caesura we move on to a new exposition of a second subject, at the end of which the meeting and overlapping of both subjects occurs. By increasingly tightening the various entrances we reach the climax of the piece that represents the return to the starting point, in a sort of circle that, finally, closes.",
+      "youtube_url": "https://www.youtube.com/watch?v=FO-2bhYqxDw&t=3s",
+      "buy_url": "https://davinci-edition.com/product/dv-10224/",
+      "image": "variazioni.png",
+      "premiere": "Auditorium Istituto Salesiano Redentore, Bari, 29-10-2016"
+    },
+    {
+      "title": "Ricordi di polvere",
+      "subtitle": "for flute and piano",
+      "year": 2015,
+      "duration": "7 min",
+      "instruments": ["flute", "piano"],
+      "description": "Not available",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/ricordi-di-polvere",
+      "image": "ricordi-polvere.jpg",
+      "premiere": "Sala Consiliare del Comune di Noicattaro, 17-05-2015"
+    },
+    {
+      "title": "Nelle pieghe",
+      "subtitle": "for orchestra",
+      "year": 2021,
+      "duration": "11 min",
+      "instruments": ["orchestra"],
+      "description": "First prize at International Composing Competition \"2 agosto\" XXVII Edition.<br>Dedicating a Composition competition to a terrible event, such as the Bologna massacre, is an undertaking that reveals how it is possible to stimulate the birth of new fresh branches from a ruined, destroyed stump. The \"2 agosto\" Competition is exactly this: a virtuous and precious procedure that, with force, unfolds creativity. Regarding the Bologna massacre, what has always struck me is the solution of continuity. eighty-five lives were literally interrupted, forever suspending the rituality of life, a ritual that some of them had even just undertaken. Around this idea takes shape \"Nelle pieghe\" (lit. \"In the folds\"), a piece for orchestra designed and created expressly for the \"2 Agosto\" Competition and dedicated to each of those eighty-five people. \"To interrupt\" can mean \"to tear\" a texture, disturbing very precise vector processes, directions that are thus found to no longer exist. But this is not the only way to interrupt something. A texture, however, can also be folded, hiding one or more parts, thus bringing together two different states of the same vector process, but precluding the process itself from view. So the idea is precisely this: what looks like a \"tear\" is in reality only a \"fold\", which hides materials, processes and directions. The work in question is divided into a series of sections, four specifically, which explore in a non-linear way some states of the musical material used. The first section presents the superficial fibers, extremely alive, iridescent and fibrillating. A \"class\" of affirmative syntagms is presented, articulated in a main macro-syntagm and in a series of aliases which, from time to time, broaden the frequency range, gradually distributing themselves over the entire orchestral mass. Soon the thesis, represented by the jeté of the strings, and the desinence, both smooth and striated, entrusted to the resonances of woodwind, brass and percussions, are expanded with the addition of a preparatory arsis. The syntagm thus becomes a sort of \"pulsar\" which tends to destabilize and depolarize the ecosystem in which it is found. The latter actually belongs to a second class of syntagms, generally entrusted to the strings, sensitive to the pulsations of the main object, whose presence alters its frequency field. The two classes thus tend to establish a lively, fluid dialectic. Through a metric modulation, suddenly the first tear occurs, or, better, the first unfolding, which shows a decidedly foreign, very deep level, with very different logics. In an almost fractal way, the two levels also establish a dialectical relationship, this time unbalanced: each unfolding becomes more and more prominent, so much so that at the end of the first section it is no longer possible to \"fold\" the texture to return to the higher level. The second section explores the space (or rather time) within this fold. The fibers of musical texture are very rarefied and relegated to very distant spectral areas. A magmatic texture, entrusted to double basses and contrabassoon, expands for the entire temporal extension, folded into a very slow ascending vector. A series of thinner fibers emerge, entrusted to the four solo strings, managed by a \"heterophony by constrained quantization\" algorithm, specifically designed for this work, which allows these four ethereal entities to weave a sort of very acute \"song\" with irregular contours and out of focus, reverberating in a space virtually recreated by the resonances of all the other string instruments. The third section represents the opposite side of the main fold, in a sort of ascent towards the initial texture. The crotales are entrusted with the role of starter of this process that attempts to join the two levels so far apart. The initial macro-syntagm is much more dilated and extended, in a sort of stretching process that lets a series of sharp and sparkling artifacts emerge (the crotales themselves). The ascent ends with the beginning of the fourth section which shows an evidence: processes that alter the material are not compatible with an unaltered return of the material itself. The main syntagm has almost disappeared. It has now lost the connotation of an affirmative and thetic event, only its contours (still entrusted to the strings) can be seen together with a series of rarefied morphemes which, almost rhizomatically, flash episodically in an epilogue that shows only the shells of this articulated process.",
+      "info1_url": "https://www.ansa.it/emiliaromagna/notizie/2021/07/29/vitucci-vince-il-concorso-2-agosto-col-brano-nelle-pieghe_9205caeb-02be-441a-b5d3-1ff89d9a3caf.html",
+      "info2_url": "https://concorso2agosto.it/blog/2021/07/12/winners-of-the-xxvii-edition/",
+      "image": "nelle-pieghe.jpg",
+      "premiere": "Piazza Maggiore, Bologna, 02-08-2021"
+    },
+    {
+      "title": "Taras",
+      "subtitle": "for baritone, choir and orchestra",
+      "year": 2021,
+      "duration": "30 min",
+      "instruments": ["voice","choir","orchestra"],
+      "description": "Mousiké et Areté<br>The Ancient Music of Magna Graecia - Taranto and its legend<br>Winning piece of th International call for the selection of a composer and a lyricist under 35; lyrics by Claudia Lucia Ostuni.",
+      "info1_url": "https://www.arcopu.com/it/news/-taras---ecco-il-mito-in-streaming",
+      "info2_url": "https://oraquadra.info/2021/03/23/taras-linedita-in-concattedrale-di-taranto-musike-et-arrete-orchestra-della-magna-grecia-e-coro-arcopu/",
+      "youtube_url": "https://www.youtube.com/watch?v=VVSfSnbg_58&t=488s",
+      "image": "taras.png",
+      "premiere": "Concattedrale Gran Madre di Dio, Taranto, 31-03-2021"
+    }
+  ]
+  
