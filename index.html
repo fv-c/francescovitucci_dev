@@ -30,7 +30,7 @@ layout: default
         {% assign countLimit = 4 %}
         {% for event in events%}
         {% if event.date >= today %}
-        <a class='upcoming-event {%if event.status == "cancelled" %} cancelled {% endif %}' {% if event.url %}href="https://www.mdw.ac.at/icsc2024/" target="_blank" style="cursor: pointer;" {% endif %}>
+        <a class='upcoming-event {%if event.status == "cancelled" %} cancelled {% endif %}' {% if event.url %}href="{{event.url}}" target="_blank" style="cursor: pointer;" {% endif %}>
             <img src="{{ site.baseurl }}/assets/img/icons/exclamation.svg" alt="">
             <div class="event-info">
                 <p class="date-event">{{ event.date | date: "%d-%m-%Y"  }}</p>

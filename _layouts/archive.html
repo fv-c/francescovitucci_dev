@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<header class="works-index-header-main"
+  style="background-image:url('{{ site.baseurl}}/assets/img/home-hero.jpg'); background-attachment: fixed;">
+  <div class="overlay-dark"></div>
+  {% include nav.html %}
+  <div class="works-index-title">
+    <h1 class="works-title">
+      {% if page.type == 'category' %}
+      Category<br>{{ page.title }}
+      {% elsif page.type == 'tag' %}
+      Tag: {{ page.title }}
+      {% elsif page.type == 'year' %}
+      Year<br>{{ page.date | date: "%Y" }}
+      {% endif %}
+    </h1>
+  </div>
+  <!-- <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.7.1.min.js"></script> -->
+</header>
+
+<ul>
+  {% for post in page.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+  </li>
+  {% endfor %}
+</ul>

@@ -30,3 +30,14 @@ sass:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - year
+    - categories
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    category: '/category/:name/'
+

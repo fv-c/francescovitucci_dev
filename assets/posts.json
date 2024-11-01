@@ -1,0 +1,14 @@
+---
+layout: null
+---
+[
+  {% for post in site.posts %}
+  {
+    "title": "{{ post.title | escape }}",
+    "url": "{{ post.url }}",
+    "categories": "{{ post.categories | join: ', ' }}",
+    "excerpt": "{{ post.excerpt | strip_newlines | escape }}",
+    "featImg": "{{ post.featImg }}"
+  }{% if forloop.last == false %},{% endif %}
+  {% endfor %}
+]

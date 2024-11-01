@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <header class="blog-index-header-main" style="background-image:url('{{ site.url }}{{ site.blogImgBin_path }}{{ page.featImg }}');">
     <div class="overlay-dark">
@@ -15,6 +14,11 @@ comments: true
     </div>
 </header>
 <div class="blogPostContentWrapper">
+    <div class="blogCateoriesWrapper">
+        {% for category in page.categories %}
+        <a class="blogPostCategory" href="{{ site.baseurl }}/category/{{ category }}" target="_blank">{{ category }}</a>
+        {% endfor %}
+    </div>
     {{ content }}
 </div>
 <hr>
@@ -23,7 +27,7 @@ comments: true
     {% for post in site.posts limit: 3 %}
         <div class="blogPostContainer">
             <a href="{{ post.url }}" class="blogPostFeatImg" style="background-image: url('{{ site.baseurl}}{{ site.blogImgBin_path }}lowRes/{{ post.featImg }}');"></a>
-            <a href="" class="blogCategory">{{ post.categories }}</a>
+            <a href="{{ post.url }}" class="blogCategory">{{ post.categories | join: ', ' }}</a>
             <a href="{{ post.url }}" class="blogTitle">{{ post.title }}</a>
             <p class="blogExcerpt">{{ post.excerpt }}</p>
         </div>
