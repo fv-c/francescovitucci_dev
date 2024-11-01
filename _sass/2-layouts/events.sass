@@ -54,6 +54,10 @@ header.events-index-header-main
         width: 70%
         min-height: 200px
         gap:20px
+        @media screen and ( max-width: 320px )
+            width: 95%
+        @media screen and (min-width: 320px) and ( max-width: 768px )
+            width: 80%
         .upcoming-event.cancelled
             h2
                 text-decoration: line-through
@@ -63,12 +67,15 @@ header.events-index-header-main
             display: flex
             flex-direction: row
             align-items: stretch
+            flex-wrap: wrap
             width: 100%
             min-height: 200px
-            max-height: 200px
+            //max-height: 200px
             gap: 10px
+            @media screen and ( max-width: 768px )
+                justify-content: center
             .event-info-wrapper
-                width: 25%
+                width: 250px
                 display: flex
                 flex-direction: row
                 justify-content: center
@@ -126,8 +133,15 @@ header.events-index-header-main
                 display: flex
                 flex-direction: column
                 justify-content: flex-start
-                width: 75%
+                width: 70%
                 min-height: 200px
+                @media screen and ( max-width: 768px )
+                    width: 95%
+                    align-content: center
+                    justify-content: center
+                    text-align: center
+                @media screen and ( min-width: 769px ) and ( max-width: 1024px )
+                    width: 50%
                 h2
                     margin: 10px
                 p
@@ -147,7 +161,5 @@ header.events-index-header-main
                     border: 1px solid rgb(238, 34, 34)
                     border-radius: 10px
                     padding: 10px
-        @media screen and ( max-width: 500px )
-            width: 95%
             
         

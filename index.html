@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<header class="header-main" style="background-image:url('{{ site.baseurl}}/assets/img/home-hero.jpg')">
+<header class="header-main" style="background-image:url('{{ site.url}}/assets/img/home-hero.jpg')">
     <div class="overlay-light"></div>
     {% include nav.html %}
     <div class="home-title">
@@ -17,12 +17,12 @@ layout: default
         (Italian Society of Contemporary Music), his works are performed in concerts and contemporary music festivals,
         in Italy and abroad, and have been positively evaluated in various national and international composition
         competitions.<br>His field of research is the algorithmic composition of acoustic and electroacoustic music. <a
-            href="{{ site.baseurl }}/bio" target="_blank">(Read more)</a></p>
+            href="{{ site.url }}/bio" target="_blank">(Read more)</a></p>
 </div>
 <hr>
 <div class="events">
     <h2 class="upcoming-events-title">Upcoming events</h2>
-    <a href="{{ site.baseurl }}/events" target="_blank" class="upcoming-events-link">(More)</a>
+    <a href="{{ site.url }}/events" target="_blank" class="upcoming-events-link">(More)</a>
     <div class="upcoming-events">
         {% assign today = "now" | date: "%Y-%m-%d" %}
         {% assign events = site.data.events | sort: "date" %}
@@ -31,7 +31,7 @@ layout: default
         {% for event in events%}
         {% if event.date >= today %}
         <a class='upcoming-event {%if event.status == "cancelled" %} cancelled {% endif %}' {% if event.url %}href="{{event.url}}" target="_blank" style="cursor: pointer;" {% endif %}>
-            <img src="{{ site.baseurl }}/assets/img/icons/exclamation.svg" alt="">
+            <img src="{{ site.url }}/assets/img/icons/exclamation.svg" alt="">
             <div class="event-info">
                 <p class="date-event">{{ event.date | date: "%d-%m-%Y"  }}</p>
                 {% if event.time %}<p class="time-event">{{ event.time }}</p>{% endif %}
@@ -62,7 +62,7 @@ layout: default
         {% for event in events%}
         {% if event.date < today %}
         <a class='concluded-event {%if event.status == "cancelled" %} cancelled {% endif %}' {% if event.url %}href="https://www.mdw.ac.at/icsc2024/" target="_blank" {% endif %}>
-            <img src="{{ site.baseurl }}/assets/img/icons/concluded.svg" alt="">
+            <img src="{{ site.url }}/assets/img/icons/concluded.svg" alt="">
             <div class="event-info">
                 <p class="date-event">{{ event.date | date: "%d-%m-%Y" }}</p>
                 {% if event.time %}<p class="time-event">{{ event.time }}</p>{% endif %}

@@ -1,5 +1,7 @@
 #!/bin/bash
 
-jekyll build
+rm -rf ../francescovitucci/*
+
+bundle exec jekyll build
 
 cp -R _site/* ../francescovitucci
