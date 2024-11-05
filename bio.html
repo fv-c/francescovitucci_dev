@@ -8,8 +8,8 @@ layout: bioL
     <div class="bio-index-title">
         <h1 class="bio-title">Bio</h1>
         <div class="bio-language-buttons">
-            <button class="toggle-btn selected" onclick="toggleBio('en')">ENG</button>
-            <button class="toggle-btn" onclick="toggleBio('it')">ITA</button>
+            <a class="toggle-btn selected" onclick="toggleBio('en')" href="#bio-wrapper">ENG</a>
+            <a class="toggle-btn" onclick="toggleBio('it')" href="#bio-wrapper">ITA</a>
         </div>
     </div>
 </header>
@@ -18,7 +18,7 @@ layout: bioL
     <p>Download</p>
     <img src="{{ site.url}}/assets/img/icons/markdown.svg" alt="">
 </button>
-<div class="bio-wrapper">
+<div class="bio-wrapper" id="bio-wrapper">
     <div id="bio-en" class="bio-content visible">
         {% include _cv/bio-eng.html %}
     </div>

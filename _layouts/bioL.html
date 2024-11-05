@@ -29,9 +29,15 @@
       // Trova il contenuto di biografia visibile
       const visibleBio = document.querySelector('.bio-content.visible');
 
+      // Crea una copia del contenuto per rimuovere le immagini senza alterare l'originale
+      const bioClone = visibleBio.cloneNode(true);
+
+      // Rimuovi tutte le immagini dal contenuto clonato
+      bioClone.querySelectorAll('img').forEach(img => img.remove());
+
       // Inizializza Turndown e converti l'HTML in Markdown
       const turndownService = new TurndownService();
-      const markdownText = turndownService.turndown(visibleBio.innerHTML);
+      const markdownText = turndownService.turndown(bioClone.innerHTML);
 
       // Aggiungi la riga di attribuzione e la licenza
       const attribution = "\n\n---\n\n" +
