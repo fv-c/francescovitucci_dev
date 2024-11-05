@@ -107,22 +107,84 @@ header.blog-index-header-main
 .blogCategory, .blogTitle, .blogExcerpt
     padding: 0 20px
 
+// .code-container
+//     position: relative
+//     display: inline-block
+//     width: 100%
+
+//     .copy-btn
+//         position: absolute
+//         right: 15px
+//         top: -15px
+//         padding: 5px 10px
+//         font-size: 12px
+//         cursor: pointer
+//         background-color: transparent
+//         color: #555
+//         border: 1px solid #ddd
+//         border-radius: 4px
+//         transition: all 0.3s ease
+//         font-family: Arial, sans-serif
+
+//         &:hover
+//             background-color: #f0f0f0
+//             color: #333
+//             border-color: #bbb
+
+//         &.copied
+//             background-color: $highlight
+//             color: white
+//             border-color: $highlight
+
 .code-container
     position: relative
-    display: inline-block
     width: 100%
+    border: 1px solid #ddd
+    border-radius: 5px
+    overflow: hidden
+    background-color: #f8f8f8
 
-    .copy-btn
-        position: absolute
-        right: 5px
-        top: 5px
-        padding: 5px 10px
-        font-size: 12px
-        cursor: pointer
-        background-color: #f5f5f5 // Colore di sfondo
-        border: 1px solid #ccc    // Bordo sottile
-        border-radius: 3px
-        transition: background-color 0.2s
+    .code-header
+        display: flex
+        align-items: center
+        justify-content: space-between
+        background-color: #f0f0f0
+        padding: 8px 12px
+        font-size: 14px
+        font-family: Arial, sans-serif
+        border-bottom: 1px solid #ddd
+        color: #333
 
-    &:hover
-      background-color: #e0e0e0
+        span
+            font-weight: bold
+            color: #666
+
+        .copy-btn
+            padding: 4px 8px
+            font-size: 12px
+            cursor: pointer
+            background-color: transparent
+            color: #555
+            border: 1px solid #ddd
+            border-radius: 3px
+            transition: all 0.3s ease
+
+            &:hover
+                background-color: #e0e0e0
+                color: #333
+                border-color: #bbb
+
+            &.copied
+                background-color: #4CAF50
+                color: white
+                border-color: #4CAF50
+
+    pre
+        margin: 0
+        padding: 15px
+        font-size: 14px
+        font-family: monospace
+        line-height: 1.5
+        background-color: #f8f8f8
+        overflow-x: auto
+

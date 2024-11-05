@@ -74,10 +74,20 @@
 #                     capture_output=True
 #                 ).stdout
 
+#                 # Crea il bottone di copia con funzionalità JavaScript
+#                 copy_button = """
+#                 <button class="copy-btn" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)">Copy</button>
+#                 """
+
+#                 # Aggiunge il bottone e il codice evidenziato in un container
+#                 highlighted_code_with_button = f"""
+#                 <div class="code-container">{copy_button}{pygmentize_output}</div>
+#                 """
+
 #                 # Sostituisci il div nel contenuto con il blocco evidenziato <pre><code> e l’immagine SVG
 #                 svg_path = f"{output_path}.svg"
 #                 img_tag = f'<img src="{site_url}/assets/img/scores/{filename}-{timestamp}-1.svg" alt="Partitura generata" class="lilyFragmentImg">'
-#                 content = content.replace(f'<div class="lilyFragmentWithScore">{code}</div>', pygmentize_output + img_tag)
+#                 content = content.replace(f'<div class="lilyFragmentWithScore">{code}</div>', highlighted_code_with_button + img_tag)
 
 #             # Salva le modifiche nel file HTML
 #             with open(file_path, "w") as file:
@@ -159,20 +169,25 @@ for root, dirs, files in os.walk("_site"):
                     capture_output=True
                 ).stdout
 
-                # Crea il bottone di copia con funzionalità JavaScript
-                copy_button = """
-                <button class="copy-btn" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)">Copy</button>
+                # Crea l'intestazione con nome del linguaggio e pulsante di copia
+                code_header = """
+                <div class="code-header">
+                    <span class="language-label">LilyPond</span>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText(this.closest('.code-container').querySelector('code').innerText)">Copy</button>
+                </div>
                 """
 
-                # Aggiunge il bottone e il codice evidenziato in un container
-                highlighted_code_with_button = f"""
-                <div class="code-container">{copy_button}{pygmentize_output}</div>
+                # Aggiunge l'intestazione, codice evidenziato e immagine in un container
+                highlighted_code_with_header = f"""
+                <div class="code-container">
+                    {code_header}
+                    <pre><code>{pygmentize_output}</code></pre>
+                </div>
+                {img_tag}
                 """
 
-                # Sostituisci il div nel contenuto con il blocco evidenziato <pre><code> e l’immagine SVG
-                svg_path = f"{output_path}.svg"
-                img_tag = f'<img src="{site_url}/assets/img/scores/{filename}-{timestamp}-1.svg" alt="Partitura generata" class="lilyFragmentImg">'
-                content = content.replace(f'<div class="lilyFragmentWithScore">{code}</div>', highlighted_code_with_button + img_tag)
+                # Sostituisci il div nel contenuto con il blocco evidenziato completo
+                content = content.replace(f'<div class="lilyFragmentWithScore">{code}</div>', highlighted_code_with_header)
 
             # Salva le modifiche nel file HTML
             with open(file_path, "w") as file:
