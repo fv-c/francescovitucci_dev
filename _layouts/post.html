@@ -16,7 +16,7 @@ layout: default
 <div class="blogPostContentWrapper">
     <div class="blogCateoriesWrapper">
         {% for category in page.categories %}
-        <a class="blogPostCategory" href="{{ site.url }}/category/{{ category }}" target="_blank">{{ category }}</a>
+        <a class="blogPostCategory" href="{{ site.url }}/category/{{ category | downcase }}" target="_blank">{{ category }}</a>
         {% endfor %}
     </div>
     {{ content }}

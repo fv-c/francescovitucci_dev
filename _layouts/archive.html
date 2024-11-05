@@ -8,21 +8,20 @@ layout: default
   <div class="archive-index-title">
     <h1 class="archive-title">
       {% if page.type == 'category' %}
-      Category<br>{{ page.title }}
+      Category:<br>{{ page.title }}
       {% elsif page.type == 'tag' %}
-      Tag: {{ page.title }}
+      Tag:<br>{{ page.title }}
       {% elsif page.type == 'year' %}
-      Year<br>{{ page.date | date: "%Y" }}
+      Year:<br>{{ page.date | date: "%Y" }}
       {% endif %}
     </h1>
   </div>
-  <!-- <script type="text/javascript" src="{{ site.url }}/assets/js/jquery-3.7.1.min.js"></script> -->
 </header>
 
 <div class="archiveWrapper">
   {% for post in page.posts %}
   <div class="archivePost">
-    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d-%m-%Y" }}
+    <a href="{{ site.url}}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d-%m-%Y" }}
   </div>
   {% endfor %}
 </div>
