@@ -7,7 +7,7 @@ layout: default
     {% include nav.html %}
     <div class="blog-index-title">
         <h1 class="featured-blog-post-title">{{ post.title }}</h1>
-        <a href="{{ post.url }}" class="read-featured-blog-post">Read</a>
+        <a href="{{ site.url }}{{ post.url }}" class="read-featured-blog-post">Read</a>
     </div>
 </header>
 {% endfor %}

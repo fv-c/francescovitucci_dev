@@ -11,8 +11,6 @@ linkedin_path: https://www.linkedin.com/in/francesco-vitucci/
 
 blogImgBin_path: /assets/img/blog/
 
-exclude: [jekyllbuild.sh]
-
 # Build settings
 permalink: pretty
 markdown: kramdown
@@ -24,6 +22,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - jekyllbuild.sh
+  - lilypondprocess.py
 
 sass:
   sass_dir: _sass
