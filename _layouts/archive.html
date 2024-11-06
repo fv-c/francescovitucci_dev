@@ -18,11 +18,35 @@ layout: default
   </div>
 </header>
 
-<div class="archiveWrapper">
+<!-- <div class="archiveWrapper">
   {% for post in page.posts %}
   <div class="archivePost">
     <a href="{{ site.url}}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d-%m-%Y" }}
   </div>
   {% endfor %}
 </div>
+<hr> -->
+
+{% assign toggle = toggle | default: true %}  <!-- Imposta `toggle` su true la prima volta -->
+
+<div class="archiveWrapper">
+  {% for post in page.posts %}
+  <div class="timeline-item {% if toggle %}right{% else %}left{% endif %}">
+    <div class="timeline-date">
+      <span>{{ post.date | date: "%d-%m" }}</span>
+      <span>{{ post.date | date: "%Y" }}</span>
+    </div>
+    <div class="timeline-content">
+      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    </div>
+  </div>
+  {% if toggle %}
+    {% assign toggle = false %}
+  {% else %}
+    {% assign toggle = true %}
+  {% endif %}
+  {% endfor %}
+</div>
 <hr>
+
+

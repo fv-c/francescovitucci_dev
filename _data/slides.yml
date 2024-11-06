@@ -1,0 +1,18 @@
+- title: "slides1"
+  photos:
+    - "daedalus.jpg"
+    - "taras.png"
+    - "variazioni.png"
+  captions:
+    - "caption1"
+    - "caption2"
+    - "caption3"
+- title: "slides2"
+  photos:
+    - "daedalus.jpg"
+    - "taras.png"
+    - "variazioni.png"
+  captions:
+    - "caption1"
+    - "caption2"
+    - "caption3"

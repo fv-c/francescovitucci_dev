@@ -40,14 +40,87 @@ header.archive-index-header-main
             @media screen and ( max-width: 360px )
                 font-size: 1.875em
 
+// .archiveWrapper
+//     display: flex
+//     flex-direction: column
+//     align-items: flex-start
+//     justify-content: flex-start
+//     margin: 50px auto
+//     min-width: 300px
+//     width: 50%
+//     border-left: 3px solid $secondary
+//     padding-left : 20px
+//     .archivePost
+//         margin: 5px 0
+//         a
+//             color: $highlight
+
 .archiveWrapper
+    position: relative
     display: flex
     flex-direction: column
-    align-items: flex-start
-    justify-content: flex-start
-    margin: 50px auto
-    min-width: 300px
-    width: 50%
-    border: 1px solid black
-    .archivePost
-        margin: 5px 0
+    align-items: center
+    justify-content: center
+    padding-top: 70px
+    padding-bottom: 70px
+    &::before
+        content: ""
+        position: absolute
+        width: 4px
+        background-color: $secondary
+        top: 140px
+        bottom: 65px
+        left: 50%
+        transform: translateX(-50%)  // Linea centrale della timeline
+
+    .timeline-item
+        display: flex
+        align-items: center
+        width: 100%
+        max-width: 800px
+        margin: 40px 0 20px 0
+        position: relative
+
+        &.left
+            justify-content: flex-end
+            .timeline-content
+                text-align: left
+                margin-right: 5%  // Spazio a destra per distanziare dalla linea centrale
+
+        &.right
+            justify-content: flex-start
+            .timeline-content
+                text-align: right
+                margin-left: 5%  // Spazio a sinistra per distanziare dalla linea centrale
+
+    .timeline-date
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        width: 60px
+        height: 60px
+        background-color: $primary
+        border-radius: 50%
+        font-size: 1em
+        font-family: $font-stack-two
+        color: $white
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        z-index: 1
+
+    .timeline-content
+        width: 40%
+        padding: 20px
+        //border: 2px solid $secondary
+        //border-radius: 5px
+        background-color: $white
+        position: relative
+        z-index: 0
+
+        a
+            color: $highlight
+            text-decoration: none
+            font-weight: bold
+
