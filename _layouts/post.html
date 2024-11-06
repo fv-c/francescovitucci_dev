@@ -26,9 +26,9 @@ layout: default
 <div class="blogReadMoreWrapper">
     {% for post in site.posts limit: 3 %}
         <div class="blogPostContainer">
-            <a href="{{ post.url }}" class="blogPostFeatImg" style="background-image: url('{{ site.url}}{{ site.blogImgBin_path }}lowRes/{{ post.featImg }}');"></a>
-            <a href="{{ post.url }}" class="blogCategory">{{ post.categories | join: ', ' }}</a>
-            <a href="{{ post.url }}" class="blogTitle">{{ post.title }}</a>
+            <a href="{{ site.url }}{{ post.url }}" class="blogPostFeatImg" style="background-image: url('{{ site.url}}{{ site.blogImgBin_path }}lowRes/{{ post.featImg }}');"></a>
+            <a href="{{ site.url }}{{ post.url }}" class="blogCategory">{{ post.categories | join: ', ' }}</a>
+            <a href="{{ site.url }}{{ post.url }}" class="blogTitle">{{ post.title }}</a>
             <p class="blogExcerpt">{{ post.excerpt }}</p>
         </div>
     {% endfor %}
