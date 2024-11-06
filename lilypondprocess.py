@@ -123,10 +123,10 @@ for root, dirs, files in os.walk("_site"):
             lilypond_with_score_blocks = re.findall(r'<div class="lilyFragmentWithScore">(.*?)</div>', content, re.DOTALL)
             
             # Processa i blocchi con classe lilyFragment
-            for code in lilypond_blocks:
-                # Genera un nome file unico usando data e ora
+            for idx, code in enumerate(lilypond_blocks):
+                # Genera un nome file unico usando data, ora e un indice progressivo
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-                output_path = f"{output_folder}/{filename}-{timestamp}"
+                output_path = f"{output_folder}/{filename}-{timestamp}-{idx}"
 
                 # Salva il codice LilyPond temporaneamente
                 temp_file_path = "temp.ly"
@@ -139,16 +139,16 @@ for root, dirs, files in os.walk("_site"):
                 # Rimuovi il file temporaneo dopo la compilazione
                 os.remove(temp_file_path)
                 
-                # Sostituisci il div nel contenuto con l’immagine SVG
+                # Sostituisci il div nel contenuto con l’immagine SVG univoca
                 svg_path = f"{output_path}.svg"
-                img_tag = f'<img src="{site_url}/assets/img/scores/{filename}-{timestamp}-1.svg" alt="Partitura generata" class="lilyFragmentImg">'
+                img_tag = f'<img src="{site_url}/assets/img/scores/{filename}-{timestamp}-{idx}-1.svg" alt="Partitura generata" class="lilyFragmentImg">'
                 content = content.replace(f'<div class="lilyFragment">{code}</div>', img_tag)
 
             # Processa i blocchi con classe lilyFragmentWithScore
-            for code in lilypond_with_score_blocks:
-                # Genera un nome file unico usando data e ora
+            for idx, code in enumerate(lilypond_with_score_blocks):
+                # Genera un nome file unico usando data, ora e un indice progressivo
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-                output_path = f"{output_folder}/{filename}-{timestamp}"
+                output_path = f"{output_folder}/{filename}-{timestamp}-{idx}"
 
                 # Salva il codice LilyPond temporaneamente
                 temp_file_path = "temp.ly"
@@ -183,12 +183,14 @@ for root, dirs, files in os.walk("_site"):
                     {code_header}
                     <pre><code>{pygmentize_output}</code></pre>
                 </div>
-                {img_tag}
                 """
 
-                # Sostituisci il div nel contenuto con il blocco evidenziato completo
-                content = content.replace(f'<div class="lilyFragmentWithScore">{code}</div>', highlighted_code_with_header)
+                # Sostituisci il div nel contenuto con il blocco evidenziato completo e SVG unico
+                svg_path = f"{output_path}.svg"
+                img_tag = f'<img src="{site_url}/assets/img/scores/{filename}-{timestamp}-{idx}-1.svg" alt="Partitura generata" class="lilyFragmentImg">'
+                content = content.replace(f'<div class="lilyFragmentWithScore">{code}</div>', highlighted_code_with_header + img_tag)
 
             # Salva le modifiche nel file HTML
             with open(file_path, "w") as file:
                 file.write(content)
+
