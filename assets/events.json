@@ -1,0 +1,31 @@
+[
+  {
+    "title": "ICSC 2024",
+    "date": "2024-09-20",
+    "time": "11:00",
+    "type": "Conference",
+    "location": "University of Music and Performing Arts, Vienna",
+    "description": "International Csound Conference<br>Session 16: Integrated Csound 2<br>Opening mind by opening architecture: analysis strategies",
+    "url": "https://www.mdw.ac.at/icsc2024/",
+    "status": "active"
+  },
+  {
+    "title": "SIMC Festival - Autumn - IX concert",
+    "date": "2024-11-10",
+    "time": "17:00",
+    "type": "Concert",
+    "location": "Auditorium \"Andrea Celesti\", Desenzano del Garda",
+    "description": "SIMC Festival - Autumn - IX concert.<br>Commissioned piece: Lumina (2024) for fixed media.",
+    "url": "https://www.simc-italia.com/novita/simc-festival-autunno-2024/",
+    "status": "active"
+  },
+  {
+    "title": "IHM - ArteScienza 2025",
+    "date": "2025-07-06",
+    "time": "21:00",
+    "type": "Concert",
+    "location": "GOETHE-INSTITUT Rom Auditorium, Roma",
+    "description": "Extended version.<br>ArteScienza 2025.<br>Musicians: Roberta Pastore, Donatello Notarnicola, Emanuela Storelli, Fedora Palladino, Daniele Giuseppe Annese, Francesco Vitucci",
+    "status": "active"
+  }
+]

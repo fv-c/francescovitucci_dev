@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<header class="blog-index-header-main" style="background-image:url('{{ site.url }}{{ site.blogImgBin_path }}{{ page.featImg }}');">
+<header class="blog-index-header-main"
+    style="background-image:url('{{ site.url }}{{ site.blogImgBin_path }}{{ page.featImg }}');">
     <div class="overlay-dark">
     </div>
     {% include nav.html %}
@@ -9,8 +10,10 @@ layout: default
         <h1 class="featured-blog-post-title">{{ page.title }}</h1>
     </div>
     <div class="authorCard">
-        <img src="{{ site.url }}{{ site.data.authors[page.author].avatar }}" alt="{{ site.data.authors[page.author].name }} Avatar"/>
-        <small><em>by <a href="">{{ site.data.authors[page.author].name }}</a><br>on {{ page.date | date: "%B %e, %Y" }}</em></small>
+        <img src="{{ site.url }}{{ site.data.authors[page.author].avatar }}"
+            alt="{{ site.data.authors[page.author].name }} Avatar" />
+        <small><em>by <a href="">{{ site.data.authors[page.author].name }}</a><br>on {{ page.date | date: "%B %e, %Y"
+                }}</em></small>
     </div>
 </header>
 <div class="blogPostContentWrapper">
@@ -23,13 +26,35 @@ layout: default
 </div>
 <hr>
 <h5 class="readMoreCTA">You might want to Read...</h5>
-<div class="blogReadMoreWrapper">
-    {% for post in site.posts limit: 3 %}
-        <div class="blogPostContainer">
-            <a href="{{ site.url }}{{ post.url }}" class="blogPostFeatImg" style="background-image: url('{{ site.url}}{{ site.blogImgBin_path }}lowRes/{{ post.featImg }}');"></a>
-            <a href="{{ site.url }}{{ post.url }}" class="blogCategory">{{ post.categories | join: ', ' }}</a>
-            <a href="{{ site.url }}{{ post.url }}" class="blogTitle">{{ post.title }}</a>
-            <p class="blogExcerpt">{{ post.excerpt }}</p>
-        </div>
-    {% endfor %}
-</div>
+<div class="blogReadMoreWrapper"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", async function () {
+
+        const response = await fetch('{{ site.url }}/assets/posts.json');
+        const posts = await response.json();
+
+        const currentCategories = JSON.parse('{{ page.categories | jsonify }}');
+
+        const filteredPosts = posts.filter(post => {
+            const postCategories = post.categories.split(",").map(category => category.trim());
+            return postCategories.some(category => currentCategories.includes(category));
+        });
+
+        const recommendedPosts = filteredPosts.slice(0, 3);
+
+        let html = '';
+        recommendedPosts.forEach(post => {
+            html += `
+            <div class="blogPostContainer">
+                <a href="${post.url}" class="blogPostFeatImg" style="background-image: url('{{ site.url }}/assets/img/blog/lowRes/${post.featImg}');"></a>
+                <a href="${post.url}" class="blogCategory">${post.categories}</a>
+                <a href="${post.url}" class="blogTitle">${post.title}</a>
+                <p class="blogExcerpt">${post.excerpt}</p>
+            </div>
+        `;
+        });
+
+        document.querySelector(".blogReadMoreWrapper").innerHTML = html;
+    });
+</script>

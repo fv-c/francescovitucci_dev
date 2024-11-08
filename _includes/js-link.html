@@ -1,5 +1,4 @@
 <script type="text/javascript" src="{{ site.url }}/assets/js/jquery-3.7.1.min.js"></script>
-<!-- <script type="text/javascript" src="{{ site.url }}/assets/js/functions.js"></script> -->
 <script>
     $('.toggled-nav-wrapper').on('click', function (e) {
         e.stopPropagation();
@@ -9,51 +8,31 @@
     });
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
-        const targetElement = document.querySelector(this.getAttribute('href'));
+            const targetElement = document.querySelector(this.getAttribute('href'));
 
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop,
-                behavior: 'smooth'
-            });
-        }
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
     });
-});
 </script>
 
 <script>
-//     document.querySelectorAll('.copy-btn').forEach(button => {
-//     button.addEventListener('click', () => {
-//         // Salva il testo originale
-//         const originalText = button.textContent;
-        
-//         // Copia il contenuto del blocco di codice
-//         navigator.clipboard.writeText(button.nextElementSibling.innerText).then(() => {
-//             // Cambia il testo del pulsante a "Copied" e applica la classe di feedback
-//             button.textContent = "Copied";
-//             button.classList.add('copied');
-            
-//             // Torna al testo originale dopo 2 secondi
-//             setTimeout(() => {
-//                 button.textContent = originalText;
-//                 button.classList.remove('copied');
-//             }, 2000);
-//         });
-//     });
-// });
-document.querySelectorAll('.copy-btn').forEach(button => {
-    button.addEventListener('click', () => {
-        const originalText = button.textContent;
-        button.textContent = "Copied";
-        button.classList.add('copied');
-        setTimeout(() => {
-            button.textContent = originalText;
-            button.classList.remove('copied');
-        }, 2000);
+    document.querySelectorAll('.copy-btn').forEach(button => {
+        button.addEventListener('click', () => {
+            const originalText = button.textContent;
+            button.textContent = "Copied";
+            button.classList.add('copied');
+            setTimeout(() => {
+                button.textContent = originalText;
+                button.classList.remove('copied');
+            }, 2000);
+        });
     });
-});
-
 </script>

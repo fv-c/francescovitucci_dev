@@ -11,77 +11,17 @@ layout: default
 </header>
 
 <div class="events-wrapper">
-    <h2 class="upcoming-events-title">Upcoming events</h2>
+    <h2 class="upcoming-events-title">Upcoming Events</h2>
     <div class="upcoming-events">
-        {% assign today = "now" | date: "%Y-%m-%d" %}
-        {% assign events = site.data.events | sort: "date" %}
-
-        {% assign current_year = nil %} <!-- Variabile per tenere traccia dell'anno corrente -->
-
-        {% for event in events %}
-        {% if event.date >= today %}
-        {% assign event_year = event.date | date: "%Y" %} <!-- Estrai l'anno dall'evento -->
-
-        <!-- Mostra un divisorio con l'anno se cambia rispetto al precedente -->
-        {% if event_year != current_year %}
-        <h2 class="year-divider">{{ event_year }}</h2>
-        {% assign current_year = event_year %}
-        {% endif %}
-
-        <div class='upcoming-event {% if event.status == "cancelled" %}cancelled{% endif %}'>
-
-            <div class="event-info-wrapper">
-                <div class="event-info">
-                    <p class="date-event">
-                        {% assign month = event.date | date: "%m" %}
-                        {{ event.date | date: "%d" }}
-                        {% case month %}
-                        {% when "01" %}
-                        JAN.
-                        {% when "02" %}
-                        FEB.
-                        {% when "03" %}
-                        MAR.
-                        {% when "04" %}
-                        APR.
-                        {% when "05" %}
-                        MAY.
-                        {% when "06" %}
-                        JUNE
-                        {% when "07" %}
-                        JULY
-                        {% when "08" %}
-                        AUG.
-                        {% when "09" %}
-                        SEPT
-                        {% when "10" %}
-                        OCT.
-                        {% when "11" %}
-                        NOV.
-                        {% when "12" %}
-                        DEC.
-                        {% else %}
-                        This is not a month number
-                        {% endcase %}
-                    </p>
-                    {% if event.time %}<p class="time-event">{{ event.time }}</p>{% endif %}
-                    {% if event.location %}<p class="place-event">{{ event.location }}</p>{% endif %}
-                    {% if event.type %}<p class="type-event">{{ event.type }}</p>{% endif %}
-                </div>
-            </div>
-
-            <div class="event-content">
-                <h2>{{ event.title }}</h2>
-                {% if event.description %}<p>{{ event.description }}</p>{% endif %}
-                {% if event.url %} <a href="{{ event.url }}" target="_blank">Read more</a> {% endif %}
-                {% if event.status == 'cancelled' %}
-                <div class="event-cancelled-mark">Cancelled</div>
-                {% endif %}
-            </div>
-        </div>
-        <hr style="width: 75%;">
-        {% endif %}
-        {% endfor %}
+        <p class="loading-message">Loading...</p>
     </div>
     <hr>
+    <h2 class="concluded-events-title">Recent Events</h2>
+    <div class="concluded-events">
+        <p class="loading-message">Loading...</p>
+    </div>
 </div>
+
+
+
+<script src="{{ site.url }}/assets/js/events-on-events.js"></script>
