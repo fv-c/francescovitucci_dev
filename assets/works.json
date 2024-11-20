@@ -199,6 +199,50 @@
       "premiere": "Liedrezital Zürich, Zurigo, 07-05-2022",
       "buy_url": "https://label.stradivarius.it/wp/prodotto/neve-schnee/",
       "info1_url": "https://liedrezital.ch/eventreader/die-gewinner-des-junges-lied-wettbewerbs.html"
+    },
+    {
+      "title": "Pinax",
+      "subtitle": "for violin",
+      "year": 2021,
+      "duration": "5 min",
+      "instruments": ["violin","strings"],
+      "description": "Il termine pinax (πίναξ) nella Grecia antica e nella Magna Grecia indicava una tavoletta votiva, dedicata ad una divinità e in genere posizionata in un tempio o comunque in un luogo sacro. Il termine, originariamente, indicava in realtà il supporto stesso che serviva a realizzare queste immagini votive, ovvero la tavola di terracotta che, mediante incisione, sarebbe poi diventata “portatrice di senso”, ospitando ora una scena di sacrificio, ora una battuta di caccia, e così via.<br>Quest'oggetto, così limitato per forma e dimensione, ospita quindi dentro di sé ben più di quello che si vede sulla superfice, per due motivi: una rappresentazione simbolica offre spazio a possibili interpretazioni, differenti anche ad ogni lettura; inoltre, una qualsiasi “scena” implica un “retroscena”, in cui agiscono forze che non sono direttamente “visibili”, ma si muovono, vivono, esistono, per così dire.<br>Queste idee hanno portato alla scrittura di Pinax (2021) per violino solo.<br>Tutto inizia con una dichiarazione, uno “statement” iniziale del materiale, la superfice del tessuto che compone il brano. Seguono una serie di letture che focalizzano l’attenzione su alcuni particolari, mostrando vari percorsi che si intrecciano libermente e che si svolgono, via via, in uno strato sempre più differito rispetto alla “scena” iniziale.",
+      "image": "pinax.jpg",
+      "premiere": "Parco della Musica, Teatro Studio Borgna, Roma, 25-05-2021"
+    },
+    {
+      "title": "Ovunque...",
+      "subtitle": "for female choir",
+      "year": 2019,
+      "duration": "4 min",
+      "instruments": ["choir","voice"],
+      "description": "“Ovunque il guardo io giro<br>eterno Dio, ti vedo,<br>nell'opre Tue T'ammiro,<br>ti riconosco in me.<br>La terra, il mar, le sfere<br>parlan del Tuo potere:<br>Tu sei per tutto, e noi<br>tutti viviamo in Te.”",
+      "image": "ovunque.jpg",
+      "premiere": "Chiesa di San Sabino, Bari, 20-12-2019",
+      "info1_url": "https://www.ciranopost.com/2019/12/23/la-corale-sol-o-canto-festeggia-i-suoi-primi-dieci-intensi-anni-di-attivita/"
+    },
+    {
+      "title": "Fior di gratitudine",
+      "subtitle": "for soprano and piano",
+      "year": 2019,
+      "duration": "4 min",
+      "instruments": ["piano","voice"],
+      "description": "Not available",
+      "image": "fior-di-gratitudine.jpg",
+      "premiere": "Liceo delle Scienze Umane \"Ettore Palumbo\", Brindisi, 20-11-2019",
+      "info1_url": "https://www.brundisium.net/index.php/mercoledi-il-convegno-di-studi-su-seminare-il-futuro-nelle-periferie-del-mondo/",
+      "info2_url": "https://www.istitutotoniolo.it/wp-content/uploads/2019/11/2019-Brindisi-mattina.pdf"
+    },
+    {
+      "title": "Dove Calisto luce",
+      "subtitle": "for piano and percussions",
+      "year": 2019,
+      "duration": "7 min",
+      "instruments": ["piano","percussions"],
+      "description": "Not available",
+      "image": "dove-calisto-luce.jpg",
+      "premiere": "Aula magna Conservatorio della Svizzera Italiana, Lugano, 30-04-2021",
+      "buy_url": "https://davinci-edition.com/product/dv-11418/"
     }
   ]
   

@@ -58,7 +58,7 @@ fetch("./assets/events.json")
             
             const eventElement = `
                 <div class="${isUpcoming ? "upcoming-event" : "concluded-event"} ${event.status === "cancelled" ? "cancelled" : ""}">
-                    <img src='${siteUrl}/assets/img/icons/${event.status === "cancelled" ? "exclamation" : "concluded"}.svg' alt="">
+                    <img src='${siteUrl}/assets/img/icons/${isUpcoming ? "exclamation" : "concluded"}.svg' alt="">
                     <div class="event-info">
                         <p class="date-event">${new Date(event.date).toLocaleDateString()}</p>
                         ${event.time ? `<p class="time-event">${event.time}</p>` : ""}
