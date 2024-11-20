@@ -16,7 +16,7 @@
       "year": 2023,
       "duration": "9 min",
       "instruments": ["fixedMedia","liveElectronics"],
-      "description": "The electroacoustic interpreter and the S.T.ON3L instrument are positioned in the center of the room. The piece presents a formal arc segmented into sections, in which the performer explores very different listening areas, with their own peculiarities and identities. This piece breakdown is reflected in the processes of Live Electronics. Starting from a miking of the listening space and subsequent extraction of audio descriptors, various control signals are determined. Thus, a process of information \"feedback\" is created, emphasized, hidden, suppressed, kept alive by the interpreter's gestures. The interpreter interacts with the electroacoustic instrument at the auditory level only, stimulating the computer system using adaptive control signals. Using the footswitch can force a sudden opening of time windows in which live electronics processes can emerge. It's recommended using it discreetly, three or four times during the first section, characterizing each intervention. A single obligatory pedal intervention is foreseen, as marked in the score.",
+      "description": "Selected piece in International Computer Music Conference 2024, College of Music, Hanyang University - Seoul, South Korea.<br>The electroacoustic interpreter and the S.T.ON3L instrument are positioned in the center of the room. The piece presents a formal arc segmented into sections, in which the performer explores very different listening areas, with their own peculiarities and identities. This piece breakdown is reflected in the processes of Live Electronics. Starting from a miking of the listening space and subsequent extraction of audio descriptors, various control signals are determined. Thus, a process of information \"feedback\" is created, emphasized, hidden, suppressed, kept alive by the interpreter's gestures. The interpreter interacts with the electroacoustic instrument at the auditory level only, stimulating the computer system using adaptive control signals. Using the footswitch can force a sudden opening of time windows in which live electronics processes can emerge. It's recommended using it discreetly, three or four times during the first section, characterizing each intervention. A single obligatory pedal intervention is foreseen, as marked in the score.",
       "soundcloud_url": "https://soundcloud.com/francesco_vitucci/a-deep-breath",
       "image": "a-deep-breath.png",
       "premiere": "College of Music, Hanyang University, Seoul, 11-07-2024"
@@ -142,6 +142,63 @@
       "premiere": "Casa della Musica, Ostuni, 03-10-2020",
       "soundcloud_url": "https://soundcloud.com/francesco_vitucci/i_deaf",
       "buy_url": "https://www.taukay.it/data1/index.php?option=com_jshopping&controller=product&task=view&category_id=140&product_id=378&Itemid=1095&lang=it"
+    },
+    {
+      "title": "At the origin of",
+      "subtitle": "for saxophone (alto/tenor) and Sampo",
+      "year": 2021,
+      "duration": "10 min",
+      "instruments": ["saxophone", "liveElectronics"],
+      "description": "Winner piece of the 8th Sampo Composition Contest / Residency.<br>The theme of the piece is that of \"creation\". This theme, which cuts across all religions (monotheistic and polytheistic), is approached here from a point of view mythological, therefore creation as the first event which sanctions the birth of a world.<br>In a way, Sampo himself gave the idea. The term \"Sampo\" is of Finnish origin and designates a magical object that gives power and wealth. In the virtual place of the composition, where the listening will take shape, it's Sampo which gives life to a primordial act. If it is correctly calibrated, following a solicitation of the saxophone, the Sampo reacts by giving us a huge vibration primitive, at the origin of everything that will make up the piece. In order to get this first event, the Sampo has been calibrated to recreate a kind of algorithm Karplus Strong (very short delay / very high feedback), the basis of the modeling of plucked string instruments.<br>This piece therefore cannot do without an \"Activator\" (Saxophone) and an \"Expander\" (Sampo). The possibility offered by Sampo, that of being governed by the same musical performer, achieves an almost impossible fluidity effect by other means. The piece therefore traces the phases of a sudden awakening, of the birth of a connection, of the awareness of an interdependence. In this game of symbiosis, an attempt to detach one of the two entities takes shape, which will acquire more and more independence, trying to go beyond established boundaries.<br>Attempts that will cause another awakening, much more human.",
+      "image": "at-the-origin-of.jpg",
+      "premiere": "Atelier-Musée La maison du passementier, Saint-Jean-Bonnefonds, 29-06-2021",
+      "youtube_url": "https://www.youtube.com/watch?v=j8YLJczb8Q8",
+      "info1_url": "https://www.musinfo.fr/en/creation/contest/2021-contest",
+      "buy_url": "https://www.taukay.it/data1/index.php?option=com_jshopping&controller=product&task=view&category_id=139&product_id=377&Itemid=1084&lang=it"
+    },
+    {
+      "title": "In the middle of",
+      "subtitle": "for two players and electronic devices",
+      "year": 2022,
+      "duration": "8 min",
+      "instruments": ["saxophone", "liveElectronics"],
+      "description": "The piece draws its origin and foundations from the concept of fetal microchimerism, a biological phenomenon by which a certain number of fetal stem cells escape the placenta, entering the mother organism and even colonizing it, persisting even for more than thirty years. This mechanism also exists in nature in its inverse configuration, so that a child can possess cells of its mother within itself.<br>This exchange, which is added to the hereditary one of the genetic patrimony, has provided a starting point for conceiving this composition in which two entities are closely linked in an interdependent way. The acoustic instrument, the saxophone, has its own well-defined historical and technical identity. The electroacoustic instrument initially appears much more shapeless, by comparison, presenting a role and a timbre very dependent on the acoustic instrument, in a behaviour of \"mimic\" of the gestural or intentional actions of the saxophone: in this way, the electroacoustic instrument \"learns\" to perform a vibrato (with the help of a multigestual sensor).<br>The two instruments influence each other, in an initially suspended, resonant scenario, which is the background to a continuous process of gestural osmosis and, in some way, of individual growth. A sudden event marks a \"before\" and an \"after\", imposing a change.",
+      "image": "in-the-middle-of.jpg",
+      "premiere": "Parco della Musica, Teatro Studio Borgna, Roma, 28-06-2022",
+      "buy_url": "https://www.taukay.it/data1/index.php?option=com_jshopping&controller=product&task=view&category_id=141&product_id=379&lang=it&Itemid=1084"
+    },
+    {
+      "title": "Cartigli",
+      "subtitle": "for piano and ensemble",
+      "year": 2022,
+      "duration": "6 min",
+      "instruments": ["piano", "ensemble"],
+      "description": "Not available",
+      "image": "cartigli.jpg",
+      "premiere": "Sala della Musica, Comune di Ferrara, 26-11-2022",
+      "buy_url": "https://label.stradivarius.it/wp/prodotto/cartigli/"
+    },
+    {
+      "title": "(Un)popular Chants I",
+      "subtitle": "for saxophone and fixed media<br>(version A)",
+      "year": 2022,
+      "duration": "8 min",
+      "instruments": ["saxophone", "fixedMedia"],
+      "description": "(Un)popular chants is a series of small pieces for solo and electronic instruments that recall themes relating to singing, to the voice and, by extension, to the human being and his condition. (Un) popular chants I, in its version A for saxophone and fixed media, is divided into four segments. The title of the first of them, Tanka[tanka[tanka[...]]], refers to the application of a single class of modules, but with different magnifications. In this way a certain gradient of fractality develops, which can be found from the articulation of small units up to the entire shape. (ch)Oral is a kind of multiphonic choral, organized in real phrases, with a gloss entrusted to electronics, a second entity which, in the second part of the fragment, will expand the beats already present in the instrumental technique. The third segment is titled A dialogue with \"anyone\" and develops a monologue of the saxophone, with the electronics apparently absent or at least distant, in a completely different level (with some resemblance). The fourth segment uses the \"centone\" technique, cutting instrumental gestures and syntactic morphemes from the three previous segments and recombining them by proceeding backward (backward chaining). Back to the first instrumental gesture, the electronics make its entrance, proposing a swarm organized on audio materials coming, once again, from the previous parts.",
+      "image": "unpopular-chants-i.jpg",
+      "premiere": "Conservatoire National Supérieur de Musique et de Danse de Paris, Salle d’art lyrique Rémy-Pfimlin, Paris, 31-05-2022"
+    },
+    {
+      "title": "Neve/Schnee",
+      "subtitle": "for soprano and piano",
+      "year": 2020,
+      "duration": "5 min",
+      "instruments": ["piano", "voice"],
+      "description": "Winner piece of \"Jurypreis\" and \"Publikumspreis\" of Junges Lied-Wettbewerb Competition",
+      "image": "neve.jpg",
+      "premiere": "Liedrezital Zürich, Zurigo, 07-05-2022",
+      "buy_url": "https://label.stradivarius.it/wp/prodotto/neve-schnee/",
+      "info1_url": "https://liedrezital.ch/eventreader/die-gewinner-des-junges-lied-wettbewerbs.html"
     }
   ]
   
