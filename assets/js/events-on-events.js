@@ -3,20 +3,19 @@ document.addEventListener("DOMContentLoaded", function () {
   const upcomingEventsContainer = document.querySelector(".upcoming-events");
   const concludedEventsContainer = document.querySelector(".concluded-events");
 
-  // Mostra il messaggio di caricamento
-  upcomingEventsContainer.querySelector(".loading-message").style.display = "block";
-  concludedEventsContainer.querySelector(".loading-message").style.display = "block";
+  upcomingEventsContainer.querySelector(".loading-message").style.display =
+    "block";
+  concludedEventsContainer.querySelector(".loading-message").style.display =
+    "block";
 
   fetch("../assets/events.json")
     .then((response) => response.json())
     .then((events) => {
-      // Rimuove il messaggio di caricamento
       upcomingEventsContainer.querySelector(".loading-message").remove();
       concludedEventsContainer.querySelector(".loading-message").remove();
 
       let currentYear = null;
 
-      // Eventi futuri (dai più vicini ai più lontani)
       events
         .filter((event) => event.date >= today)
         .sort((a, b) => new Date(a.date) - new Date(b.date))
@@ -42,18 +41,18 @@ document.addEventListener("DOMContentLoaded", function () {
                                   event.date
                                 ).getDate()} ${
             [
-              "JAN",
-              "FEB",
-              "MAR",
-              "APR",
-              "MAY",
+              "JAN.",
+              "FEB.",
+              "MAR.",
+              "APR.",
+              "MAY.",
               "JUNE",
               "JULY",
-              "AUG",
-              "SEPT",
-              "OCT",
-              "NOV",
-              "DEC",
+              "AUG.",
+              "SEPT.",
+              "OCT.",
+              "NOV.",
+              "DEC.",
             ][new Date(event.date).getMonth()]
           }</p>
                                 ${
@@ -99,7 +98,6 @@ document.addEventListener("DOMContentLoaded", function () {
           ).style.width = "75%";
         });
 
-      // Eventi conclusi (dai più recenti ai più remoti)
       currentYear = null;
       events
         .filter((event) => event.date < today)
@@ -124,18 +122,18 @@ document.addEventListener("DOMContentLoaded", function () {
                                   event.date
                                 ).getDate()} ${
             [
-              "JAN",
-              "FEB",
-              "MAR",
-              "APR",
-              "MAY",
+              "JAN.",
+              "FEB.",
+              "MAR.",
+              "APR.",
+              "MAY.",
               "JUNE",
               "JULY",
-              "AUG",
-              "SEPT",
-              "OCT",
-              "NOV",
-              "DEC",
+              "AUG.",
+              "SEPT.",
+              "OCT.",
+              "NOV.",
+              "DEC.",
             ][new Date(event.date).getMonth()]
           }</p>
                                 ${

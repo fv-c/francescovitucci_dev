@@ -277,6 +277,51 @@
       "image": "imprinting.jpg",
       "premiere": "Civici Musei, Sala dei Marmi, Reggio Emilia, 08-12-2018",
       "info1_url": "https://simc-italia.com/wp-content/uploads/2018/12/La-nuova-SIMC.pdf"
+    },
+    {
+      "title": "Extra terminos",
+      "subtitle": "for soprano and ensemble",
+      "year": 2017,
+      "duration": "5 min",
+      "instruments": ["voice","ensemble"],
+      "description": "Il presente lavoro compositivo si sviluppa a partire da un’elaborazione testuale di \"Madrigale\" di Pier Paolo Pasolini. La tecnica con cui è stata condotta questa elaborazione testuale è chiamata filtraggio, una tecnica mutuata dalla musica elettronica. Questa operazione, svolta in più step, è consistita nello scegliere di volta in volta un suono consonantico differente, o anche più di uno, basato sulla convenzione IPA Kiel, e filtrare tutte le parole contenenti ciascun suono, unendole in delle nuove strutture testuali, ovvero degli alias del testo principale.",
+      "image": "w.jpg",
+      "premiere": "Saletta Auditorium \"Nino Rota\", Bari, 16-10-2018"
+    },
+    {
+      "title": "Triptych of Human Sound",
+      "subtitle": "for violin, cello and piano",
+      "year": 2017,
+      "duration": "8 min",
+      "instruments": ["piano","strings"],
+      "description": "In che misura il suono appartiene all’essere umano?<br>L’intera composizione prende spunto dall’idea che la musica sia la vera e propria dimensione sonora di ciascun essere umano. Ciascun individuo possiede una predisposizione sensoriale alla “cattura e decodifica” di eventi sonori, nonché alla “sintesi” e riproduzione di ulteriori eventi.<br>I primi due brani del trittico, Larinx e Corti, traggono spunto da questi concetti, sviluppando una serie di campi sonori, all’interno dei quali trovano spazi alcuni spettri armonici, derivanti quindi dalla natura fisica di un corpo vibrante.<br>Il terzo brano, Flegma, invece si rifà alla Teoria umorale costruita da Ippocrate di Coo. Il flegma è uno dei quattro umori che caratterizza l’equilibrio dell’essere umano: esso corrisponderebbe, sempre secondo questa antica teoria, all’acqua, vero e proprio elemento costitutivo della vita. Appare quindi una curiosa analogia tra questo elemento e una delle possibili etimologie del termine “musica”, che fa derivare questo termine da “moys”, un antico vocabolo egiziano che indica, in effetti, l’acqua.",
+      "image": "triptych-of-human-sound.jpg",
+      "premiere": "Saletta Auditorium \"Nino Rota\", Bari, 07-05-2018"
+    },
+    {
+      "title": "L'ultimo canto a Mezireh",
+      "subtitle": "for flute, clarinet, violin and cello",
+      "year": 2015,
+      "duration": "6 min",
+      "instruments": ["ensemble"],
+      "description": "Not available",
+      "image": "l-ultimo-canto-a-mezireh.jpg",
+      "premiere": "Palazzo Cavagnis, Venezia, 16-12-2017",
+      "buy_url": "https://label.stradivarius.it/wp/prodotto/lultimo-canto-a-mezireh/",
+      "youtube_url": "https://www.youtube.com/watch?v=aSg9xgHbzZw",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/francesco-vitucci-lultimo-canto-a-mezireh?si=36d32158bf0245a09ee2fd3d8de618be&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    },
+    {
+      "title": "Dettagli di una trama",
+      "subtitle": "for bass, flute, harp, viola and cello",
+      "year": 2017,
+      "duration": "5 min",
+      "instruments": ["voice","ensemble"],
+      "description": "Not available",
+      "image": "dettagli-di-una-trama.jpg",
+      "premiere": "Casa Museo Spazio Tadini, Milano, 20-10-2017",
+      "buy_url": "https://label.stradivarius.it/wp/prodotto/dettagli-di-una-trama/",
+      "info1_url": "https://simc-italia.com/wp-content/uploads/2018/03/Monteverdi-e-la-musica-contemporanea.pdf"
     }
   ]
   
