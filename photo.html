@@ -10,38 +10,6 @@ layout: default
     </div>
 </header>
 
-<!-- {% for slideshow in site.data.slides %}
-{% assign idx = forloop.index %}
-<div class="photo-container">
-    <h3 class="slideshow-title">{{ slideshow.title }}</h3>
-
-    <div class="slideshow-container" data-slide-id="{{ idx }}">
-
-        {% for photo in slideshow.photos %}
-        {% assign caption_index = forloop.index0 %}
-
-        <div class="mySlides" data-slide-id="{{ idx }}">
-            <div class="numbertext">{{ forloop.index }} / {{ slideshow.photos | size }}</div>
-            <img src="{{ site.url }}/assets/img/photos/{{ photo }}" style="width:100%">
-            <div class="text">{{ slideshow.captions[caption_index] }}</div>
-        </div>
-        {% endfor %}
-
-
-        <a class="prev" onclick="plusSlides(-1, {{ idx }})">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, {{ idx }})">&#10095;</a>
-    </div>
-    <br>
-
-
-    <div class="dot-container" data-slide-id="{{ idx }}" style="text-align:center">
-        {% for photo in slideshow.photos %}
-        <span class="dot" onclick="currentSlide({{ forloop.index }}, {{ idx }})"></span>
-        {% endfor %}
-    </div>
-</div>
-{% endfor %} -->
-
 {% for slideshow in site.data.slides %}
 {% assign idx = forloop.index %}
 <div class="photo-container">

@@ -88,7 +88,7 @@
       "subtitle": "for violin, cello and string trio",
       "year": 2022,
       "duration": "5 min",
-      "instruments": ["strings"],
+      "instruments": ["strings","ensemble"],
       "description": "\"La pièce que j'ai écrite pour cette édition de Creative Dialogue France s'intitule \"Sospira l'acqua\", qui est une citation d'un poème de Giovanni Pascoli intitulé \"Il mare\".<br>J'ai choisi ce titre car, lors du processus de création et à l'écoute des fragments durant ces dix jours, j'ai senti que le titre contient la sensation de mouvement énergique et ondulatoire, créé par les deux groupes instrumentaux, qui me faisait justement penser à l'eau, un élément dont je me sens particulièrement proche.\"",
       "youtube_url": "https://www.youtube.com/watch?v=pvlAziaCvss&list=PL3aR3IWihrh4bHpmgKkI6EHEtzQiLdSM2&index=2",
       "buy_url": "https://label.stradivarius.it/wp/prodotto/sospira-lacqua/",
@@ -98,10 +98,10 @@
     },
     {
       "title": "Daedalus",
-      "subtitle": "six moments for chamber orchestra and fixed media",
+      "subtitle": "six moments for chamber orchestra<br>and fixed media",
       "year": 2018,
       "duration": "16 min",
-      "instruments": ["orchestra","fixedMedia"],
+      "instruments": ["orchestra","fixedMedia","ensemble"],
       "description": "Not available",
       "youtube_url": "https://www.youtube.com/watch?v=CfAmYFjf-PE",
       "buy_url": "https://label.stradivarius.it/wp/prodotto/daedalus/",
@@ -243,6 +243,40 @@
       "image": "dove-calisto-luce.jpg",
       "premiere": "Aula magna Conservatorio della Svizzera Italiana, Lugano, 30-04-2021",
       "buy_url": "https://davinci-edition.com/product/dv-11418/"
+    },
+    {
+      "title": "(ec)stasis",
+      "subtitle": "for marimba, vibraphone, multi-percussion<br>and live electronics",
+      "year": 2024,
+      "duration": "10 min",
+      "instruments": ["percussions","liveElectronics"],
+      "description": "Dedicated to <a href=\"\" target=\"_blank\">Niccolò Fino.</a><br>Produced in collaboration with  AltreMenti Labs and supported by the Centro Nacional de la Música, Instituto Nacional de la Música, Universidad de las Artes de Yucatàn, and the 2024 Tour Export program by Puglia Sounds.",
+      "image": "ecstasis.jpg",
+      "premiere": "Instituto Nacional de la Musica, Costa Rica, 05-10-2024",
+      "info1_url": "https://www.facebook.com/niccolo.fino/posts/9543618305654216?ref=embed_post"
+    },
+    {
+      "title": "Hex-A",
+      "subtitle": "for string sextet",
+      "year": 2019,
+      "duration": "9 min",
+      "instruments": ["strings","ensemble"],
+      "description": "“De plus en plus se renouvelle...” (?)",
+      "image": "hex-a.jpg",
+      "premiere": "Antico Teatro Arrigoni, San Vito al Tagliamento, 10-05-2019",
+      "buy_url": "https://label.stradivarius.it/wp/prodotto/hex-a/",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/hex-a?si=7adf5fe22a714a16b95bded6bccb2c63&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    },
+    {
+      "title": "Imprinting",
+      "subtitle": "for fixed media",
+      "year": 2018,
+      "duration": "5 min",
+      "instruments": ["fixedMedia"],
+      "description": "Not available",
+      "image": "imprinting.jpg",
+      "premiere": "Civici Musei, Sala dei Marmi, Reggio Emilia, 08-12-2018",
+      "info1_url": "https://simc-italia.com/wp-content/uploads/2018/12/La-nuova-SIMC.pdf"
     }
   ]
   

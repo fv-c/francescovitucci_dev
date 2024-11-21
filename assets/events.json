@@ -15,7 +15,7 @@
     "time": "17:00",
     "type": "Concert",
     "location": "Auditorium \"Andrea Celesti\", Desenzano del Garda",
-    "description": "SIMC Festival - Autumn - IX concert.<br>Commissioned piece: Lumina (2024) for fixed media.",
+    "description": "SIMC Festival - Autumn - IX concert.<br>Commissioned piece: Lumina (2024) for fixed media.<br>Organized by SIMC (Società Italiana Musica Contemporanea)",
     "url": "https://www.simc-italia.com/novita/simc-festival-autunno-2024/",
     "status": "active"
   },
@@ -25,7 +25,17 @@
     "time": "21:00",
     "type": "Concert",
     "location": "GOETHE-INSTITUT Rom Auditorium, Roma",
-    "description": "Extended version.<br>ArteScienza 2025.<br>Musicians: Roberta Pastore, Donatello Notarnicola, Emanuela Storelli, Fedora Palladino, Daniele Giuseppe Annese, Francesco Vitucci",
+    "description": "Extended version.<br>ArteScienza 2025.<br>Commissioned piece: IHM (2025) concert-opera for four cellos and<br>one electroacoustic player.<br>Musicians: Roberta Pastore, Donatello Notarnicola, Emanuela Storelli, Fedora Palladino, Daniele Giuseppe Annese, Francesco Vitucci",
     "status": "active"
+  },
+  {
+    "title": "IMPULSE Tour (1)",
+    "date": "2024-10-05",
+    "time": "17:00",
+    "type": "Concert",
+    "location": "Instituto Nacional de la Música, Costa Rica",
+    "description": "Percussionist Niccolò Fino's Tour.<br>Commissioned piece: (ec)stasis (2024) for for marimba, vibraphone, multi-percussion and live electronics.<br>Produced in collaboration with  AltreMenti Labs and supported by the Centro Nacional de la Música, Instituto Nacional de la Música, Universidad de las Artes de Yucatàn, and the 2024 Tour Export program by Puglia Sounds.",
+    "status": "active",
+    "url": "https://www.facebook.com/niccolo.fino/posts/9543618305654216?ref=embed_post"
   }
 ]
