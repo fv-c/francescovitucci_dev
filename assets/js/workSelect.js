@@ -2,52 +2,42 @@ $(document).ready(function () {
   var worksData;
   var instrumentsSet = new Set();
 
-  // Mappa per etichette personalizzate
   const labelMap = {
     liveElectronics: "live electronics",
-    fixedMedia: "fixed media",
+    fixedMedia: "fixed media"
   };
 
-  // Mostra "Loading..." all'inizio
   $("#loading-message").show();
 
   var count = 0;
 
-  // Carica il JSON e salva i dati nella variabile worksData
   var timestamp = new Date().getTime();
   $.getJSON("../assets/works.json?t=" + timestamp, function (works) {
     worksData = works;
 
-    // Nascondi il messaggio di caricamento e mostra i filtri e i lavori
     $("#loading-message").hide();
     $("#filters, #works").show();
 
-    // Analizza gli strumenti e li aggiunge a un Set per evitare duplicati
     worksData.forEach(function (work) {
       work.instruments.forEach(function (instrument) {
         instrumentsSet.add(instrument);
       });
     });
 
-    // Genera i pulsanti di filtro basati sugli strumenti unici
     generateFilterButtons(Array.from(instrumentsSet));
   }).fail(function () {
     console.error("Errore nel caricamento del file JSON.");
   });
 
-  // Funzione per generare i pulsanti di filtro
   function generateFilterButtons(instruments) {
     var filtersContainer = $("#filters");
 
-    // Pulsante per mostrare tutti i brani
     filtersContainer.append(`<button data-filter="all">All works</button>`);
 
-    // Pulsante per "nessun brano"
     filtersContainer.append(
       `<button data-filter="none" class="active">None</button>`
     );
 
-    // Crea un pulsante per ogni strumento
     instruments.forEach(function (instrument) {
       const label = labelMap[instrument] || instrument;
       filtersContainer.append(
@@ -55,11 +45,9 @@ $(document).ready(function () {
       );
     });
 
-    // Aggiorna i pulsanti con l'evento click
     $("#filters button").click(function () {
       var filter = $(this).attr("data-filter");
 
-      // Rimuove la classe active da tutti i pulsanti e ripristina il testo
       $("#filters button")
         .removeClass("active")
         .each(function () {
@@ -69,10 +57,8 @@ $(document).ready(function () {
           }
         });
 
-      // Aggiunge la classe active solo al pulsante cliccato
       $(this).addClass("active");
 
-      // Filtra i brani in base al filtro selezionato
       filterWorks(filter);
 
       if (filter !== "none") {
@@ -91,13 +77,11 @@ $(document).ready(function () {
       }
     });
 
-    // Salva il testo originale del pulsante quando viene cliccato la prima volta
     $("#filters button").each(function () {
       $(this).attr("data-original-text", $(this).text());
     });
   }
 
-  // Funzione per mostrare i brani filtrati
   function displayWorks(works) {
     var worksContainer = $("#works");
     worksContainer.empty(); // Svuotiamo il contenitore
@@ -118,7 +102,6 @@ $(document).ready(function () {
                     <hr>
                     <div class="linksWrapper">`;
 
-      // Aggiungiamo solo i link presenti
       if (work.soundcloud_url) {
         workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/soundcloud.svg"><a href="${work.soundcloud_url}" target="_blank" class="workSoundcloudLink">Listen on SoundCloud</a></div>`;
       }
@@ -144,7 +127,6 @@ $(document).ready(function () {
         workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/info.svg"><a href="${work.info2_url}" target="_blank" class="workInfoLink">what they say about...</a></div>`;
       }
 
-      // Chiudiamo i div aperti
       workElement += `
                         </div>
                         <hr>`;
@@ -160,7 +142,6 @@ $(document).ready(function () {
     });
   }
 
-  // Funzione per filtrare i brani per strumentazione
   function filterWorks(instrument) {
     if (!worksData) {
       console.error("I dati dei brani non sono stati caricati correttamente.");
@@ -169,7 +150,6 @@ $(document).ready(function () {
 
     var filteredWorks;
 
-    // Filtra i brani in base allo strumento selezionato
     if (instrument === "all") {
       filteredWorks = worksData.slice(); // Crea una copia dei dati
     } else if (instrument === "none") {
@@ -180,7 +160,6 @@ $(document).ready(function () {
       });
     }
 
-    // Ordina i brani per anno dal più recente al più vecchio
     filteredWorks.sort(function (a, b) {
       return b.year - a.year;
     });
@@ -188,11 +167,9 @@ $(document).ready(function () {
     displayWorks(filteredWorks); // Mostra i brani filtrati
   }
 
-  // Gestiamo il clic sui pulsanti di filtro
   $("#filters button").click(function () {
     var filter = $(this).attr("data-filter");
 
-    // Rimuove la classe active da tutti i pulsanti
     $("#filters button")
       .removeClass("active")
       .each(function () {
@@ -203,15 +180,12 @@ $(document).ready(function () {
         }
       });
 
-    // Aggiunge la classe active solo al pulsante cliccato
     $(this).addClass("active");
 
-    // Filtra i brani in base al filtro selezionato
     filterWorks(filter);
 
     $("#workCount").remove();
 
-    // Contiamo i brani filtrati e aggiorniamo il testo del pulsante
     count = worksData
       ? worksData.filter(
           (work) =>
@@ -224,10 +198,8 @@ $(document).ready(function () {
       $('<div id="workCount"></div>').text("Works found: " + count)
     );
 
-    //$("#works").get(0).scrollIntoView({ behavior: 'smooth' });
   });
 
-  // Salva il testo originale del pulsante quando viene cliccato la prima volta
   $("#filters button").each(function () {
     $(this).attr("data-original-text", $(this).text());
   });
