@@ -32,6 +32,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-minifier
 
 jekyll-archives:
   enabled:
@@ -41,4 +42,8 @@ jekyll-archives:
   permalinks:
     year: '/:year/'
     category: '/category/:name/'
+
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
 

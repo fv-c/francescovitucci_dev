@@ -4,7 +4,7 @@ rm -rf ../francescovitucci/*
 
 bundle exec jekyll clean
 
-bundle exec jekyll build
+JEKYLL_ENV="production" bundle exec jekyll build
 
 python3.12 lilypondprocess.py
 

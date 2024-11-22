@@ -8,7 +8,7 @@
       "description": "In Human Memories is a piece for pre-recorded and AI-generated voices, four cellos and live electronics. It explores the archetype of abandonment, inspired by the tragic stories of three different Didoes, taken from the operas by Niccolò Piccinni, Domenico Sarro, Henry Purcell. Each of them represents a unique aspect of love, loss and desolation, while retracing, dozens of times in the history of music, a well-known pattern: falling in love, Aeneas' abandonment, Dido's death. As in Greek tragedy, the audience is called to question the authenticity of emotions and memories in an era in which artificial intelligence can replicate and generate human-like expressions. As the piece unfolds, subtle features in the AI-generated lyrics and cloned voices can reveal the artificial nature of the fake memories employed, ultimately suggesting an underlying theme: the intrusion of AI into the deeply human experience of emotion.",
       "image": "in-human-memories.jpg",
       "read": " ",
-      "premiere": "Auditorium Nino Rota, 24 luglio 2024"
+      "premiere": "Auditorium Nino Rota, 24-07-2024"
     },
     {
       "title": "A deep breath",
@@ -42,6 +42,7 @@
       "instruments": ["orchestra"],
       "description": "The concept of variation is one of the cornerstones on which traditional tonal music has been based, from its very beginnings to its most complex evolutions. A very effective classification of variation typologies was provided by Vincent D’Indy in his <em>Cours de Composition musicale</em> (Durand, 1948). The composer-treatise writer, in this work, distinguishes three typologies of variation: <em>ornamental</em>, obtainable through the application of melodic ornaments; <em>decorative</em>, the result of various modifications, including harmonic ones; finally <em>amplifying</em>, taking up the idea of ​​thematic amplification, typical of traditional classical music.<br>The <em>Variations</em> for Orchestra were modeled according to these principles. An exposition presents the chorale “Jesu, meine freude” in its entirety, in one of Johann Sebastian Bach’s harmonizations (BWV 227, in E minor), entrusted to the different sections of the ensemble, first the strings, then the woodwinds and brass. Five variations follow, each of a different character, in a progressive departure from the original theme. Although these variations are self-contained, they are not conceived as juxtaposed entities, but rather contextualized in a continuous flow of gradual transformation.<br>The piece ends with a double fugue. The exposition is followed by a series of modulations, modeled according to an imitative writing typical of the fugal entertainment: through a sudden caesura we move on to a new exposition of a second subject, at the end of which the meeting and overlapping of both subjects occurs. By increasingly tightening the various entrances we reach the climax of the piece that represents the return to the starting point, in a sort of circle that, finally, closes.",
       "youtube_url": "https://www.youtube.com/watch?v=FO-2bhYqxDw&t=3s",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/variazioni-per-orchestra?si=40108c2bc15b4f7cbf3ad7978d56dab4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
       "buy_url": "https://davinci-edition.com/product/dv-10224/",
       "image": "variazioni.png",
       "premiere": "Auditorium Istituto Salesiano Redentore, Bari, 29-10-2016"
@@ -50,12 +51,14 @@
       "title": "Ricordi di polvere",
       "subtitle": "for flute and piano",
       "year": 2015,
-      "duration": "7 min",
+      "duration": "6 min",
       "instruments": ["flute", "piano"],
       "description": "Not available",
       "soundcloud_url": "https://soundcloud.com/francesco_vitucci/ricordi-di-polvere",
+      "youtube_url": "https://youtu.be/_UjmR9PbtGQ?si=rUcg29gTdXrLxzJv",
       "image": "ricordi-polvere.jpg",
-      "premiere": "Sala Consiliare del Comune di Noicattaro, 17-05-2015"
+      "premiere": "Sala Consiliare del Comune di Noicattaro, 17-05-2015",
+      "buy_url": "https://label.stradivarius.it/wp/prodotto/ricordi-di-polvere/"
     },
     {
       "title": "Nelle pieghe",
@@ -322,6 +325,116 @@
       "premiere": "Casa Museo Spazio Tadini, Milano, 20-10-2017",
       "buy_url": "https://label.stradivarius.it/wp/prodotto/dettagli-di-una-trama/",
       "info1_url": "https://simc-italia.com/wp-content/uploads/2018/03/Monteverdi-e-la-musica-contemporanea.pdf"
+    },
+    {
+      "title": "On an English Christmas Carol",
+      "subtitle": "for narrator, two sopranos and violin",
+      "year": 2016,
+      "duration": "5 min",
+      "instruments": ["voice","violin","strings"],
+      "description": "Not available",
+      "image": "w.jpg",
+      "premiere": "Parrocchia Sacro Cuore di Gesù, Molfetta, 07-01-2017"
+    },
+    {
+      "title": "Una volta sola",
+      "subtitle": "for narrator and violin",
+      "year": 2016,
+      "duration": "5 min",
+      "instruments": ["voice","violin","strings"],
+      "description": "Not available",
+      "image": "w.jpg",
+      "premiere": "Università degli studi di Bari, Salone degli Affreschi, Bari, 08-11-2016"
+    },
+    {
+      "title": "Sitio (Va parola)",
+      "subtitle": "for soprano, bariton and organ",
+      "year": 2022,
+      "duration": "5 min",
+      "instruments": ["voice","organ"],
+      "description": "[V]. Postea sciens Jesus, quia omnia consummata sunt; ut consummaretur scriptura, dixit: Sitio!<br>LE SETTE PAROLE DI GESÙ SULLA CROCE - Composizioni originali di Giuseppe BINI, Giovanni CASTRO, Leo GADALETA, Giovanni FARINA, Maurizio LIEGGI, Biagio PUTIGNANO, Andrea SIANO, Francesco VITUCCI.",
+      "image": "sitio.jpg",
+      "premiere": "Chiesa S. Croce, Bari, 03-04-2023",
+      "youtube_url": "https://youtu.be/xyLSK6SKUmI?si=sl8UYJqYLzO-yuZr&t=2437"
+    },
+    {
+      "title": "Ad Agio",
+      "subtitle": "for piano",
+      "year": 2016,
+      "duration": "2 min",
+      "instruments": ["piano"],
+      "description": "The composition, for piano solo, was born from the elaboration of an Aria contained in the Notebook of Anna Magdalena Bach. The melody and accompaniment of the Aria are condensed into chords, which become the background on which small fragments of the original composition can be heard.",
+      "image": "w.jpg",
+      "premiere": "Palazzo Gallone, Tricase, 21-07-2016",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/ad-agio?si=4982191303d44c41abd2d1fcdae45746&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    },
+    {
+      "title": "Charm and dissolution",
+      "subtitle": "for flute, guitar, violin, cello and fixed media",
+      "year": 2016,
+      "duration": "6 min",
+      "instruments": ["ensemble","fixedMedia","guitar","cello"],
+      "description": "“Our revels now are ended. These our actors,//As I foretold you, were all spirits and//Are melted into air, into thin air;//And like the baseless fabric of this vision,//The cloud-capped towers, the gorgeous palaces,//The solemn temples, the great globe itself,//Yea, all which it inherit, shall dissolve,//And, like this insubstantial pageant faded,//Leave not a rack behind. We are such stuff//As dreams are made on, and our little life//Is rounded with a sleep.”",
+      "image": "charm-and-dissolution.jpg",
+      "premiere": "Experimental Media Performance Lab, University of California, Irvine, 27-10-2017",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/incanto-e-dissoluzione?si=26020a5c33cc400ea2204fc1bcbe340c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    },
+    {
+      "title": "Respiri erosi",
+      "subtitle": "for soprano, flute and guitar",
+      "year": 2015,
+      "duration": "6 min",
+      "instruments": ["flute","voice","guitar"],
+      "description": "Second prize at International music composition competition “Musica e Poesia tra Italia e Giappone”",
+      "image": "respiri-erosi.jpg",
+      "premiere": "Kawai Umeda Concert Hall, Osaka, Giappone, 12-11-2015",
+      "info1_url": "https://iicosaka.esteri.it/it/gli_eventi/calendario/concerto-finale-concorso-poesia-e-musica-tra-italia-e-giappone/"
+    },
+    {
+      "title": "Di luce e attimi lontani",
+      "subtitle": "for fixed media",
+      "year": 2015,
+      "duration": "5 min",
+      "instruments": ["fixedMedia"],
+      "description": "Sound commentary released in \"Pro Arte Pro Deo\", XXVIII edition",
+      "image": "di-luce-e-attimi-lontani.jpg",
+      "premiere": "Chiesa Madre, Monteroni di Lecce, 01-08-2015",
+      "youtube_url": "https://youtu.be/aRjPK_67N7Q?si=SyKZnB0aCWqVjY9i",
+      "soundcloud_url": "https://soundcloud.com/francesco_vitucci/di-luce-e-attimi-lontani?si=435046ece25e497b91bf06c6cb9c838c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+      "info1_url": "https://www.grumonline.it/index.php?option=com_content&view=article&id=7967:il-compositore-grumese-francesco-vitucci-nella-mostra-leccese-qpro-arte-pro-deoq&catid=1:ultime&Itemid=50",
+      "info2_url": "https://salentoreview.com/tappa-a-lecce-per-la-rassegna-darte-sacra-contemporanea-pro-arte-pro-deo/"
+    },
+    {
+      "title": "Fantasia con Fuga e Finale",
+      "subtitle": "for piano",
+      "year": 2014,
+      "duration": "6 min",
+      "instruments": ["piano"],
+      "description": "Not available",
+      "image": "w.jpg",
+      "premiere": "Dvorana Porat, Pučišća, Croazia, 29-08-2014",
+      "youtube_url": "https://youtu.be/6so6Q_FQkLU?si=K5fA8DrGXwt-NN49"
+    },
+    {
+      "title": "Preludio e Fuga",
+      "subtitle": "for piano",
+      "year": 2014,
+      "duration": "3 min",
+      "instruments": ["piano"],
+      "description": "Not available",
+      "image": "w.jpg",
+      "premiere": "Dvorana Porat, Pučišća, Croazia, 24-08-2014"
+    },
+    {
+      "title": "In profondità",
+      "subtitle": "for piano",
+      "year": 2014,
+      "duration": "5 min",
+      "instruments": ["piano"],
+      "description": "Not available",
+      "image": "in-profondita.jpg",
+      "premiere": "Palazzo Balsamo, Gallipoli, 26-04-2014",
+      "buy_url": "https://label.stradivarius.it/wp/prodotto/in-profondita/"
     }
   ]
   

@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    // siteUrl = '{{ site.url }}'
     siteUrl = document.location.origin;
 
     const today = new Date().toISOString().split("T")[0];
@@ -10,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("./assets/events.json")
         .then((response) => response.json())
         .then((events) => {
-            // Ordina gli eventi per data in ordine decrescente (più recente prima)
+
             events.sort((a, b) => new Date(b.date) - new Date(a.date));
 
             let countUpcoming = 0;
             let countConcluded = 0;
-            const limitUpcoming = 2;  // Limita a 2 eventi futuri
-            const limitConcluded = 2; // Limita a 1 evento passato
+            const limitUpcoming = 2;
+            const limitConcluded = 2;
 
             events.forEach((event) => {
                 const eventDate = event.date;
@@ -37,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         `;
 
-                // Inserisce l'evento nella sezione corretta rispettando i limiti
+
                 if (isUpcoming && countUpcoming < limitUpcoming) {
                     upcomingEventsContainer.innerHTML += eventElement;
                     countUpcoming++;

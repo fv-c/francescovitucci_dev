@@ -147,11 +147,11 @@ $(document).ready(function () {
       console.error("I dati dei brani non sono stati caricati correttamente.");
       return;
     }
-
+  
     var filteredWorks;
-
+  
     if (instrument === "all") {
-      filteredWorks = worksData.slice(); // Crea una copia dei dati
+      filteredWorks = worksData.slice();
     } else if (instrument === "none") {
       filteredWorks = [];
     } else {
@@ -161,11 +161,18 @@ $(document).ready(function () {
     }
 
     filteredWorks.sort(function (a, b) {
-      return b.year - a.year;
+      if (b.year !== a.year) {
+        return b.year - a.year;
+      }
+  
+      const dateA = a.premiere.slice(-10).split("-").reverse().join("-");
+      const dateB = b.premiere.slice(-10).split("-").reverse().join("-");
+      return dateB.localeCompare(dateA);
     });
-
-    displayWorks(filteredWorks); // Mostra i brani filtrati
+  
+    displayWorks(filteredWorks);
   }
+  
 
   $("#filters button").click(function () {
     var filter = $(this).attr("data-filter");
@@ -173,7 +180,7 @@ $(document).ready(function () {
     $("#filters button")
       .removeClass("active")
       .each(function () {
-        // Ripristina il testo originale per tutti i pulsanti
+
         var originalText = $(this).attr("data-original-text");
         if (originalText) {
           $(this).text(originalText);
