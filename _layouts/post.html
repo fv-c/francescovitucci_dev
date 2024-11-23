@@ -35,13 +35,24 @@ layout: default
         const posts = await response.json();
 
         const currentCategories = JSON.parse('{{ page.categories | jsonify }}');
+        const currentUrl = '{{ page.url }}'; // URL del post corrente
 
         const filteredPosts = posts.filter(post => {
             const postCategories = post.categories.split(",").map(category => category.trim());
-            return postCategories.some(category => currentCategories.includes(category));
+            return post.url !== currentUrl && // Escludi il post corrente
+                   postCategories.some(category => currentCategories.includes(category));
         });
 
         const recommendedPosts = filteredPosts.slice(0, 3);
+
+        if (recommendedPosts.length === 0) {
+            // Rimuovi gli elementi se non ci sono post
+            const readMoreCTA = document.querySelector(".readMoreCTA");
+            const blogReadMoreWrapper = document.querySelector(".blogReadMoreWrapper");
+            if (readMoreCTA) readMoreCTA.remove();
+            if (blogReadMoreWrapper) blogReadMoreWrapper.remove();
+            return; // Esci dallo script
+        }
 
         let html = '';
         recommendedPosts.forEach(post => {
@@ -58,3 +69,4 @@ layout: default
         document.querySelector(".blogReadMoreWrapper").innerHTML = html;
     });
 </script>
+
