@@ -27,6 +27,7 @@ exclude:
   - Gemfile.lock
   - jekyllbuild.sh
   - lilypondprocess.py
+  - README.md
 
 sass:
   sass_dir: _sass
