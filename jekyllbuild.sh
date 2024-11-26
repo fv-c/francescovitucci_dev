@@ -14,14 +14,14 @@ cd ..
 
 cd francescovitucci
 
+git pull
+
 rm -rf CNAME
 
-echo "francescovitucci.com" > CNAME
+echo "www.francescovitucci.com" > CNAME
 
 git add *
 
 git commit -m "`date`"
-
-git pull
 
 git push origin main
