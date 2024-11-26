@@ -16,7 +16,6 @@ gem 'jekyll-archives'
 gem "rexml", ">= 3.3.9"
 gem "google-protobuf", ">= 3.25.5"
 gem "webrick", ">= 1.8.2"
-gem "jekyll-minifier"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
