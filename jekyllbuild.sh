@@ -14,6 +14,10 @@ cd ..
 
 cd francescovitucci
 
+rm -rf CNAME
+
+echo "francescovitucci.com" > CNAME
+
 git add *
 
 git commit -m "`date`"
