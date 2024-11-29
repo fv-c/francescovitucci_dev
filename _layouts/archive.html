@@ -18,16 +18,7 @@ layout: default
   </div>
 </header>
 
-<!-- <div class="archiveWrapper">
-  {% for post in page.posts %}
-  <div class="archivePost">
-    <a href="{{ site.url}}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d-%m-%Y" }}
-  </div>
-  {% endfor %}
-</div>
-<hr> -->
-
-{% assign toggle = toggle | default: true %}  <!-- Imposta `toggle` su true la prima volta -->
+{% assign toggle = toggle | default: true %}
 
 <div class="archiveWrapper">
   {% for post in page.posts %}
