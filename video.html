@@ -11,9 +11,11 @@ layout: default
 </header>
 
 <div class="videoContentsWrapper">
-    <h2>Premio Borsa di Studio “Goffredo Petrassi” 2022</h2>
-    <h3>Accademia Nazionale di Santa Cecilia (Roma)</h3>
+    {% for video in site.data.videos %}
+    <h2>{{ video.title }}</h2>
+    <h3>{{ video.subtitle }}</h3>
     <div class="videoWrapper">
-        <iframe src="https://www.youtube.com/embed/YIUkU4Ufc0Q?si=khVdaPq8vl4aT2bS&amp;start=242" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="{{ video.linkForIFrame }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+    {% endfor %}
 </div>
