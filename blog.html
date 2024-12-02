@@ -2,7 +2,7 @@
 layout: default
 ---
 {% for post in site.posts offset: 0 limit: 1 %}
-<header class="blog-index-header-main" style="background-image:url('{{ site.url}}{{ site.blogImgBin_path }}{{ post.featImg }}'); background-attachment: fixed;">
+<header class="blog-index-header-main" style="background-image:url('{{ site.url}}{{ site.blogImgBin_path }}{{ post.featImg }}');">
     <div class="overlay-dark"></div>
     {% include nav.html %}
     <div class="blog-index-title">
