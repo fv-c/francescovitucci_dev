@@ -13,7 +13,7 @@ layout: default
 {% for slideshow in site.data.slides %}
 {% assign idx = forloop.index %}
 <div class="photo-container">
-    <h3 class="slideshow-title">{{ slideshow.title }}</h3>
+    <h2 class="slideshow-title">{{ slideshow.title }}</h3>
     <!-- Slideshow container -->
     <div class="slideshow-container" data-slide-id="{{ idx }}" id="slideshow-{{ idx }}">
 
