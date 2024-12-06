@@ -13,6 +13,8 @@ blogImgBin_path: /assets/img/blog/
 
 # Blog Images main resolution: height 650px
 # Blog Images low resolution: height 200px
+#
+# Photo Images main resolution: height 1875px x 1000px
 
 # Build settings
 permalink: pretty
@@ -43,5 +45,5 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    year: '/:year/'
-    category: '/category/:name/'
+    year: "/:year/"
+    category: "/category/:name/"
