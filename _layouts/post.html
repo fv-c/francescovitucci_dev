@@ -70,3 +70,14 @@ layout: default
     });
 </script>
 
+<script>
+    const div = document.getElementById("blogLink");
+
+    if (div) {
+      const parentLink = div.parentElement;
+
+      if (parentLink && parentLink.tagName === "A") {
+        parentLink.classList.add("active-page");
+      }
+    }
+  </script>

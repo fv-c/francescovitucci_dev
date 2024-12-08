@@ -133,15 +133,18 @@ nav.nav-wrap
         text-align: right
     hr
         width: 100%
-        margin: 20px 0 10px 0
+        margin: 15px 0 10px 0
     .internal-nav-links-wrapper
-        margin-top: 10px
+        margin-top: 5px
         height: 300px
         a.internal-link-wrapper
             display: flex
             flex-direction: row
             justify-content: flex-end
             align-items: center
+        .active-page
+            padding-right: 15px
+            border-right: 5px solid $highlight
     .external-links-wrapper
         height: 122px
         a.external-link-wrapper
@@ -149,6 +152,10 @@ nav.nav-wrap
             flex-direction: row
             justify-content: flex-end
             align-items: center
+    .mail-address
+        color: $secondary
+        font-size: 0.75em
+        margin-top: 10px
 .external-link-icon, .internal-link-icon
     height: 30px
     width: 30px

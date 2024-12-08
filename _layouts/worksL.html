@@ -10,5 +10,16 @@
         {% include footer.html %}
         <script type="text/javascript" src="{{ site.url }}/assets/js/functions.js"></script>
         <script type="text/javascript" src="{{ site.url }}/assets/js/workSelect.js"></script>
+        <script>
+            const div = document.getElementById("worksLink");
+        
+            if (div) {
+              const parentLink = div.parentElement;
+        
+              if (parentLink && parentLink.tagName === "A") {
+                parentLink.classList.add("active-page");
+              }
+            }
+          </script>
     </body>
 </html>

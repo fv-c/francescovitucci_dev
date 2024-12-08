@@ -22,6 +22,15 @@ layout: default
     </div>
 </div>
 
-
-
 <script src="{{ site.url }}/assets/js/events-on-events.js"></script>
+<script>
+    const div = document.getElementById("eventsLink");
+
+    if (div) {
+      const parentLink = div.parentElement;
+
+      if (parentLink && parentLink.tagName === "A") {
+        parentLink.classList.add("active-page");
+      }
+    }
+  </script>

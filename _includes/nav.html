@@ -40,9 +40,9 @@
     <div class="nav-toggle-open-wrapper {% if page.url == '/' %}nav-dark{%endif%}">
         <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
         <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-            <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-            <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+            <path d="M4 18L20 18" stroke-width="2" stroke-linecap="round" />
+            <path d="M4 12L20 12" stroke-width="2" stroke-linecap="round" />
+            <path d="M4 6L20 6" stroke-width="2" stroke-linecap="round" />
         </svg>
     </div>
     <div class="nav-toggle-body-overlay"></div>
@@ -57,43 +57,43 @@
         </div>
         <div class="internal-nav-links-wrapper">
             <a href="{{ site.url }}/" class="internal-link-wrapper">
-                <div class="link-titles-wrapper">
+                <div class="link-titles-wrapper" id="homeLink">
                     <h5>Home</h5><small>Home</small>
                 </div>
                 <div class="internal-link-icon internal-link-icon-home"></div>
             </a>
             <a href="{{ site.url }}/bio" class="internal-link-wrapper">
-                <div class="link-titles-wrapper">
+                <div class="link-titles-wrapper" id="bioLink">
                     <h5>Bio</h5><small>Who is Francesco Vitucci?</small>
                 </div>
                 <div class="internal-link-icon internal-link-icon-bio"></div>
             </a>
             <a href="{{ site.url }}/works" class="internal-link-wrapper">
-                <div class="link-titles-wrapper">
+                <div class="link-titles-wrapper" id="worksLink">
                     <h5>Works</h5><small>What does he do?</small>
                 </div>
                 <div class="internal-link-icon internal-link-icon-works"></div>
             </a>
             <a href="{{ site.url }}/research" class="internal-link-wrapper">
-                <div class="link-titles-wrapper">
+                <div class="link-titles-wrapper" id="researchLink">
                     <h5>Research</h5><small>Sharing is caring</small>
                 </div>
                 <div class="internal-link-icon internal-link-icon-research"></div>
             </a>
             <a href="{{ site.url }}/events" class="internal-link-wrapper">
-                <div class="link-titles-wrapper">
+                <div class="link-titles-wrapper" id="eventsLink">
                     <h5>Events</h5><small>What's happening?</small>
                 </div>
                 <div class="internal-link-icon internal-link-icon-events"></div>
             </a>
             <a href="{{ site.url }}/media" class="internal-link-wrapper">
-                <div class="link-titles-wrapper">
+                <div class="link-titles-wrapper" id="mediaLink">
                     <h5>Media</h5><small>Photo, Video</small>
                 </div>
                 <div class="internal-link-icon internal-link-icon-media"></div>
             </a>
             <a href="{{ site.url }}/blog" class="internal-link-wrapper">
-                <div class="link-titles-wrapper">
+                <div class="link-titles-wrapper" id="blogLink">
                     <h5>Blog</h5><small>News, thoughts, music</small>
                 </div>
                 <div class="internal-link-icon internal-link-icon-blog"></div>
@@ -121,6 +121,7 @@
                 <h6>Linkedin</h6>
                 <div class="external-link-icon external-link-icon-linkedin"></div>
             </a>
+            <a href="mailto:{{ site.email }}" class="mail-address">{{ site.email }}</a>
         </div>
     </div>
 </nav>

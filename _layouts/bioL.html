@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% seo %}
+
 <head>
   {% include head.html %}
   <script type="text/javascript" src="{{ site.url }}/assets/js/jquery-3.7.1.min.js"></script>
@@ -45,6 +46,17 @@
       link.click();
 
       URL.revokeObjectURL(link.href);
+    }
+  </script>
+  <script>
+    const div = document.getElementById("bioLink");
+
+    if (div) {
+      const parentLink = div.parentElement;
+
+      if (parentLink && parentLink.tagName === "A") {
+        parentLink.classList.add("active-page");
+      }
     }
   </script>
   {% include footer.html %}

@@ -33,3 +33,15 @@ layout: default
 <hr>
 
 <script src="{{site.url}}/assets/js/events-on-index.js"></script>
+
+<script>
+    const div = document.getElementById("homeLink");
+
+    if (div) {
+        const parentLink = div.parentElement;
+
+        if (parentLink && parentLink.tagName === "A") {
+            parentLink.classList.add("active-page");
+        }
+    }
+</script>

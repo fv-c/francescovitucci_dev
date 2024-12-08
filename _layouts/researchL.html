@@ -13,6 +13,17 @@
     {{ content }}
     {% include footer.html %}
     <script type="text/javascript" src="{{ site.url }}/assets/js/functions.js"></script>
+    <script>
+        const div = document.getElementById("researchLink");
+    
+        if (div) {
+          const parentLink = div.parentElement;
+    
+          if (parentLink && parentLink.tagName === "A") {
+            parentLink.classList.add("active-page");
+          }
+        }
+      </script>
 </body>
 
 </html>

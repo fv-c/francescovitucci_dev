@@ -45,3 +45,15 @@ layout: default
 {% endfor %}
 
 <script src="{{ site.url }}/assets/js/slideshow.js"></script>
+
+<script>
+    const div = document.getElementById("mediaLink");
+
+    if (div) {
+      const parentLink = div.parentElement;
+
+      if (parentLink && parentLink.tagName === "A") {
+        parentLink.classList.add("active-page");
+      }
+    }
+</script>
