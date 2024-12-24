@@ -94,12 +94,10 @@ header.header-main
         display: flex
         flex-direction: row
         justify-content: space-around
-        width: 80%
+        width: 60%
         min-height: 250px
         list-style-type: none
         gap: 30px
-        //padding: 0
-        //margin: 0
         .upcoming-event
             position: relative
             overflow: hidden
@@ -127,7 +125,7 @@ header.header-main
                 z-index: 2
                 border: 2px solid
                 border-radius: 100%
-                padding: 1px
+                padding: 2px
                 filter: invert(42%) sepia(93%) saturate(1500%) hue-rotate(-25deg) brightness(95%) contrast(100%)
             h2
                 font-family: $font-stack
@@ -178,7 +176,6 @@ header.header-main
                     font-family: $font-stack-two
                     font-weight: 600
                 .date-event::before
-                    //content: "📅 Date: "
                     content: ""
                     display: inline-block
                     width: 13px
@@ -190,7 +187,6 @@ header.header-main
                     vertical-align: middle
                     margin-top: -3px
                 .time-event::before
-                    //content: "🕒 Time: "
                     content: ""
                     display: inline-block
                     width: 13px
@@ -202,7 +198,6 @@ header.header-main
                     vertical-align: middle
                     margin-top: -3px
                 .place-event::before
-                    //content: "📍 Where: "
                     content: ""
                     display: inline-block
                     width: 13px
@@ -214,7 +209,6 @@ header.header-main
                     vertical-align: middle
                     margin-top: -3px
                 .type-event::before
-                    //content: "📍 Where: "
                     content: ""
                     display: inline-block
                     width: 13px
@@ -233,6 +227,7 @@ header.header-main
         @media screen and ( max-width: 1200px )
             flex-direction: column
             max-width: 100%
+            width: 80%
         .upcoming-event.cancelled
             .overlay
                 opacity: 1
@@ -252,8 +247,6 @@ header.header-main
         min-height: 250px
         list-style-type: none
         gap: 30px
-        //padding: 0
-        //margin: 0
         .concluded-event
             position: relative
             overflow: hidden
@@ -278,7 +271,7 @@ header.header-main
                 height: 30px
                 position: absolute
                 align-self: flex-end
-                z-index: 999
+                z-index: 2
                 border: 2px solid
                 border-radius: 100%
                 padding: 2px
@@ -332,7 +325,6 @@ header.header-main
                     font-family: $font-stack-two
                     font-weight: 600
                 .date-event::before
-                    //content: "📅 Date: "
                     content: ""
                     display: inline-block
                     width: 13px
@@ -344,7 +336,6 @@ header.header-main
                     vertical-align: middle
                     margin-top: -3px
                 .time-event::before
-                    //content: "🕒 Time: "
                     content: ""
                     display: inline-block
                     width: 13px
@@ -356,7 +347,6 @@ header.header-main
                     vertical-align: middle
                     margin-top: -3px
                 .place-event::before
-                    content: "📍 Where: "
                     content: ""
                     display: inline-block
                     width: 13px
@@ -368,7 +358,6 @@ header.header-main
                     vertical-align: middle
                     margin-top: -3px
                 .type-event::before
-                    content: "📍 Where: "
                     content: ""
                     display: inline-block
                     width: 13px
