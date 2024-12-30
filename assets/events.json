@@ -20,15 +20,6 @@
     "status": "active"
   },
   {
-    "title": "IHM - ArteScienza 2025",
-    "date": "2025-07-06",
-    "time": "21:00",
-    "type": "Concert",
-    "location": "GOETHE-INSTITUT Rom Auditorium, Roma",
-    "description": "ArteScienza 2025.<br>Commissioned piece: IHM (2025) concert-opera for four cellos and one electroacoustic player.<br>Musicians: Roberta Pastore, Donatello Notarnicola, Emanuela Storelli, Fedora Palladino, Daniele Giuseppe Annese, Francesco Vitucci",
-    "status": "active"
-  },
-  {
     "title": "IMPULSE Tour (1)",
     "date": "2024-10-05",
     "time": "20:00",
@@ -95,6 +86,24 @@
     "type": "Concert",
     "location": "Sala Casalini, Hotel Due Torri, Verona",
     "description": "SIMC - Progetto teatrale.<br>Commissioned piece: new work for reciting voice and electric guitar.",
+    "status": "active"
+  },
+  {
+    "title": "La musica. Da Pitagora all’AI. Un discorso a tre voci",
+    "date": "2025-03-04",
+    "time": "18:30",
+    "type": "Conference",
+    "location": "Museo della Fotografia (Politecnico), Via Orabona 4, Bari",
+    "description": "Concerti del Politecnico VI edizione - “Musica e intelligenza artificiale, dai suoni agli algoritmi”. There will also be contributions from Francesco Scagliola and Rossella Calella (Conservatorio “N. Piccinni” - Bari)",
+    "status": "active"
+  },
+  {
+    "title": "IHM - ArteScienza 2025",
+    "date": "2025-07-06",
+    "time": "21:00",
+    "type": "Concert",
+    "location": "GOETHE-INSTITUT Rom Auditorium, Roma",
+    "description": "ArteScienza 2025.<br>Commissioned piece: IHM (2025) concert-opera for four cellos and one electroacoustic player.<br>Musicians: Roberta Pastore, Donatello Notarnicola, Emanuela Storelli, Fedora Palladino, Daniele Giuseppe Annese, Francesco Vitucci",
     "status": "active"
   }
 ]
