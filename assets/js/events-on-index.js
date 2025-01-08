@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const [hours, minutes] = time.split(":");
                 const dateObj = new Date(date);
-                dateObj.setUTCHours(hours, minutes, 0, 0);
+                dateObj.setHours(hours, minutes, 0, 0);
 
                 if (isNaN(dateObj.getTime())) {
                     console.error("Invalid date or time:", date, time);
@@ -79,15 +79,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
             upcomingEvents.slice(0, limitUpcoming).forEach((event) => {
                 const { start, end } = formatForCalendar(event.date, event.time);
+                console.log(end);
 
                 const description = `Created by francescovitucci.com\n\n${event.description || "No description available."}`;
 
                 const googleCalendarLink = `
-                    https://calendar.google.com/calendar/r/eventedit?text=${encodeURIComponent(event.title)}
-                    &dates=${start}/${end}
-                    &details=${encodeURIComponent(description)}
-                    &location=${encodeURIComponent(event.location || "")}
-                    &pli=1
+                    https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.title)}&dates=${start}/${end}&details=${encodeURIComponent(description)}&location=${encodeURIComponent(event.location || "")}
                 `;
 
                 const eventElement = `
