@@ -87,6 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     &dates=${start}/${end}
                     &details=${encodeURIComponent(description)}
                     &location=${encodeURIComponent(event.location || "")}
+                    &pli=1
                 `;
 
                 const eventElement = `
