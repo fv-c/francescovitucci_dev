@@ -16,6 +16,56 @@ document.addEventListener("DOMContentLoaded", function () {
 
       let currentYear = null;
 
+      // Formatta le date per Google Calendar
+      function formatForCalendar(date, time = "00:00") {
+        if (time.includes("-")) {
+          const [start, end] = time.split("-");
+          return {
+            start: generateDateTimeString(date, start),
+            end: generateDateTimeString(date, end),
+          };
+        } else {
+          const startDateTime = generateDateTimeString(date, time);
+          const endDateTime = addHoursToDate(startDateTime, 2);
+          return {
+            start: startDateTime,
+            end: endDateTime,
+          };
+        }
+      }
+
+      // Genera stringa data e ora
+      function generateDateTimeString(date, time) {
+        const [hours, minutes] = time.split(":");
+        const dateObj = new Date(date);
+        dateObj.setUTCHours(hours, minutes, 0, 0);
+
+        if (isNaN(dateObj.getTime())) {
+          console.error("Invalid date or time:", date, time);
+          return "";
+        }
+
+        return dateObj.toISOString().replace(/-|:|\.\d+/g, "");
+      }
+
+      // Aggiunge ore alla data
+      function addHoursToDate(dateString, hours) {
+        const formattedDateString = dateString.replace(
+          /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/,
+          "$1-$2-$3T$4:$5:$6Z"
+        );
+
+        const dateObj = new Date(formattedDateString);
+        if (isNaN(dateObj.getTime())) {
+          console.error("Failed to create Date object:", formattedDateString);
+          return "";
+        }
+
+        dateObj.setUTCHours(dateObj.getUTCHours() + hours);
+        return dateObj.toISOString().replace(/-|:|\.\d+/g, "");
+      }
+
+      // Eventi futuri
       events
         .filter((event) => event.date >= today)
         .sort((a, b) => new Date(a.date) - new Date(b.date))
@@ -28,6 +78,18 @@ document.addEventListener("DOMContentLoaded", function () {
             upcomingEventsContainer.appendChild(yearDivider);
             currentYear = eventYear;
           }
+
+          const { start, end } = formatForCalendar(event.date, event.time);
+          const description = `Created by francescovitucci.com\n\n${event.description || "No description available."}`;
+
+          const googleCalendarLink = `
+            https://calendar.google.com/calendar/r/eventedit?text=${encodeURIComponent(
+              event.title
+            )}
+            &dates=${start}/${end}
+            &details=${encodeURIComponent(description)}
+            &location=${encodeURIComponent(event.location || "")}
+          `;
 
           const eventElement = document.createElement("div");
           eventElement.className = `upcoming-event ${
@@ -79,6 +141,9 @@ document.addEventListener("DOMContentLoaded", function () {
                                 ? `<p>${event.description}</p>`
                                 : ""
                             }
+                            <a href="${googleCalendarLink}" target="_blank" class="add-to-calendar">
+                              Add to Google Calendar
+                            </a>
                             ${
                               event.url
                                 ? `<a href="${event.url}" target="_blank">Read more</a>`
@@ -99,6 +164,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
       currentYear = null;
+
+      // Eventi passati (recent events)
       events
         .filter((event) => event.date < today)
         .sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -146,11 +213,6 @@ document.addEventListener("DOMContentLoaded", function () {
                                     ? `<p class="place-event">${event.location}</p>`
                                     : ""
                                 }
-                                ${
-                                  event.type
-                                    ? `<p class="type-event">${event.type}</p>`
-                                    : ""
-                                }
                             </div>
                         </div>
                         <div class="event-content">
@@ -173,12 +235,5 @@ document.addEventListener("DOMContentLoaded", function () {
             document.createElement("hr")
           ).style.width = "75%";
         });
-    })
-    .catch((error) => {
-      console.error("Error fetching events:", error);
-      upcomingEventsContainer.innerHTML =
-        "<p class='no-events'>No upcoming events available.</p>";
-      concludedEventsContainer.innerHTML =
-        "<p class='no-events'>No recent events available.</p>";
     });
 });
