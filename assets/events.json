@@ -105,5 +105,13 @@
     "location": "GOETHE-INSTITUT Rom Auditorium, Roma",
     "description": "ArteScienza 2025.<br>Commissioned piece: IHM (2025) concert-opera for four cellos and one electroacoustic player.<br>Musicians: Roberta Pastore, Donatello Notarnicola, Emanuela Storelli, Fedora Palladino, Daniele Giuseppe Annese, Francesco Vitucci",
     "status": "active"
+  },
+  {
+    "title": "Re-sonanti",
+    "date": "2025-01-23",
+    "time": "18:00",
+    "type": "Concert",
+    "location": "Consiglio Regionale Puglia, Via Gentile 52, Bari",
+    "description": "“L’intelligenza artificiale non è più un’opzione”, twelfth appointment of the project “C6?.! Le 6 C”. The meeting will feature a music performance by Niccolò Fino (percussionist) and Francesco Vitucci (live electronics), performing <em>(ec)stasis</em> (2024), on a multi-channel ambisonic system."
   }
 ]
