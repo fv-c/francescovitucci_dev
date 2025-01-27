@@ -34,11 +34,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
 
-      // Genera stringa data e ora (senza UTC)
       function generateDateTimeString(date, time) {
         if (!time.match(/^\d{2}:\d{2}$/)) {
           console.error("Invalid time format:", time);
-          time = "00:00";  // Fallback a mezzanotte
+          time = "00:00"; 
         }
 
         const [hours, minutes] = time.split(":");
@@ -53,7 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
         return formatDateForGoogle(dateObj);
       }
 
-      // Aggiunge ore alla data e la formatta
       function addHoursToDate(dateString, hours) {
         const formattedDateString = dateString.replace(
           /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})$/,
@@ -71,7 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
         return formatDateForGoogle(dateObj);
       }
 
-      // Formatta la data nel formato richiesto (YYYYMMDDTHHMMSS senza Z)
       function formatDateForGoogle(date) {
         const year = date.getFullYear();
         const month = String(date.getMonth() + 1).padStart(2, "0");

@@ -79,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             upcomingEvents.slice(0, limitUpcoming).forEach((event) => {
                 const { start, end } = formatForCalendar(event.date, event.time);
-                console.log(end);
 
                 const description = `Created by francescovitucci.com\n\n${event.description || "No description available."}`;
 
