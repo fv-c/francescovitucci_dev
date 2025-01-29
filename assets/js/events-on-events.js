@@ -229,6 +229,11 @@ events
             ? `<p>${event.description}</p>`
             : ""
         }
+        ${
+          event.url
+            ? `<a href="${event.url}" target="_blank">Read more</a>`
+            : ""
+        }
     </div>
   `;
 
