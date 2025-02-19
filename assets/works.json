@@ -453,5 +453,16 @@
     "image": "pinax.jpg",
     "premiere": "Auditorium San Fedele, Milano, 01-12-23",
     "youtube_url": "https://www.youtube.com/watch?v=bcsNwKXsys0&ab_channel=SyntaxEnsemble"
+  },
+  {
+    "title": "Lumina",
+    "subtitle": "for fixed media",
+    "year": 2024,
+    "duration": "5 min",
+    "instruments": ["fixedMedia"],
+    "description": "Not available",
+    "image": "w.jpg",
+    "premiere": "Desenzano, Auditorim \"Celesti\", 10-11-24",
+    "youtube_url": "https://www.youtube.com/watch?v=55wNrI_eIS4&t=400s"
   }
 ]
