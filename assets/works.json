@@ -464,5 +464,16 @@
     "image": "w.jpg",
     "premiere": "Desenzano, Auditorim \"Celesti\", 10-11-24",
     "youtube_url": "https://www.youtube.com/watch?v=55wNrI_eIS4&t=400s"
+  },
+  {
+    "title": "Tre aforismi",
+    "subtitle": "for piano",
+    "year": 2023,
+    "duration": "5 min",
+    "instruments": ["piano"],
+    "description": "Not available",
+    "image": "w.jpg",
+    "premiere": "Ceglie Messapica, Salone del Castello ducale, 05-10-23",
+    "info1_url": "https://iltaccodibacco.it/puglia/eventi/265106.html"
   }
 ]
