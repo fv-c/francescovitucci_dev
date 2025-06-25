@@ -85,7 +85,7 @@
     "time": "18:00",
     "type": "Concert",
     "location": "Sala Casalini, Hotel Due Torri, Verona",
-    "description": "SIMC - Progetto teatrale.<br>Commissioned piece: Nosebleed (2025) for reciting voice and electric guitar on the short story “La Notte” by Lucy Gazzieri.<br>Musician: Giuseppe Dardano, electric guitar.",
+    "description": "SIMC - Progetto teatrale.<br>Commissioned piece: La notte (2025) for reciting voice and electric guitar on the short story “La Notte” by Lucy Gazzieri.<br>Musician: Giuseppe Dardano, electric guitar.",
     "status": "active"
   },
   {
@@ -104,7 +104,8 @@
     "time": "21:00",
     "type": "Concert",
     "location": "GOETHE-INSTITUT Rom Auditorium, Roma",
-    "description": "ArteScienza 2025.<br>Commissioned piece: IHM (2025) concert-opera for four cellos and one electroacoustic player.<br>Musicians: Roberta Pastore, Donatello Notarnicola, Emanuela Storelli, Fedora Palladino, Daniele Giuseppe Annese, Francesco Vitucci",
+    "description": "ArteScienza 2025.<br>IHM (2025) concert-opera for reciting voices on fixed media, artificial voices, four augmented cellos and live electronics.<br>Musicians: Roberta Pastore, Donatello Notarnicola, Emanuela Storelli, Fedora Palladino, Daniele Giuseppe Annese, Francesco Vitucci",
+    "url": "https://www.artescienza.info/it/programma-it/ihm-concerto.html",
     "status": "active"
   },
   {
@@ -123,7 +124,16 @@
     "time": "20:00",
     "type": "Concert",
     "location": "Auditorium Diocesano Vallisa, Strada Vallisa 11, Bari",
-    "description": "Not available.<br>Stay tuned!",
+    "description": "(ec)stasis (2024) for for marimba, vibraphone, multi-percussion and live electronics.<br>Niccolò Fino, percussion. Francesco Vitucci, live electronics.<br>",
+    "status": "active"
+  },
+  {
+    "title": "Imago Hominis Myrae",
+    "date": "2025-09-29",
+    "time": "20:00",
+    "type": "Concert",
+    "location": "Teatro Piccinni,  Corso Vittorio Emanuele II, 84, Bari",
+    "description": "Commissioned piece: \"Imago Hominis Myrae\" (2025), for reciting voice, orchestra and fixed media.<br>Musicians: ICO Metropolitana di Bari, Francesco Vitucci, fixed media.<br>Conductor: TBA.<br>Reciting voice: TBA.",
     "status": "active"
   }
 ]

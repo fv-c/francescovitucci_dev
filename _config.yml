@@ -15,6 +15,8 @@ blogImgBin_path: /assets/img/blog/
 # Blog Images low resolution: height 200px
 #
 # Photo Images main resolution: height 1875px x 1000px
+#
+# Works Images resolution: height 3750px x 2000px
 
 # Build settings
 permalink: pretty

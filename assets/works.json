@@ -475,5 +475,18 @@
     "image": "w.jpg",
     "premiere": "Ceglie Messapica, Salone del Castello ducale, 05-10-23",
     "info1_url": "https://iltaccodibacco.it/puglia/eventi/265106.html"
+  },
+  {
+    "title": "La notte",
+    "subtitle": "for reciting voice and electric guitat",
+    "year": 2025,
+    "duration": "7 min",
+    "instruments": ["voice","guitar"],
+    "description": "\"La notte\" is a melologue in which the narrated word and the distorted sound of the electric guitar intertwine to evoke a state of confusion and inner restlessness. The text - taken from the story of the same name by Lucy Gazzieri - leads the listener into a rarefied urban night, where the protagonist, returning home, finds her home mysteriously \"disappeared\". Thus begins a surreal journey between alienation and the search for identity, which takes place in the depths of a city that has suddenly become alien.<br>The musical dramaturgy is strongly reactive to the text, through an instrumental treatment that uses the electric guitar as an expressive and plastic element. The score alternates tightly synchronized sections with guided improvisational moments, in which the musician is called to interpret the “emotional polarities” of the text with free choices of fragments and transpositions, emphasizing mood swings and internal tensions.<br>The reciting voice takes on a central role: it is not a mere vehicle of the text, but a sonic protagonist, counterpointed and sometimes challenged by the guitar, which acts as a distorted echo or a hostile environment. The work thus explores the thresholds between word and sound, between story and disorientation, between narrative concreteness and psychic visionariness.",
+    "image": "la-notte.jpg",
+    "premiere": "Verona, Sala Casilina, Hotel Due Torri, 07-06-25",
+    "info1_url": "http://www.cidim.it/cidim/content/314696?id=397188",
+    "info2_url": "https://www.simc-italia.com/wp-content/uploads/2025/05/2025-01-SIMC-Festival-di-Primavera-pieghevole-8-facciate-Fronte-212x299-1.pdf",
+    "buy_url": "https://szsugar.it/catalogo/17289-la-notte/"
   }
 ]
