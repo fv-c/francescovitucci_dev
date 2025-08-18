@@ -132,8 +132,17 @@
     "date": "2025-09-29",
     "time": "20:00",
     "type": "Concert",
-    "location": "Teatro Piccinni,  Corso Vittorio Emanuele II, 84, Bari",
-    "description": "Commissioned piece: \"Imago Hominis Myrae\" (2025), for reciting voice, orchestra and fixed media.<br>Musicians: ICO Metropolitana di Bari, Francesco Vitucci, fixed media.<br>Conductor: TBA.<br>Reciting voice: TBA.",
+    "location": "Teatro Piccinni, Corso Vittorio Emanuele II, 84, Bari",
+    "description": "Commissioned piece: \"Imago Hominis Myrae\" (2025), for reciting voice, orchestra and fixed media.<br>Musicians: ICO Metropolitana di Bari, Francesco Vitucci, fixed media.<br>Conductor: Vittorio Parisi",
+    "status": "active"
+  },
+  {
+    "title": "Ri-lettura 2",
+    "date": "2025-10-10",
+    "time": "20:30",
+    "type": "Concert",
+    "location": "Teatro Traetta, Largo Teatro Umberto I, 17, Bitonto",
+    "description": "Commissioned piece: \"Canto senza pietra\" (2025), for flute, alto saxophone and piano.<br>Musicians: Ozone Sea Trio",
     "status": "active"
   }
 ]
