@@ -13,7 +13,7 @@ gem 'jekyll-sass-converter'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'jekyll-archives'
-gem "rexml", ">= 3.3.9"
+gem "rexml", "~> 3.4.2"
 gem "google-protobuf", ">= 3.25.5"
 gem "webrick", ">= 1.8.2"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
