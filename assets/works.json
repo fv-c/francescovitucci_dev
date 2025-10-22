@@ -484,9 +484,45 @@
     "instruments": ["voice","guitar"],
     "description": "\"La notte\" is a melologue in which the narrated word and the distorted sound of the electric guitar intertwine to evoke a state of confusion and inner restlessness. The text - taken from the story of the same name by Lucy Gazzieri - leads the listener into a rarefied urban night, where the protagonist, returning home, finds her home mysteriously \"disappeared\". Thus begins a surreal journey between alienation and the search for identity, which takes place in the depths of a city that has suddenly become alien.<br>The musical dramaturgy is strongly reactive to the text, through an instrumental treatment that uses the electric guitar as an expressive and plastic element. The score alternates tightly synchronized sections with guided improvisational moments, in which the musician is called to interpret the “emotional polarities” of the text with free choices of fragments and transpositions, emphasizing mood swings and internal tensions.<br>The reciting voice takes on a central role: it is not a mere vehicle of the text, but a sonic protagonist, counterpointed and sometimes challenged by the guitar, which acts as a distorted echo or a hostile environment. The work thus explores the thresholds between word and sound, between story and disorientation, between narrative concreteness and psychic visionariness.",
     "image": "la-notte.jpg",
-    "premiere": "Verona, Sala Casilina, Hotel Due Torri, 07-06-25",
+    "premiere": "Sala Casilina, Hotel Due Torri, Verona, 07-06-25",
     "info1_url": "http://www.cidim.it/cidim/content/314696?id=397188",
     "info2_url": "https://www.simc-italia.com/wp-content/uploads/2025/05/2025-01-SIMC-Festival-di-Primavera-pieghevole-8-facciate-Fronte-212x299-1.pdf",
     "buy_url": "https://szsugar.it/catalogo/17289-la-notte/"
+  },
+  {
+    "title": "IHM",
+    "subtitle": "for human reciting voices on support, artificial voices, four augmented cellos and live electronics",
+    "year": 2025,
+    "duration": "50 min",
+    "instruments": ["cello", "strings", "chamber", "liveElectronics"],
+    "description": "IHM (2025), for human reciting voices on support, artificial voices, four augmented cellos and live electronics, explores the archetype of abandonment, drawing inspiration from the tragic stories of three different Didos, drawn from the operas of Niccolò Piccinni, Domenico Sarro, and Henry Purcell. Each represents a unique aspect of love, loss, and desolation, while also retracing, time and again throughout the history of music, a familiar pattern: falling in love, Aeneas's abandonment, Dido's death.<br>As in Greek tragedy, the audience is challenged to question the authenticity of emotions and memories in an age where artificial intelligence can replicate and reproduce expressive gestures remarkably similar to those of humans. As the piece unfolds, subtle features in the AI-generated texts and cloned voices may reveal the artificial nature of the fake memories employed, ultimately suggesting an inherent theme: the intrusion of artificial intelligence into the profoundly human experience of emotion.",
+    "premiere": "Auditorium del Goethe Institut Rom, Roma, 05-07-25",
+    "image": "ihm-up-crop-comp.jpg",
+    "info1_url": "https://www.artescienza.info/it/programma-it/ihm-concerto.html",
+    "buy_url": "https://szsugar.it/catalogo/17331-ihm/"
+  },
+  {
+    "title": "Imago Hominis Myrae",
+    "subtitle": "per voce recitante, orchestra e fixed media",
+    "year": 2025,
+    "duration": "30 min",
+    "instruments": ["orchestra", "fixedMedia"],
+    "description": "The IHM cycle is based on the idea of ​​\"collective memory\" and how it can leave an emotional mark on the individual. Once entrusted to exclusively human transcription and processing, this \"memory\" which extends across all fields of knowledge, is now increasingly the domain of artificial entities, tools capable of rapid research and re-proposal. These artificial intelligences, called \"reproductive,\" retain memory, re-elaborate it, and display it with highly advanced linguistic ability. The IHM cycle, of which Imago Hominis Myrae (2025) is the third iteration, begins with a long human-machine dialogue, with a specific request: a character, the context in which they moved, a selection of events from their life, and therefore an artificial synthesis of a possible memory of that character. The audience is therefore called to question the authenticity of emotions and memories in an era in which artificial intelligence can replicate and reproduce expressive gestures entirely similar to human ones. This passage evokes the figure of Saint Nicholas, observing three moments in a life that, despite constant references to the historical notions of the Myran man, is the product of layers of neural networks that \"calculate\" a linguistic model.<br>Can the artificial, then, move a human being?",
+    "premiere": "Teatro Piccinni, Bari, 29-09-25",
+    "image": "myra-up-crop-comp.jpg",
+    "info1_url": "https://www.cittametropolitana.ba.it/vivere_il_comune/eventi/evento_301.html",
+    "buy_url": "https://www.schott-music.com/en/imago-hominis-myrae-no793930.html"
+  },
+  {
+    "title": "Canto senza pietra",
+    "subtitle": "per flauto, sassofono contralto e pianoforte",
+    "year": 2025,
+    "duration": "3 min",
+    "instruments": ["flute", "saxophone", "piano", "chamber"],
+    "description": "Not available",
+    "premiere": "Teatro Piccinni, Bari, 10-10-25",
+    "image": "w.jpg",
+    "info1_url": "https://www.baritoday.it/eventi/ozone-sea-trio-bitonto-10-ottobre-2025.html",
+    "buy_url": "https://szsugar.it/catalogo/17345-canto-senza-pietra/"
   }
 ]
