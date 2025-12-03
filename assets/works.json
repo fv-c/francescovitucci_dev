@@ -4,7 +4,12 @@
     "subtitle": "for four cellos and<br>one electroacoustic player",
     "year": 2024,
     "duration": "20 min",
-    "instruments": ["cello", "strings", "chamber", "liveElectronics"],
+    "instruments": [
+      "cello",
+      "strings",
+      "chamber",
+      "liveElectronics"
+    ],
     "description": "In Human Memories is a piece for pre-recorded and AI-generated voices, four cellos and live electronics. It explores the archetype of abandonment, inspired by the tragic stories of three different Didoes, taken from the operas by Niccolò Piccinni, Domenico Sarro, Henry Purcell. Each of them represents a unique aspect of love, loss and desolation, while retracing, dozens of times in the history of music, a well-known pattern: falling in love, Aeneas' abandonment, Dido's death. As in Greek tragedy, the audience is called to question the authenticity of emotions and memories in an era in which artificial intelligence can replicate and generate human-like expressions. As the piece unfolds, subtle features in the AI-generated lyrics and cloned voices can reveal the artificial nature of the fake memories employed, ultimately suggesting an underlying theme: the intrusion of AI into the deeply human experience of emotion.",
     "image": "in-human-memories.jpg",
     "premiere": "Auditorium Nino Rota, 24-07-2024",
@@ -15,7 +20,10 @@
     "subtitle": "for fixed media and S.T.ON3L,<br>one electroacoustic player",
     "year": 2023,
     "duration": "9 min",
-    "instruments": ["fixedMedia", "liveElectronics"],
+    "instruments": [
+      "fixedMedia",
+      "liveElectronics"
+    ],
     "description": "Selected piece in International Computer Music Conference 2024, College of Music, Hanyang University - Seoul, South Korea.<br>The electroacoustic interpreter and the S.T.ON3L instrument are positioned in the center of the room. The piece presents a formal arc segmented into sections, in which the performer explores very different listening areas, with their own peculiarities and identities. This piece breakdown is reflected in the processes of Live Electronics. Starting from a miking of the listening space and subsequent extraction of audio descriptors, various control signals are determined. Thus, a process of information \"feedback\" is created, emphasized, hidden, suppressed, kept alive by the interpreter's gestures. The interpreter interacts with the electroacoustic instrument at the auditory level only, stimulating the computer system using adaptive control signals. Using the footswitch can force a sudden opening of time windows in which live electronics processes can emerge. It's recommended using it discreetly, three or four times during the first section, characterizing each intervention. A single obligatory pedal intervention is foreseen, as marked in the score.",
     "soundcloud_url": "https://soundcloud.com/francesco_vitucci/a-deep-breath",
     "image": "a-deep-breath.png",
@@ -26,7 +34,9 @@
     "subtitle": "for orchestra",
     "year": 2024,
     "duration": "6 min",
-    "instruments": ["orchestra"],
+    "instruments": [
+      "orchestra"
+    ],
     "description": "Dedicated to ICO Metropolitana di Bari.<br>The flame, the fire: common elements of local popular traditions, as demonstrated by the \"Register of festive rituals related to fire\" of the Puglia Region, but also of conceptually and geographically distant traditions. Symbol of heat and light, fire plays a particular role in the rite, becoming its climax: think of the rites of Christian Easter, as well as of the Orthodox one, a connection of traditions that the city of Bari has long learned to value. This compositional work, Prelude to the rites of fire, therefore seeks its own ritual dimension, in which the sound becomes an anabatic vehicle of tension towards the top not in strictly musical terms, but in imaginative ones. There is no rite without the reiteration of a gesture and one could say that there is no understanding of the musical meaning without the reiteration of a musical gesture. The piece therefore presents iterations of the same gesture which, in its most complex or most basic form, sculpts time, accompanying and preluding, perhaps, to something to come.",
     "info1_url": "https://www.cittametropolitana.ba.it/vivere_il_comune/eventi/evento_26.html",
     "info2_url": "https://www.consba.it/it/1054/eventi/8269/in-planctu-desidero",
@@ -38,7 +48,9 @@
     "subtitle": "for orchestra",
     "year": 2016,
     "duration": "15 min",
-    "instruments": ["orchestra"],
+    "instruments": [
+      "orchestra"
+    ],
     "description": "The concept of variation is one of the cornerstones on which traditional tonal music has been based, from its very beginnings to its most complex evolutions. A very effective classification of variation typologies was provided by Vincent D’Indy in his <em>Cours de Composition musicale</em> (Durand, 1948). The composer-treatise writer, in this work, distinguishes three typologies of variation: <em>ornamental</em>, obtainable through the application of melodic ornaments; <em>decorative</em>, the result of various modifications, including harmonic ones; finally <em>amplifying</em>, taking up the idea of ​​thematic amplification, typical of traditional classical music.<br>The <em>Variations</em> for Orchestra were modeled according to these principles. An exposition presents the chorale “Jesu, meine freude” in its entirety, in one of Johann Sebastian Bach’s harmonizations (BWV 227, in E minor), entrusted to the different sections of the ensemble, first the strings, then the woodwinds and brass. Five variations follow, each of a different character, in a progressive departure from the original theme. Although these variations are self-contained, they are not conceived as juxtaposed entities, but rather contextualized in a continuous flow of gradual transformation.<br>The piece ends with a double fugue. The exposition is followed by a series of modulations, modeled according to an imitative writing typical of the fugal entertainment: through a sudden caesura we move on to a new exposition of a second subject, at the end of which the meeting and overlapping of both subjects occurs. By increasingly tightening the various entrances we reach the climax of the piece that represents the return to the starting point, in a sort of circle that, finally, closes.",
     "youtube_url": "https://www.youtube.com/watch?v=FO-2bhYqxDw&t=3s",
     "soundcloud_url": "https://soundcloud.com/francesco_vitucci/variazioni-per-orchestra?si=40108c2bc15b4f7cbf3ad7978d56dab4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
@@ -51,7 +63,11 @@
     "subtitle": "for flute and piano",
     "year": 2015,
     "duration": "6 min",
-    "instruments": ["flute", "piano", "chamber"],
+    "instruments": [
+      "flute",
+      "piano",
+      "chamber"
+    ],
     "description": "Not available",
     "soundcloud_url": "https://soundcloud.com/francesco_vitucci/ricordi-di-polvere",
     "youtube_url": "https://youtu.be/_UjmR9PbtGQ?si=rUcg29gTdXrLxzJv",
@@ -64,7 +80,9 @@
     "subtitle": "for orchestra",
     "year": 2021,
     "duration": "11 min",
-    "instruments": ["orchestra"],
+    "instruments": [
+      "orchestra"
+    ],
     "description": "First prize at International Composing Competition \"2 agosto\" XXVII Edition.<br>Dedicating a Composition competition to a terrible event, such as the Bologna massacre, is an undertaking that reveals how it is possible to stimulate the birth of new fresh branches from a ruined, destroyed stump. The \"2 agosto\" Competition is exactly this: a virtuous and precious procedure that, with force, unfolds creativity. Regarding the Bologna massacre, what has always struck me is the solution of continuity. eighty-five lives were literally interrupted, forever suspending the rituality of life, a ritual that some of them had even just undertaken. Around this idea takes shape \"Nelle pieghe\" (lit. \"In the folds\"), a piece for orchestra designed and created expressly for the \"2 Agosto\" Competition and dedicated to each of those eighty-five people. \"To interrupt\" can mean \"to tear\" a texture, disturbing very precise vector processes, directions that are thus found to no longer exist. But this is not the only way to interrupt something. A texture, however, can also be folded, hiding one or more parts, thus bringing together two different states of the same vector process, but precluding the process itself from view. So the idea is precisely this: what looks like a \"tear\" is in reality only a \"fold\", which hides materials, processes and directions. The work in question is divided into a series of sections, four specifically, which explore in a non-linear way some states of the musical material used. The first section presents the superficial fibers, extremely alive, iridescent and fibrillating. A \"class\" of affirmative syntagms is presented, articulated in a main macro-syntagm and in a series of aliases which, from time to time, broaden the frequency range, gradually distributing themselves over the entire orchestral mass. Soon the thesis, represented by the jeté of the strings, and the desinence, both smooth and striated, entrusted to the resonances of woodwind, brass and percussions, are expanded with the addition of a preparatory arsis. The syntagm thus becomes a sort of \"pulsar\" which tends to destabilize and depolarize the ecosystem in which it is found. The latter actually belongs to a second class of syntagms, generally entrusted to the strings, sensitive to the pulsations of the main object, whose presence alters its frequency field. The two classes thus tend to establish a lively, fluid dialectic. Through a metric modulation, suddenly the first tear occurs, or, better, the first unfolding, which shows a decidedly foreign, very deep level, with very different logics. In an almost fractal way, the two levels also establish a dialectical relationship, this time unbalanced: each unfolding becomes more and more prominent, so much so that at the end of the first section it is no longer possible to \"fold\" the texture to return to the higher level. The second section explores the space (or rather time) within this fold. The fibers of musical texture are very rarefied and relegated to very distant spectral areas. A magmatic texture, entrusted to double basses and contrabassoon, expands for the entire temporal extension, folded into a very slow ascending vector. A series of thinner fibers emerge, entrusted to the four solo strings, managed by a \"heterophony by constrained quantization\" algorithm, specifically designed for this work, which allows these four ethereal entities to weave a sort of very acute \"chant\" with irregular contours and out of focus, reverberating in a space virtually recreated by the resonances of all the other string instruments. The third section represents the opposite side of the main fold, in a sort of ascent towards the initial texture. The crotales are entrusted with the role of starter of this process that attempts to join the two levels so far apart. The initial macro-syntagm is much more dilated and extended, in a sort of stretching process that lets a series of sharp and sparkling artifacts emerge (the crotales themselves). The ascent ends with the beginning of the fourth section which shows an evidence: processes that alter the material are not compatible with an unaltered return of the material itself. The main syntagm has almost disappeared. It has now lost the connotation of an affirmative and thetic event, only its contours (still entrusted to the strings) can be seen together with a series of rarefied morphemes which, almost rhizomatically, flash episodically in an epilogue that shows only the shells of this articulated process.",
     "info1_url": "https://www.ansa.it/emiliaromagna/notizie/2021/07/29/vitucci-vince-il-concorso-2-agosto-col-brano-nelle-pieghe_9205caeb-02be-441a-b5d3-1ff89d9a3caf.html",
     "info2_url": "https://concorso2agosto.it/blog/2021/07/12/winners-of-the-xxvii-edition/",
@@ -77,7 +95,11 @@
     "subtitle": "for baritone, choir and orchestra",
     "year": 2021,
     "duration": "30 min",
-    "instruments": ["voice", "choir", "orchestra"],
+    "instruments": [
+      "voice",
+      "choir",
+      "orchestra"
+    ],
     "description": "Mousiké et Areté<br>The Ancient Music of Magna Graecia - Taranto and its legend<br>Winning piece of th International call for the selection of a composer and a lyricist under 35; lyrics by Claudia Lucia Ostuni.",
     "info1_url": "https://www.arcopu.com/it/news/-taras---ecco-il-mito-in-streaming",
     "info2_url": "https://oraquadra.info/2021/03/23/taras-linedita-in-concattedrale-di-taranto-musike-et-arrete-orchestra-della-magna-grecia-e-coro-arcopu/",
@@ -90,7 +112,10 @@
     "subtitle": "for violin, cello and string trio",
     "year": 2022,
     "duration": "5 min",
-    "instruments": ["strings", "chamber"],
+    "instruments": [
+      "strings",
+      "chamber"
+    ],
     "description": "\"La pièce que j'ai écrite pour cette édition de Creative Dialogue France s'intitule \"Sospira l'acqua\", qui est une citation d'un poème de Giovanni Pascoli intitulé \"Il mare\".<br>J'ai choisi ce titre car, lors du processus de création et à l'écoute des fragments durant ces dix jours, j'ai senti que le titre contient la sensation de mouvement énergique et ondulatoire, créé par les deux groupes instrumentaux, qui me faisait justement penser à l'eau, un élément dont je me sens particulièrement proche.\"",
     "youtube_url": "https://www.youtube.com/watch?v=pvlAziaCvss&list=PL3aR3IWihrh4bHpmgKkI6EHEtzQiLdSM2&index=2",
     "buy_url": "https://label.stradivarius.it/wp/prodotto/sospira-lacqua/",
@@ -103,7 +128,11 @@
     "subtitle": "six moments for chamber orchestra<br>and fixed media",
     "year": 2018,
     "duration": "16 min",
-    "instruments": ["orchestra", "fixedMedia", "ensemble"],
+    "instruments": [
+      "orchestra",
+      "fixedMedia",
+      "ensemble"
+    ],
     "description": "Not available",
     "youtube_url": "https://www.youtube.com/watch?v=CfAmYFjf-PE",
     "buy_url": "https://label.stradivarius.it/wp/prodotto/daedalus/",
@@ -115,7 +144,11 @@
     "subtitle": "for string trio and live electronics",
     "year": 2023,
     "duration": "10 min",
-    "instruments": ["strings", "liveElectronics", "chamber"],
+    "instruments": [
+      "strings",
+      "liveElectronics",
+      "chamber"
+    ],
     "description": "Dedicated to MDI Ensemble.<br>A lamp, positioned in the center of a dark room, radiates its light spherically, which is projected onto the surrounding walls. By obstructing the light rays, shadows are obtained, which can be harder or softer, smaller or larger, depending on the proximity or distance of the obstacle from the light source. This is the idea behind Projections for string trio and live electronics (2023). The three panels that make up the piece represent a large transition arch between more angular \"projections\" and their softer aliases, finding in the relationship between acoustic instruments and electroacoustic instruments that \"light\" that is projected onto the quadraphonic front, irradiating the space, embracing the listener. This ritual, dominated by group gestures, continues, gradually stripping the material, until it reaches its ancestral nature: a call or perhaps a chant.",
     "image": "projections.jpg",
     "premiere": "Auditorium del Goethe Institut Rom, 05-09-2023",
@@ -127,7 +160,9 @@
     "subtitle": "for eleven instruments",
     "year": 2022,
     "duration": "8 min",
-    "instruments": ["ensemble"],
+    "instruments": [
+      "ensemble"
+    ],
     "description": "A stone thrown into water generates concentric waves that alternately attract or repel objects positioned nearby. This phenomenon is distorted when two stones are dropped into the water: the two wave fronts interfere with each other, sometimes amplifying their reciprocal effects, other times completely cancelling them out, in an algebraic sum of pressure. The construction of Corpora (2022) for eleven instruments is based on this concept of \"interference\", constructive and destructive. The \"bodies\", to which the title of the piece refers, are two, macroscopically arranged on antithetical levels, characterized by very different behaviors and with a parallel life course. Despite this, the two \"bodies\" possess their own force of proximity, which generates interference. In the reiteration of their individual behaviors, the two levels tend to exchange energy: sound events of the first \"body\" pass into the other; instrumental gestures of the first are modulated by elements of spectral indeterminacy, typical of the second; and so on. The two different sound \"bodies\" discover themselves, in some way, compatible.",
     "image": "corpora.jpg",
     "premiere": "Teatro Studio Borgna, Parco della Musica - Roma, 09-06-2022",
@@ -138,7 +173,11 @@
     "subtitle": "miniature for klaviertrio and electronics",
     "year": 2020,
     "duration": "5 min",
-    "instruments": ["strings", "liveElectronics", "chamber"],
+    "instruments": [
+      "strings",
+      "liveElectronics",
+      "chamber"
+    ],
     "description": "Dedicated to Trio Lumen.<br>250 years after the birth of Ludwig van Beethoven, his music appears, today more than ever, imbued with a desire to go beyond traditional sound construction, to reach directly into the heart of sound itself. This is absolutely noticeable in the production of the last period of the German composer's life, a critical period for his awareness of his growing deafness: losing his hearing, Beethoven acquires the ability to construct sound, to invent remarkable perceptive devices, to also simulate physical behaviors of sound itself. The construction of sound is certainly a compositional aspect that fascinates, stimulating the search for new possibilities, from an instrumental and technical point of view. This piece, expressly requested by the Trio Lumen and dedicated to them, exploits a series of elements linked to the sound perception of those who, on the other hand, have lost the ability to do so. The analogies with Beethoven's musical treatment are curious: the use of the extreme regions of the sound spectrum; the use of the sustain pedal combined with the figuration of trill and tremolo to arrange indistinct \"clouds\" of sound; the frequency distribution that fulfills a \"rule\" of euphony-dissonance, or relaxation-tension. All this is welded together in the search for an idea, that thematic idea, at the beginning of the Trio op.1 n.3, which is here slowly reconstructed in an absolutely non-linear process of mental construction (just as, in modern times it has been specified, normally occurs in the human brain).",
     "image": "i-deaf.jpg",
     "premiere": "Casa della Musica, Ostuni, 03-10-2020",
@@ -150,7 +189,10 @@
     "subtitle": "for saxophone (alto/tenor) and Sampo",
     "year": 2021,
     "duration": "10 min",
-    "instruments": ["saxophone", "liveElectronics"],
+    "instruments": [
+      "saxophone",
+      "liveElectronics"
+    ],
     "description": "Winner piece of the 8th Sampo Composition Contest / Residency.<br>The theme of the piece is that of \"creation\". This theme, which cuts across all religions (monotheistic and polytheistic), is approached here from a point of view mythological, therefore creation as the first event which sanctions the birth of a world.<br>In a way, Sampo himself gave the idea. The term \"Sampo\" is of Finnish origin and designates a magical object that gives power and wealth. In the virtual place of the composition, where the listening will take shape, it's Sampo which gives life to a primordial act. If it is correctly calibrated, following a solicitation of the saxophone, the Sampo reacts by giving us a huge vibration primitive, at the origin of everything that will make up the piece. In order to get this first event, the Sampo has been calibrated to recreate a kind of algorithm Karplus Strong (very short delay / very high feedback), the basis of the modeling of plucked string instruments.<br>This piece therefore cannot do without an \"Activator\" (Saxophone) and an \"Expander\" (Sampo). The possibility offered by Sampo, that of being governed by the same musical performer, achieves an almost impossible fluidity effect by other means. The piece therefore traces the phases of a sudden awakening, of the birth of a connection, of the awareness of an interdependence. In this game of symbiosis, an attempt to detach one of the two entities takes shape, which will acquire more and more independence, trying to go beyond established boundaries.<br>Attempts that will cause another awakening, much more human.",
     "image": "at-the-origin-of.jpg",
     "premiere": "Atelier-Musée La maison du passementier, Saint-Jean-Bonnefonds, 29-06-2021",
@@ -163,7 +205,10 @@
     "subtitle": "for two players and electronic devices",
     "year": 2022,
     "duration": "8 min",
-    "instruments": ["saxophone", "liveElectronics"],
+    "instruments": [
+      "saxophone",
+      "liveElectronics"
+    ],
     "description": "The piece draws its origin and foundations from the concept of fetal microchimerism, a biological phenomenon by which a certain number of fetal stem cells escape the placenta, entering the mother organism and even colonizing it, persisting even for more than thirty years. This mechanism also exists in nature in its inverse configuration, so that a child can possess cells of its mother within itself.<br>This exchange, which is added to the hereditary one of the genetic patrimony, has provided a starting point for conceiving this composition in which two entities are closely linked in an interdependent way. The acoustic instrument, the saxophone, has its own well-defined historical and technical identity. The electroacoustic instrument initially appears much more shapeless, by comparison, presenting a role and a timbre very dependent on the acoustic instrument, in a behaviour of \"mimic\" of the gestural or intentional actions of the saxophone: in this way, the electroacoustic instrument \"learns\" to perform a vibrato (with the help of a multigestual sensor).<br>The two instruments influence each other, in an initially suspended, resonant scenario, which is the background to a continuous process of gestural osmosis and, in some way, of individual growth. A sudden event marks a \"before\" and an \"after\", imposing a change.",
     "image": "in-the-middle-of.jpg",
     "premiere": "Parco della Musica, Teatro Studio Borgna, Roma, 28-06-2022",
@@ -174,7 +219,10 @@
     "subtitle": "for piano and ensemble",
     "year": 2022,
     "duration": "6 min",
-    "instruments": ["piano", "ensemble"],
+    "instruments": [
+      "piano",
+      "ensemble"
+    ],
     "description": "Not available",
     "image": "cartigli.jpg",
     "premiere": "Sala della Musica, Comune di Ferrara, 26-11-2022",
@@ -185,7 +233,10 @@
     "subtitle": "for saxophone and fixed media<br>(version A)",
     "year": 2022,
     "duration": "8 min",
-    "instruments": ["saxophone", "fixedMedia"],
+    "instruments": [
+      "saxophone",
+      "fixedMedia"
+    ],
     "description": "(Un)popular chants is a series of small pieces for solo and electronic instruments that recall themes relating to singing, to the voice and, by extension, to the human being and his condition. (Un) popular chants I, in its version A for saxophone and fixed media, is divided into four segments. The title of the first of them, Tanka[tanka[tanka[...]]], refers to the application of a single class of modules, but with different magnifications. In this way a certain gradient of fractality develops, which can be found from the articulation of small units up to the entire shape. (ch)Oral is a kind of multiphonic choral, organized in real phrases, with a gloss entrusted to electronics, a second entity which, in the second part of the fragment, will expand the beats already present in the instrumental technique. The third segment is titled A dialogue with \"anyone\" and develops a monologue of the saxophone, with the electronics apparently absent or at least distant, in a completely different level (with some resemblance). The fourth segment uses the \"centone\" technique, cutting instrumental gestures and syntactic morphemes from the three previous segments and recombining them by proceeding backward (backward chaining). Back to the first instrumental gesture, the electronics make its entrance, proposing a swarm organized on audio materials coming, once again, from the previous parts.",
     "image": "unpopular-chants-i.jpg",
     "premiere": "Conservatoire National Supérieur de Musique et de Danse de Paris, Salle d’art lyrique Rémy-Pfimlin, Paris, 31-05-2022"
@@ -195,7 +246,10 @@
     "subtitle": "for soprano and piano",
     "year": 2020,
     "duration": "5 min",
-    "instruments": ["piano", "voice"],
+    "instruments": [
+      "piano",
+      "voice"
+    ],
     "description": "Winner piece of \"Jurypreis\" and \"Publikumspreis\" of Junges Lied-Wettbewerb Competition",
     "image": "neve.jpg",
     "premiere": "Liedrezital Zürich, Zurigo, 07-05-2022",
@@ -207,7 +261,10 @@
     "subtitle": "for violin",
     "year": 2021,
     "duration": "5 min",
-    "instruments": ["violin", "strings"],
+    "instruments": [
+      "violin",
+      "strings"
+    ],
     "description": "Il termine pinax (πίναξ) nella Grecia antica e nella Magna Grecia indicava una tavoletta votiva, dedicata ad una divinità e in genere posizionata in un tempio o comunque in un luogo sacro. Il termine, originariamente, indicava in realtà il supporto stesso che serviva a realizzare queste immagini votive, ovvero la tavola di terracotta che, mediante incisione, sarebbe poi diventata “portatrice di senso”, ospitando ora una scena di sacrificio, ora una battuta di caccia, e così via.<br>Quest'oggetto, così limitato per forma e dimensione, ospita quindi dentro di sé ben più di quello che si vede sulla superfice, per due motivi: una rappresentazione simbolica offre spazio a possibili interpretazioni, differenti anche ad ogni lettura; inoltre, una qualsiasi “scena” implica un “retroscena”, in cui agiscono forze che non sono direttamente “visibili”, ma si muovono, vivono, esistono, per così dire.<br>Queste idee hanno portato alla scrittura di Pinax (2021) per violino solo.<br>Tutto inizia con una dichiarazione, uno “statement” iniziale del materiale, la superfice del tessuto che compone il brano. Seguono una serie di letture che focalizzano l’attenzione su alcuni particolari, mostrando vari percorsi che si intrecciano libermente e che si svolgono, via via, in uno strato sempre più differito rispetto alla “scena” iniziale.",
     "image": "pinax.jpg",
     "premiere": "Parco della Musica, Teatro Studio Borgna, Roma, 25-05-2021"
@@ -217,7 +274,10 @@
     "subtitle": "for female choir",
     "year": 2019,
     "duration": "4 min",
-    "instruments": ["choir", "voice"],
+    "instruments": [
+      "choir",
+      "voice"
+    ],
     "description": "“Ovunque il guardo io giro<br>eterno Dio, ti vedo,<br>nell'opre Tue T'ammiro,<br>ti riconosco in me.<br>La terra, il mar, le sfere<br>parlan del Tuo potere:<br>Tu sei per tutto, e noi<br>tutti viviamo in Te.”",
     "image": "ovunque.jpg",
     "premiere": "Chiesa di San Sabino, Bari, 20-12-2019",
@@ -228,7 +288,10 @@
     "subtitle": "for soprano and piano",
     "year": 2019,
     "duration": "4 min",
-    "instruments": ["piano", "voice"],
+    "instruments": [
+      "piano",
+      "voice"
+    ],
     "description": "Not available",
     "image": "fior-di-gratitudine.jpg",
     "premiere": "Liceo delle Scienze Umane \"Ettore Palumbo\", Brindisi, 20-11-2019",
@@ -240,7 +303,10 @@
     "subtitle": "for piano and percussions",
     "year": 2019,
     "duration": "7 min",
-    "instruments": ["piano", "percussions"],
+    "instruments": [
+      "piano",
+      "percussions"
+    ],
     "description": "Not available",
     "image": "dove-calisto-luce.jpg",
     "premiere": "Aula magna Conservatorio della Svizzera Italiana, Lugano, 30-04-2021",
@@ -251,7 +317,10 @@
     "subtitle": "for marimba, vibraphone, multi-percussion<br>and live electronics",
     "year": 2024,
     "duration": "10 min",
-    "instruments": ["percussions", "liveElectronics"],
+    "instruments": [
+      "percussions",
+      "liveElectronics"
+    ],
     "description": "Dedicated to <a href=\"\" target=\"_blank\">Niccolò Fino.</a><br>Produced in collaboration with  AltreMenti Labs and supported by the Centro Nacional de la Música, Instituto Nacional de la Música, Universidad de las Artes de Yucatàn, and the 2024 Tour Export program by Puglia Sounds.",
     "image": "ecstasis.jpg",
     "premiere": "Instituto Nacional de la Musica, Costa Rica, 05-10-2024",
@@ -262,7 +331,10 @@
     "subtitle": "for string sextet",
     "year": 2019,
     "duration": "9 min",
-    "instruments": ["strings", "chamber"],
+    "instruments": [
+      "strings",
+      "chamber"
+    ],
     "description": "“De plus en plus se renouvelle...” (?)",
     "image": "hex-a.jpg",
     "premiere": "Antico Teatro Arrigoni, San Vito al Tagliamento, 10-05-2019",
@@ -274,7 +346,9 @@
     "subtitle": "for fixed media",
     "year": 2018,
     "duration": "5 min",
-    "instruments": ["fixedMedia"],
+    "instruments": [
+      "fixedMedia"
+    ],
     "description": "\"COMPORRE INSIEME\" sinergie fra musica elettronica e arti visive, evento in collaborazione L'ARTIFICIO e SIMC. Video by Daniele Lunghini",
     "image": "imprinting.jpg",
     "premiere": "Civici Musei, Sala dei Marmi, Reggio Emilia, 08-12-2018",
@@ -286,7 +360,10 @@
     "subtitle": "for soprano and ensemble",
     "year": 2017,
     "duration": "5 min",
-    "instruments": ["voice", "ensemble"],
+    "instruments": [
+      "voice",
+      "ensemble"
+    ],
     "description": "Il presente lavoro compositivo si sviluppa a partire da un’elaborazione testuale di \"Madrigale\" di Pier Paolo Pasolini. La tecnica con cui è stata condotta questa elaborazione testuale è chiamata filtraggio, una tecnica mutuata dalla musica elettronica. Questa operazione, svolta in più step, è consistita nello scegliere di volta in volta un suono consonantico differente, o anche più di uno, basato sulla convenzione IPA Kiel, e filtrare tutte le parole contenenti ciascun suono, unendole in delle nuove strutture testuali, ovvero degli alias del testo principale.",
     "image": "w.jpg",
     "premiere": "Saletta Auditorium \"Nino Rota\", Bari, 16-10-2018"
@@ -296,7 +373,11 @@
     "subtitle": "for violin, cello and piano",
     "year": 2017,
     "duration": "8 min",
-    "instruments": ["piano", "strings", "chamber"],
+    "instruments": [
+      "piano",
+      "strings",
+      "chamber"
+    ],
     "description": "In che misura il suono appartiene all’essere umano?<br>L’intera composizione prende spunto dall’idea che la musica sia la vera e propria dimensione sonora di ciascun essere umano. Ciascun individuo possiede una predisposizione sensoriale alla “cattura e decodifica” di eventi sonori, nonché alla “sintesi” e riproduzione di ulteriori eventi.<br>I primi due brani del trittico, Larinx e Corti, traggono spunto da questi concetti, sviluppando una serie di campi sonori, all’interno dei quali trovano spazi alcuni spettri armonici, derivanti quindi dalla natura fisica di un corpo vibrante.<br>Il terzo brano, Flegma, invece si rifà alla Teoria umorale costruita da Ippocrate di Coo. Il flegma è uno dei quattro umori che caratterizza l’equilibrio dell’essere umano: esso corrisponderebbe, sempre secondo questa antica teoria, all’acqua, vero e proprio elemento costitutivo della vita. Appare quindi una curiosa analogia tra questo elemento e una delle possibili etimologie del termine “musica”, che fa derivare questo termine da “moys”, un antico vocabolo egiziano che indica, in effetti, l’acqua.",
     "image": "triptych-of-human-sound.jpg",
     "premiere": "Saletta Auditorium \"Nino Rota\", Bari, 07-05-2018"
@@ -306,7 +387,13 @@
     "subtitle": "for flute, clarinet, violin and cello",
     "year": 2015,
     "duration": "6 min",
-    "instruments": ["chamber", "flute", "clarinet", "violin", "cello"],
+    "instruments": [
+      "chamber",
+      "flute",
+      "clarinet",
+      "violin",
+      "cello"
+    ],
     "description": "Not available",
     "image": "l-ultimo-canto-a-mezireh.jpg",
     "premiere": "Palazzo Cavagnis, Venezia, 16-12-2017",
@@ -319,7 +406,14 @@
     "subtitle": "for bass, flute, harp, viola and cello",
     "year": 2017,
     "duration": "5 min",
-    "instruments": ["voice", "chamber", "flute", "harp", "viola", "cello"],
+    "instruments": [
+      "voice",
+      "chamber",
+      "flute",
+      "harp",
+      "viola",
+      "cello"
+    ],
     "description": "Not available",
     "image": "dettagli-di-una-trama.jpg",
     "premiere": "Casa Museo Spazio Tadini, Milano, 20-10-2017",
@@ -331,7 +425,12 @@
     "subtitle": "for narrator, two sopranos and violin",
     "year": 2016,
     "duration": "5 min",
-    "instruments": ["voice", "violin", "strings", "chamber"],
+    "instruments": [
+      "voice",
+      "violin",
+      "strings",
+      "chamber"
+    ],
     "description": "Not available",
     "image": "w.jpg",
     "premiere": "Parrocchia Sacro Cuore di Gesù, Molfetta, 07-01-2017"
@@ -341,7 +440,12 @@
     "subtitle": "for narrator and violin",
     "year": 2016,
     "duration": "5 min",
-    "instruments": ["voice", "violin", "strings", "chamber"],
+    "instruments": [
+      "voice",
+      "violin",
+      "strings",
+      "chamber"
+    ],
     "description": "Not available",
     "image": "w.jpg",
     "premiere": "Università degli studi di Bari, Salone degli Affreschi, Bari, 08-11-2016"
@@ -351,7 +455,10 @@
     "subtitle": "for soprano, bariton and organ",
     "year": 2022,
     "duration": "5 min",
-    "instruments": ["voice", "organ"],
+    "instruments": [
+      "voice",
+      "organ"
+    ],
     "description": "[V]. Postea sciens Jesus, quia omnia consummata sunt; ut consummaretur scriptura, dixit: Sitio!<br>LE SETTE PAROLE DI GESÙ SULLA CROCE - Composizioni originali di Giuseppe BINI, Giovanni CASTRO, Leo GADALETA, Giovanni FARINA, Maurizio LIEGGI, Biagio PUTIGNANO, Andrea SIANO, Francesco VITUCCI.",
     "image": "sitio.jpg",
     "premiere": "Chiesa S. Croce, Bari, 03-04-2023",
@@ -362,7 +469,9 @@
     "subtitle": "for piano",
     "year": 2016,
     "duration": "2 min",
-    "instruments": ["piano"],
+    "instruments": [
+      "piano"
+    ],
     "description": "The composition, for piano solo, was born from the elaboration of an Aria contained in the Notebook of Anna Magdalena Bach. The melody and accompaniment of the Aria are condensed into chords, which become the background on which small fragments of the original composition can be heard.",
     "image": "w.jpg",
     "premiere": "Palazzo Gallone, Tricase, 21-07-2016",
@@ -391,7 +500,12 @@
     "subtitle": "for soprano, flute and guitar",
     "year": 2015,
     "duration": "6 min",
-    "instruments": ["flute", "voice", "guitar", "chamber"],
+    "instruments": [
+      "flute",
+      "voice",
+      "guitar",
+      "chamber"
+    ],
     "description": "Second prize at International music composition competition “Musica e Poesia tra Italia e Giappone”",
     "image": "respiri-erosi.jpg",
     "premiere": "Kawai Umeda Concert Hall, Osaka, Giappone, 12-11-2015",
@@ -402,7 +516,9 @@
     "subtitle": "for fixed media",
     "year": 2015,
     "duration": "5 min",
-    "instruments": ["fixedMedia"],
+    "instruments": [
+      "fixedMedia"
+    ],
     "description": "Sound commentary released in \"Pro Arte Pro Deo\", XXVIII edition",
     "image": "di-luce-e-attimi-lontani.jpg",
     "premiere": "Chiesa Madre, Monteroni di Lecce, 01-08-2015",
@@ -416,7 +532,9 @@
     "subtitle": "for piano",
     "year": 2014,
     "duration": "6 min",
-    "instruments": ["piano"],
+    "instruments": [
+      "piano"
+    ],
     "description": "Not available",
     "image": "w.jpg",
     "premiere": "Dvorana Porat, Pučišća, Croazia, 29-08-2014",
@@ -427,7 +545,9 @@
     "subtitle": "for piano",
     "year": 2014,
     "duration": "3 min",
-    "instruments": ["piano"],
+    "instruments": [
+      "piano"
+    ],
     "description": "Not available",
     "image": "w.jpg",
     "premiere": "Dvorana Porat, Pučišća, Croazia, 24-08-2014"
@@ -437,7 +557,9 @@
     "subtitle": "for piano",
     "year": 2014,
     "duration": "5 min",
-    "instruments": ["piano"],
+    "instruments": [
+      "piano"
+    ],
     "description": "Not available",
     "image": "in-profondita.jpg",
     "premiere": "Palazzo Balsamo, Gallipoli, 26-04-2014",
@@ -448,7 +570,9 @@
     "subtitle": "for clarinet",
     "year": 2023,
     "duration": "2 min",
-    "instruments": ["clarinet"],
+    "instruments": [
+      "clarinet"
+    ],
     "description": "Dedicated to Ivan Fedele and Syntax Ensemble.",
     "image": "pinax.jpg",
     "premiere": "Auditorium San Fedele, Milano, 01-12-23",
@@ -459,7 +583,9 @@
     "subtitle": "for fixed media",
     "year": 2024,
     "duration": "5 min",
-    "instruments": ["fixedMedia"],
+    "instruments": [
+      "fixedMedia"
+    ],
     "description": "Not available",
     "image": "w.jpg",
     "premiere": "Desenzano, Auditorim \"Celesti\", 10-11-24",
@@ -470,7 +596,9 @@
     "subtitle": "for piano",
     "year": 2023,
     "duration": "5 min",
-    "instruments": ["piano"],
+    "instruments": [
+      "piano"
+    ],
     "description": "Not available",
     "image": "w.jpg",
     "premiere": "Ceglie Messapica, Salone del Castello ducale, 05-10-23",
@@ -481,7 +609,10 @@
     "subtitle": "for reciting voice and electric guitat",
     "year": 2025,
     "duration": "7 min",
-    "instruments": ["voice","guitar"],
+    "instruments": [
+      "voice",
+      "guitar"
+    ],
     "description": "\"La notte\" is a melologue in which the narrated word and the distorted sound of the electric guitar intertwine to evoke a state of confusion and inner restlessness. The text - taken from the story of the same name by Lucy Gazzieri - leads the listener into a rarefied urban night, where the protagonist, returning home, finds her home mysteriously \"disappeared\". Thus begins a surreal journey between alienation and the search for identity, which takes place in the depths of a city that has suddenly become alien.<br>The musical dramaturgy is strongly reactive to the text, through an instrumental treatment that uses the electric guitar as an expressive and plastic element. The score alternates tightly synchronized sections with guided improvisational moments, in which the musician is called to interpret the “emotional polarities” of the text with free choices of fragments and transpositions, emphasizing mood swings and internal tensions.<br>The reciting voice takes on a central role: it is not a mere vehicle of the text, but a sonic protagonist, counterpointed and sometimes challenged by the guitar, which acts as a distorted echo or a hostile environment. The work thus explores the thresholds between word and sound, between story and disorientation, between narrative concreteness and psychic visionariness.",
     "image": "la-notte.jpg",
     "premiere": "Sala Casilina, Hotel Due Torri, Verona, 07-06-25",
@@ -494,7 +625,12 @@
     "subtitle": "for human reciting voices on support, artificial voices, four augmented cellos and live electronics",
     "year": 2025,
     "duration": "50 min",
-    "instruments": ["cello", "strings", "chamber", "liveElectronics"],
+    "instruments": [
+      "cello",
+      "strings",
+      "chamber",
+      "liveElectronics"
+    ],
     "description": "IHM (2025), for human reciting voices on support, artificial voices, four augmented cellos and live electronics, explores the archetype of abandonment, drawing inspiration from the tragic stories of three different Didos, drawn from the operas of Niccolò Piccinni, Domenico Sarro, and Henry Purcell. Each represents a unique aspect of love, loss, and desolation, while also retracing, time and again throughout the history of music, a familiar pattern: falling in love, Aeneas's abandonment, Dido's death.<br>As in Greek tragedy, the audience is challenged to question the authenticity of emotions and memories in an age where artificial intelligence can replicate and reproduce expressive gestures remarkably similar to those of humans. As the piece unfolds, subtle features in the AI-generated texts and cloned voices may reveal the artificial nature of the fake memories employed, ultimately suggesting an inherent theme: the intrusion of artificial intelligence into the profoundly human experience of emotion.",
     "premiere": "Auditorium del Goethe Institut Rom, Roma, 05-07-25",
     "image": "ihm-up-crop-comp.jpg",
@@ -506,7 +642,10 @@
     "subtitle": "per voce recitante, orchestra e fixed media",
     "year": 2025,
     "duration": "30 min",
-    "instruments": ["orchestra", "fixedMedia"],
+    "instruments": [
+      "orchestra",
+      "fixedMedia"
+    ],
     "description": "The IHM cycle is based on the idea of ​​\"collective memory\" and how it can leave an emotional mark on the individual. Once entrusted to exclusively human transcription and processing, this \"memory\" which extends across all fields of knowledge, is now increasingly the domain of artificial entities, tools capable of rapid research and re-proposal. These artificial intelligences, called \"reproductive,\" retain memory, re-elaborate it, and display it with highly advanced linguistic ability. The IHM cycle, of which Imago Hominis Myrae (2025) is the third iteration, begins with a long human-machine dialogue, with a specific request: a character, the context in which they moved, a selection of events from their life, and therefore an artificial synthesis of a possible memory of that character. The audience is therefore called to question the authenticity of emotions and memories in an era in which artificial intelligence can replicate and reproduce expressive gestures entirely similar to human ones. This passage evokes the figure of Saint Nicholas, observing three moments in a life that, despite constant references to the historical notions of the Myran man, is the product of layers of neural networks that \"calculate\" a linguistic model.<br>Can the artificial, then, move a human being?",
     "premiere": "Teatro Piccinni, Bari, 29-09-25",
     "image": "myra-up-crop-comp.jpg",
@@ -518,11 +657,32 @@
     "subtitle": "per flauto, sassofono contralto e pianoforte",
     "year": 2025,
     "duration": "3 min",
-    "instruments": ["flute", "saxophone", "piano", "chamber"],
+    "instruments": [
+      "flute",
+      "saxophone",
+      "piano",
+      "chamber"
+    ],
     "description": "Not available",
     "premiere": "Teatro Piccinni, Bari, 10-10-25",
     "image": "w.jpg",
     "info1_url": "https://www.baritoday.it/eventi/ozone-sea-trio-bitonto-10-ottobre-2025.html",
     "buy_url": "https://szsugar.it/catalogo/17345-canto-senza-pietra/"
+  },
+  {
+    "title": "Innesto: Habitat della Memoria",
+    "subtitle": "per coro, ensemble di percussioni e orchestra",
+    "year": 2025,
+    "duration": "9 min",
+    "instruments": [
+      "choir",
+      "percussions",
+      "orchestra"
+    ],
+    "description": "“Memory is redundant: it repeats signs so that the city can begin to exist.”<br>— Italo Calvino, Le città invisibili<br> <br>“Innesto: Habitat della Memoria” è una nuova emanazione del ciclo IHM, dedicato alla ricostruzione — reale e immaginaria — di tratti di una memoria collettiva ormai affidata in larga parte ad entità artificiali.<br>L’opera volge lo sguardo verso Italo Calvino e la sua idea di mondo come sistema di relazioni, città e connessioni invisibili. Si tratta di un “attraversamento”: una città mentale che prende forma tra voce e orchestra, tra gesto umano e presenza artificiale. La composizione alterna zone orchestrali e innesti telescopici, momenti in cui il tempo musicale si sospende per lasciare emergere la voce recitata o cantata. Il tessuto orchestrale si comporta come un organismo che, a tratti, si arresta, si replica, si piega su se stesso, permettendo l’ingresso di un altro piano di coscienza: quello della parola.<br>Si tratta di un equilibrio fragile tra movimento e stasi, tra memoria e riscrittura. L’“habitat” non è un luogo, ma una condizione: quella in cui la memoria vive, cresce, muta — e, come ogni innesto, si lascia trasformare da ciò che incontra.",
+    "premiere": "Teatro Centrale, Sanremo, 03-12-25",
+    "image": "innesto.jpg",
+    "info1_url": "https://www.riviera24.it/2025/12/al-centrale-evento-conclusivo-del-progetto-nuova-musica-per-tutti-del-liceo-cassini-di-sanremo-943961/",
+    "buy_url": "https://www.schott-music.com/en/innesto-habitat-della-memoria-no795927.html"
   }
 ]
