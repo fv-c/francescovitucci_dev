@@ -64,10 +64,10 @@ $(document).ready(function () {
       if (filter !== "none") {
         var count = worksData
           ? worksData.filter(
-              (work) =>
-                filter === "all" ||
-                (filter !== "none" && work.instruments.includes(filter))
-            ).length
+            (work) =>
+              filter === "all" ||
+              (filter !== "none" && work.instruments.includes(filter))
+          ).length
           : 0;
         $(this).attr(
           "data-original-text",
@@ -124,7 +124,7 @@ $(document).ready(function () {
       }
 
       if (work.info2_url) {
-        workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/info.svg"><a href="${work.info2_url}" target="_blank" class="workInfoLink">what they say about...</a></div>`;
+        workElement += `<div class="workLink"><img class="workLinkIcon" src="../assets/img/icons/info.svg"><a href="${work.info2_url}" target="_blank" class="workInfoLink">What they say about...</a></div>`;
       }
 
       workElement += `
@@ -147,9 +147,9 @@ $(document).ready(function () {
       console.error("I dati dei brani non sono stati caricati correttamente.");
       return;
     }
-  
+
     var filteredWorks;
-  
+
     if (instrument === "all") {
       filteredWorks = worksData.slice();
     } else if (instrument === "none") {
@@ -164,15 +164,15 @@ $(document).ready(function () {
       if (b.year !== a.year) {
         return b.year - a.year;
       }
-  
+
       const dateA = a.premiere.slice(-10).split("-").reverse().join("-");
       const dateB = b.premiere.slice(-10).split("-").reverse().join("-");
       return dateB.localeCompare(dateA);
     });
-  
+
     displayWorks(filteredWorks);
   }
-  
+
 
   $("#filters button").click(function () {
     var filter = $(this).attr("data-filter");
@@ -195,10 +195,10 @@ $(document).ready(function () {
 
     count = worksData
       ? worksData.filter(
-          (work) =>
-            filter === "all" ||
-            (filter !== "none" && work.instruments.includes(filter))
-        ).length
+        (work) =>
+          filter === "all" ||
+          (filter !== "none" && work.instruments.includes(filter))
+      ).length
       : 0;
 
     $("#filters").after(
