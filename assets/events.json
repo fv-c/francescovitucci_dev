@@ -153,5 +153,24 @@
     "location": "Teatro Centrale, Via Giacomo Matteotti, 107, Sanremo",
     "description": "Commissioned piece: \"Innesto: Habitat della Memoria\" (2025), for choir, percussion ensemble and orchestra.<br>Musicians: Orchestra Sinfonica di Sanremo, \"G. D. Cassini\" High School Choir",
     "status": "active"
+  },
+  {
+    "title": "Musica e/è scienza",
+    "date": "2025-12-09",
+    "time": "17:00",
+    "type": "Talk",
+    "location": "Conservatorio di Musica \"Niccolò Piccinni\", Via Cifarelli 26, Bari",
+    "description": "Parametri di riccorrenza musicale: il caso studio della roughness",
+    "status": "active",
+    "url": "https://www.consba.it/it/1054/eventi/8876/musica-e--scienza"
+  },
+  {
+    "title": "Ouverture inaugurale",
+    "date": "2026-01-29",
+    "time": "20:00",
+    "type": "Concert",
+    "location": "Auditorium \"Nino Rota\", Via Cifarelli 26, Bari",
+    "description": "Commissioned piece: \"Del quieto smarrirsi\" (2026), for orchestra.<br>Musicians: ICO Metropolitana di Bari<br>Conductor: Neil Thomson",
+    "status": "active"
   }
 ]
